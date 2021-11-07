@@ -39,20 +39,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
-msgstr "Verzia Debianu, ktorá sa bude inštalovať:"
+msgid "Kaisen version to install:"
+msgstr "Verzia Kaisenu, ktorá sa bude inštalovať:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Môžete používať jednu z niekoľkých verzií Debianu. Stabilná verzia je dobre "
+"Môžete používať jednu z niekoľkých verzií Kaisenu. Stabilná verzia je dobre "
 "otestovaná a zriedka sa mení. Nestabilná je neotestovaná a s častými "
 "zmenami. Testovacia je niečo uprostred, pretože má z nestabilnej verzie veľa "
 "nových programov, ktoré nemajú príliš veľa chýb."
@@ -68,8 +68,8 @@ msgstr "Sú uvedené iba možnosti dostupné na vybranom zrkadle."
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
-msgstr "Kontroluje sa zrkadlo archívu Debian"
+msgid "Checking the Kaisen archive mirror"
+msgstr "Kontroluje sa zrkadlo archívu Kaisen"
 
 #. Type: text
 #. Description
@@ -90,12 +90,12 @@ msgstr "Vrátiť sa späť a skúsiť iné zrkadlo?"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Uvedená (predvolená) verzia Debianu (${RELEASE}) nie je z vybraného zrkadla "
+"Uvedená (predvolená) verzia Kaisenu (${RELEASE}) nie je z vybraného zrkadla "
 "dostupná. Je možné pokračovať a vybrať na inštaláciu iné vydanie, ale za "
 "bežných okolností by ste sa mali vrátiť a vybrať iné zrkadlo, ktoré "
 "podporuje správnu verziu."
@@ -105,16 +105,16 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Chybné zrkadlo archívu Debian"
+msgstr "Chybné zrkadlo archívu Kaisen"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
-msgstr "Bola zistená chyba pri pokuse použiť určené zrkadlo archívu Debianu."
+msgstr "Bola zistená chyba pri pokuse použiť určené zrkadlo archívu Kaisenu."
 
 #. Type: error
 #. Description
@@ -124,12 +124,12 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "Možné dôvody chyby sú: uvedené nesprávne zrkadlo; zrkadlo nie je dostupné "
 "(možno kvôli nespoľahlivému sieťovému pripojeniu); zrkadlo je pokazené "
 "(napríklad pretože bol nájdený neplatný súbor Release); zrkadlo nepodporuje "
-"správnu verziu Debianu."
+"správnu verziu Kaisenu."
 
 #. Type: error
 #. Description
@@ -161,11 +161,11 @@ msgstr "Nepodporovaná architektúra"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Zadané zrkadlo archívu Debian nepodporuje vašu architektúru. Skúste iné "
-"zrkadlo archívu Debian."
+"Zadané zrkadlo archívu Kaisen nepodporuje vašu architektúru. Skúste iné "
+"zrkadlo archívu Kaisen."
 
 #. Type: text
 #. Description
@@ -201,8 +201,8 @@ msgstr "nestabilná"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
-msgstr "Voľba zrkadla archívu Debian"
+msgid "Choose a mirror of the Kaisen archive"
+msgstr "Voľba zrkadla archívu Kaisen"
 
 #. Type: select
 #. Choices
@@ -218,8 +218,8 @@ msgstr "manuálne vloženie údajov"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
+#. which you know hosts at least one Kaisen HTTP mirror. Please check
+#. that the country really has a Kaisen HTTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
@@ -244,8 +244,8 @@ msgstr "SK"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
-msgstr "Krajina so zrkadlom Debian archívu:"
+msgid "Kaisen archive mirror country:"
+msgstr "Krajina so zrkadlom Kaisen archívu:"
 
 #. Type: select
 #. Description
@@ -256,11 +256,11 @@ msgstr "Krajina so zrkadlom Debian archívu:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Cieľom je nájsť zrkadlo archívu Debian, ktoré je na sieti najbližšie. Ale "
+"Cieľom je nájsť zrkadlo archívu Kaisen, ktoré je na sieti najbližšie. Ale "
 "pozor, nie vždy sú okolité krajiny alebo dokonca vaša krajina tou "
 "najrýchlejšou voľbou."
 
@@ -272,8 +272,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
-msgstr "Zrkadlo archívu Debian:"
+msgid "Kaisen archive mirror:"
+msgstr "Zrkadlo archívu Kaisen:"
 
 #. Type: select
 #. Description
@@ -284,11 +284,11 @@ msgstr "Zrkadlo archívu Debian:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Zvoľte si zrkadlo archívu Debian. Pokiaľ neviete, ktoré zrkadlo je pre vás "
+"Zvoľte si zrkadlo archívu Kaisen. Pokiaľ neviete, ktoré zrkadlo je pre vás "
 "najrýchlejšie, mali by ste si zvoliť zrkadlo z krajiny alebo regiónu, kde sa "
 "nachádzate."
 
@@ -296,8 +296,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
-msgid "Usually, deb.debian.org is a good choice."
-msgstr "Zvyčajne je rozumnou voľbou deb.debian.org."
+msgid "Usually, deb.kaisenlinux.org is a good choice."
+msgstr "Zvyčajne je rozumnou voľbou deb.kaisenlinux.org."
 
 #. Type: string
 #. Description
@@ -307,8 +307,8 @@ msgstr "Zvyčajne je rozumnou voľbou deb.debian.org."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
-msgstr "Názov počítača so zrkadlom archívu Debian:"
+msgid "Kaisen archive mirror hostname:"
+msgstr "Názov počítača so zrkadlom archívu Kaisen:"
 
 #. Type: string
 #. Description
@@ -319,9 +319,9 @@ msgstr "Názov počítača so zrkadlom archívu Debian:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
 msgstr ""
-"Zadajte názov počítača so zrkadlom archívu Debian, odkiaľ sa bude sťahovať."
+"Zadajte názov počítača so zrkadlom archívu Kaisen, odkiaľ sa bude sťahovať."
 
 #. Type: string
 #. Description
@@ -342,8 +342,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
-msgstr "Adresár zrkadla archívu Debian:"
+msgid "Kaisen archive mirror directory:"
+msgstr "Adresár zrkadla archívu Kaisen:"
 
 #. Type: string
 #. Description
@@ -351,9 +351,9 @@ msgstr "Adresár zrkadla archívu Debian:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
-msgstr "Zadajte adresár, v ktorom sa nachádza zrkadlo archívu Debian."
+msgstr "Zadajte adresár, v ktorom sa nachádza zrkadlo archívu Kaisen."
 
 #. Type: string
 #. Description
@@ -409,8 +409,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

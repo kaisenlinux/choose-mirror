@@ -5,10 +5,10 @@
 #
 #
 #
-# Debian Installer master translation for Uyghur
+# Kaisen Installer master translation for Uyghur
 # Don't forget to properly fill-in the header of PO files
 #
-# Debian Installer translators, please read the D-I i18n documentation
+# Kaisen Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
 #
 #
@@ -31,20 +31,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
-msgstr "ئورنىتىدىغان Debian نەشرى:"
+msgid "Kaisen version to install:"
+msgstr "ئورنىتىدىغان Kaisen نەشرى:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Debian نىڭ نۇرغۇن نەشرى تەڭلا مەۋجۇت. مۇقىم نەشرى (Stable) نۇرغۇن قېتىم "
+"Kaisen نىڭ نۇرغۇن نەشرى تەڭلا مەۋجۇت. مۇقىم نەشرى (Stable) نۇرغۇن قېتىم "
 "سىناش ئارقىلىق ناھايىتى ئاز ئۆزگەرتىلىدىغان نەشرى. مۇقىمسىز نەشرى (Unstable) "
 "سىنالمىغان، ئۆزگىرىش دائىم يۈز بېرىپ تۇرىدىغان نەشرى. سىناش نەشرى (Testing) "
 "يۇقىرىقى ئىككى نەشرىنىڭ ئارىسىدىكى نەشرى بولۇپ، ئۇ مۇقىمسىز نەشرىدىن مەسىلە "
@@ -62,8 +62,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
-msgstr "Debian بوغچىسى تەسۋىر مۇلازىمېتىرىنى تەكشۈرۈۋاتىدۇ"
+msgid "Checking the Kaisen archive mirror"
+msgstr "Kaisen بوغچىسى تەسۋىر مۇلازىمېتىرىنى تەكشۈرۈۋاتىدۇ"
 
 #. Type: text
 #. Description
@@ -84,12 +84,12 @@ msgstr "ئارقىغا يېنىپ باشقا تەسۋىرنى سىنامسىز؟
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"تاللىغان تەسۋىردىكى بەلگىلەنگەن (كۆڭۈلدىكى) Debian نەشرى (${RELEASE})نى "
+"تاللىغان تەسۋىردىكى بەلگىلەنگەن (كۆڭۈلدىكى) Kaisen نەشرى (${RELEASE})نى "
 "ئىشلەتكىلى بولمايدۇ. داۋاملاشتۇرۇپ ئورنىتىشىڭىزغا باشقا بىر نەشرىنى "
 "تاللىسىڭىز بولىدۇ، ئەمما ئادەتتە كەينىگە قايتىپ توغرا نەشرىنى قوللايدىغان "
 "تەسۋىرنى تاللاڭ."
@@ -106,10 +106,10 @@ msgstr "ئىناۋەتسىز ئارخىپ تەسۋىرى"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
-"بەلگىلەنگەن Debian ئارخىپ تەسۋىرىنى ئىشلىتىشنى سىناۋاتقاندا خاتالىق بايقالدى."
+"بەلگىلەنگەن Kaisen ئارخىپ تەسۋىرىنى ئىشلىتىشنى سىناۋاتقاندا خاتالىق بايقالدى."
 
 #. Type: error
 #. Description
@@ -119,7 +119,7 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "بۇ خاتالىقنىڭ مۇمكىن بولغان سەۋەبى: خاتا تەسۋىر كۆرسىتىلگەن؛ تەسۋىرنى "
 "ئىشلەتكىلى بولمايدۇ (بەلكىم ئىشەنچسىز تور ئۇلىنىشى بولۇشى مۇمكىن)؛ تەسۋىر "
@@ -155,10 +155,10 @@ msgstr "بۇ قاتتىق دېتال قۇرۇلمىسىنى قوللىمايدۇ
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"بەلگىلەنگەن Debian بوغچا تەسۋىرى سىزنىڭ ئىشلىتىۋاتقان قاتتىق دېتالىڭىزنىڭ "
+"بەلگىلەنگەن Kaisen بوغچا تەسۋىرى سىزنىڭ ئىشلىتىۋاتقان قاتتىق دېتالىڭىزنىڭ "
 "قۇرۇلمىسىنى قوللىمايدىكەن. باشقا تەسۋىرنى ئىشلىتىڭ."
 
 #. Type: text
@@ -195,8 +195,8 @@ msgstr "مۇقىم بولمىغان نەشرى"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
-msgstr "Debian بوغچىسىنىڭ تەسۋىرىدىن بىرنى تاللاڭ"
+msgid "Choose a mirror of the Kaisen archive"
+msgstr "Kaisen بوغچىسىنىڭ تەسۋىرىدىن بىرنى تاللاڭ"
 
 #. Type: select
 #. Choices
@@ -212,8 +212,8 @@ msgstr "ئۇچۇرنى قولدا كىرگۈزۈڭ"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
+#. which you know hosts at least one Kaisen HTTP mirror. Please check
+#. that the country really has a Kaisen HTTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
@@ -238,8 +238,8 @@ msgstr "US"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
-msgstr "Debian بوغچىسىنىڭ تەسۋىرى بار دۆلەت:"
+msgid "Kaisen archive mirror country:"
+msgstr "Kaisen بوغچىسىنىڭ تەسۋىرى بار دۆلەت:"
 
 #. Type: select
 #. Description
@@ -250,11 +250,11 @@ msgstr "Debian بوغچىسىنىڭ تەسۋىرى بار دۆلەت:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"بۇ تەڭشەكنىڭ مەقسىتى سىزگە ئەڭ يېقىن Debian تەسۋىرنى تېپىش-- دىققەت، قوشنا "
+"بۇ تەڭشەكنىڭ مەقسىتى سىزگە ئەڭ يېقىن Kaisen تەسۋىرنى تېپىش-- دىققەت، قوشنا "
 "دۆلىتىڭىز ھەتتا ئۆزىڭىزنىڭ دۆلىتى ئەڭ ياخشى تاللىشىڭىز بولماسلىقى مۇمكىن."
 
 #. Type: select
@@ -265,8 +265,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
-msgstr "Debian بوغچىسىنىڭ تەسۋىرى:"
+msgid "Kaisen archive mirror:"
+msgstr "Kaisen بوغچىسىنىڭ تەسۋىرى:"
 
 #. Type: select
 #. Description
@@ -277,11 +277,11 @@ msgstr "Debian بوغچىسىنىڭ تەسۋىرى:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Debian بوغچا تەسۋىرىدىن بىرنى تاللاڭ.  ئەگەر قايسى تەسۋىرنىڭ سىز بىلەن "
+"Kaisen بوغچا تەسۋىرىدىن بىرنى تاللاڭ.  ئەگەر قايسى تەسۋىرنىڭ سىز بىلەن "
 "بولغان ئۇلىنىشىنىڭ ئەڭ ياخشى ئىكەنلىكىنى بىلمىسىڭىز دۆلىتىڭىزدىكى ياكى "
 "رايونىڭىزدىكى تەسۋىرنى تاللاڭ."
 
@@ -289,8 +289,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
-msgid "Usually, deb.debian.org is a good choice."
-msgstr "ئادەتتە deb.debian.org نىسبەتەن ياخشى تاللىشىڭىز."
+msgid "Usually, deb.kaisenlinux.org is a good choice."
+msgstr "ئادەتتە deb.kaisenlinux.org نىسبەتەن ياخشى تاللىشىڭىز."
 
 #. Type: string
 #. Description
@@ -300,8 +300,8 @@ msgstr "ئادەتتە deb.debian.org نىسبەتەن ياخشى تاللىشى
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
-msgstr "Debian بوغچىسىنىڭ تەسۋىرى بار مۇلازىمېتىر ئاتى:"
+msgid "Kaisen archive mirror hostname:"
+msgstr "Kaisen بوغچىسىنىڭ تەسۋىرى بار مۇلازىمېتىر ئاتى:"
 
 #. Type: string
 #. Description
@@ -312,8 +312,8 @@ msgstr "Debian بوغچىسىنىڭ تەسۋىرى بار مۇلازىمېتىر
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr "Debian تەسۋىرىنى چۈشۈرىدىغان ئاساسىي ئاپپارات ئاتىنى كىرگۈزۈڭ."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
+msgstr "Kaisen تەسۋىرىنى چۈشۈرىدىغان ئاساسىي ئاپپارات ئاتىنى كىرگۈزۈڭ."
 
 #. Type: string
 #. Description
@@ -335,8 +335,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
-msgstr "Debian بوغچىسىنىڭ تەسۋىرى بار مۇندەرىجە:"
+msgid "Kaisen archive mirror directory:"
+msgstr "Kaisen بوغچىسىنىڭ تەسۋىرى بار مۇندەرىجە:"
 
 #. Type: string
 #. Description
@@ -344,9 +344,9 @@ msgstr "Debian بوغچىسىنىڭ تەسۋىرى بار مۇندەرىجە:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
-msgstr "Debian بوغچىسىنىڭ تەسۋىرى بار مۇندەرىجىنى كىرگۈزۈڭ."
+msgstr "Kaisen بوغچىسىنىڭ تەسۋىرى بار مۇندەرىجىنى كىرگۈزۈڭ."
 
 #. Type: string
 #. Description
@@ -402,8 +402,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

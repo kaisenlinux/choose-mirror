@@ -41,7 +41,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
+msgid "Kaisen version to install:"
 msgstr "إصدارة دبيان التي ستثبّت:"
 
 #. Type: select
@@ -49,7 +49,7 @@ msgstr "إصدارة دبيان التي ستثبّت:"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
@@ -69,7 +69,7 @@ msgstr "تظهر في القائمة أنواع دبيان المتوفرة في
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
+msgid "Checking the Kaisen archive mirror"
 msgstr "تفقّد مرآة أرشيف دبيان"
 
 #. Type: text
@@ -91,7 +91,7 @@ msgstr "تريد الرجوع وتجربة مرآة أخرى؟"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
@@ -112,7 +112,7 @@ msgstr "مرآة أرشيف رديئة"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr "اكتشف خطأ أثناء محاولة استخدام مرآة أرشيف دبيان المحددة."
 
@@ -124,7 +124,7 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "أسباب الخطأ المحتملة هي: المرآة المحددة غير صحيحة; المرآةغير متوفرة (ربما "
 "بسبب اتصال شبكي ضعيف); المرآةمعطلة (مثلاً بسبب وجود ملف إصدارة غير صالح); "
@@ -159,7 +159,7 @@ msgstr "تجزئة غير مدعومة"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
 "يبدو أن المرآة المحدّدة لأرشيف ديبيان لا تدعم تجزئتك. الرجاء تجربة مرآةً أخرى."
@@ -198,7 +198,7 @@ msgstr "غير مستقرة"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
+msgid "Choose a mirror of the Kaisen archive"
 msgstr "اختيار مرآةً لأرشيف دبيان"
 
 #. Type: select
@@ -215,8 +215,8 @@ msgstr "أدخل المعلومات يدوياً"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
+#. which you know hosts at least one Kaisen HTTP mirror. Please check
+#. that the country really has a Kaisen HTTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
@@ -241,7 +241,7 @@ msgstr "US"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
+msgid "Kaisen archive mirror country:"
 msgstr "بلد مرآة أرشيف دبيان:"
 
 #. Type: select
@@ -253,7 +253,7 @@ msgstr "بلد مرآة أرشيف دبيان:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
@@ -268,7 +268,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
+msgid "Kaisen archive mirror:"
 msgstr "مرآة أرشيف دبيان:"
 
 #. Type: select
@@ -280,7 +280,7 @@ msgstr "مرآة أرشيف دبيان:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
@@ -291,8 +291,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
-msgid "Usually, deb.debian.org is a good choice."
-msgstr "عادة، يكون deb.debian.org خياراً جيداً."
+msgid "Usually, deb.kaisenlinux.org is a good choice."
+msgstr "عادة، يكون deb.kaisenlinux.org خياراً جيداً."
 
 #. Type: string
 #. Description
@@ -302,7 +302,7 @@ msgstr "عادة، يكون deb.debian.org خياراً جيداً."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
+msgid "Kaisen archive mirror hostname:"
 msgstr "اسم مضيف مرآة أرشيف دبيان:"
 
 #. Type: string
@@ -314,7 +314,7 @@ msgstr "اسم مضيف مرآة أرشيف دبيان:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
 msgstr "أدخل اسم المضيف للمرآة التي سينزل دبيان منها."
 
 #. Type: string
@@ -335,7 +335,7 @@ msgstr "يمكن تحديد واجهة بديلة باستخدام النسق ا
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
+msgid "Kaisen archive mirror directory:"
 msgstr "دليل مرآة أرشيف دبيان:"
 
 #. Type: string
@@ -344,7 +344,7 @@ msgstr "دليل مرآة أرشيف دبيان:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
 msgstr "الرجاء إدخال الدّليل الموجودة فيه مرآة أرشيف دبيان."
 
@@ -401,8 +401,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

@@ -37,7 +37,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
+msgid "Kaisen version to install:"
 msgstr "நிறுவப்படவேண்டிய டிபியன் பதிப்பு:"
 
 #. Type: select
@@ -45,7 +45,7 @@ msgstr "நிறுவப்படவேண்டிய டிபியன் �
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
@@ -66,7 +66,7 @@ msgstr "தேர்ந்தெடுத்த பிரதிபலிப்�
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
+msgid "Checking the Kaisen archive mirror"
 msgstr "டிபியன் காப்பக இணைப்பதிப்பை சோதிக்கிறது"
 
 #. Type: text
@@ -88,7 +88,7 @@ msgstr "பின் சென்று வேறு பிரதிபலிப
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
@@ -110,7 +110,7 @@ msgstr "மோசமான காப்பக பிரதிபலிப்ப�
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
 "குறித்த டெபியன் காப்பக பிரதி பலிப்பானை பயன்படுத்த முயற்சி செய்யும் போது ஒரு பிழை "
@@ -124,7 +124,7 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "பிழைக்கு அனேகமாக காரணங்கள்: சரியான பிரதிபலிப்பான் குறிப்பிடப்படவில்லை; பிரதிபலிப்பான் "
 "கிடைப்பில் இல்லை; (வலை பிரச்சினையாக இருக்கலாம்); பிரதிபலிப்பான் சிதைந்தது- உதாரணமாக "
@@ -160,7 +160,7 @@ msgstr "கட்டுமானம் ஆதரவுடையது அல்�
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
 "தரப்பட்ட டிபியன் காப்பக இணைப்பதிப்பு உங்கள் கட்டுமானத்திற்கு ஆதரவுடையது அல்ல. வேறு "
@@ -200,7 +200,7 @@ msgstr "நிலையில்லாத"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
+msgid "Choose a mirror of the Kaisen archive"
 msgstr "டிபியன் காப்பக இணைப்பதிப்பை தேர்வு செய்க"
 
 #. Type: select
@@ -217,8 +217,8 @@ msgstr "தகவலை தாங்களே உள்ளீடு செய்
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
+#. which you know hosts at least one Kaisen HTTP mirror. Please check
+#. that the country really has a Kaisen HTTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
@@ -243,7 +243,7 @@ msgstr "IN"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
+msgid "Kaisen archive mirror country:"
 msgstr "டிபியன் காப்பக இணைப்பதிப்பு நாடு:"
 
 #. Type: select
@@ -255,7 +255,7 @@ msgstr "டிபியன் காப்பக இணைப்பதிப்�
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
@@ -270,7 +270,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
+msgid "Kaisen archive mirror:"
 msgstr "டிபியன் ஆவணக் காப்பகத்தின் இணைய பதிப்பு:"
 
 #. Type: select
@@ -282,7 +282,7 @@ msgstr "டிபியன் ஆவணக் காப்பகத்தின�
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
@@ -293,8 +293,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
-msgid "Usually, deb.debian.org is a good choice."
-msgstr "பெரும்பாலும் deb.debian.org சிறந்த தேர்வாக அமையும்."
+msgid "Usually, deb.kaisenlinux.org is a good choice."
+msgstr "பெரும்பாலும் deb.kaisenlinux.org சிறந்த தேர்வாக அமையும்."
 
 #. Type: string
 #. Description
@@ -304,7 +304,7 @@ msgstr "பெரும்பாலும் deb.debian.org சிறந்த �
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
+msgid "Kaisen archive mirror hostname:"
 msgstr "டிபியன் இணைபதிப்பின் கணிணிபெயர்:"
 
 #. Type: string
@@ -316,7 +316,7 @@ msgstr "டிபியன் இணைபதிப்பின் கணிண�
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
 msgstr "டிபியன் தரவிறக்கப் படவேண்டிய இணைப்பதிப்பின் புரவலனின் பெயரை உள்ளிடவும்."
 
 #. Type: string
@@ -337,7 +337,7 @@ msgstr "வழக்கமான [hostname]:[port] பாணியில் ம�
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
+msgid "Kaisen archive mirror directory:"
 msgstr "டிபியன் ஆவணக் காப்பகத்தின் அடைவு:"
 
 #. Type: string
@@ -346,7 +346,7 @@ msgstr "டிபியன் ஆவணக் காப்பகத்தின�
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
 msgstr "டிபியன் ஆவணக் காப்பகத்தின் இணைய பதிப்பு உள்ள அடைவை உள்ளிடு செய்யவும்."
 
@@ -404,8 +404,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

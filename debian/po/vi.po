@@ -3,7 +3,7 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Vietnamese translation for Debian Installer Level 1.
+# Vietnamese translation for Kaisen Installer Level 1.
 # Copyright © 2010 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 # Jean Christophe André <progfou@gmail.com>
@@ -13,14 +13,15 @@
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2010
 # Hai-Nam Nguyen <hainam@jcisio.com>, 2012
 # Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019.
+# Tran Dinh Hai <haidinhtran@pm.me>, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2019-02-27 14:34+0700\n"
-"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"PO-Revision-Date: 2021-09-08 05:34+0000\n"
+"Last-Translator: Tran Dinh Hai <haidinhtran@pm.me>\n"
 "Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -32,20 +33,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
-msgstr "Phiên bản Debian cần cài đặt:"
+msgid "Kaisen version to install:"
+msgstr "Phiên bản Kaisen cần cài đặt:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Hệ thống Debian có sẵn vài kiểu khác nhau :\n"
+"Hệ thống Kaisen có sẵn vài kiểu khác nhau :\n"
 " * ổn định (stable)\n"
 "\tphiên bản này được thử ra khá, thay đổi rất ít lần.\n"
 " * bất định (unstable)\n"
@@ -65,8 +66,8 @@ msgstr "Chỉ liệt kê những kiểu sẵn sàng trên máy bản sao đượ
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
-msgstr "Đang kiểm tra máy bản sao kho Debian"
+msgid "Checking the Kaisen archive mirror"
+msgstr "Đang kiểm tra máy bản sao kho Kaisen"
 
 #. Type: text
 #. Description
@@ -87,12 +88,12 @@ msgstr "Lùi lại để thử một máy bản sao khác ?"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Phiên bản Debian (mặc định) được xác định (${RELEASE}) không phải sẵn sàng "
+"Phiên bản Kaisen (mặc định) được xác định (${RELEASE}) không phải sẵn sàng "
 "trên máy bản sao được chọn. Vẫn có thể tiếp tục và chọn một bản phát hành "
 "khác, nhưng mà bình thường có nên lùi lại để chọn một máy bản sao khác có "
 "phải hỗ trợ phiên bản đúng."
@@ -109,10 +110,10 @@ msgstr "Kho nhân bản sai"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
-"Gặp lỗi trong khi cố gắng sử dụng máy kho bản sao Debian được xác định."
+"Gặp lỗi trong khi cố gắng sử dụng máy kho bản sao Kaisen được xác định."
 
 #. Type: error
 #. Description
@@ -122,11 +123,11 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "Lý do có thể gặp lỗi: sai xác định máy bản sao; máy bản sao hiện tại không "
 "sẵn sàng (không kết nối ổn định đến mạng ?); máy bản sao bị hỏng (gặp tập "
-"tin Release sai ?); máy bản sao không hỗ trợ phiên bản Debian đúng."
+"tin Release sai ?); máy bản sao không hỗ trợ phiên bản Kaisen đúng."
 
 #. Type: error
 #. Description
@@ -159,10 +160,10 @@ msgstr "Kiến trúc không được hỗ trợ"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Máy bản sao kho Debian đã chọn có vẻ không hỗ trợ kiến trúc của máy tính "
+"Máy bản sao kho Kaisen đã chọn có vẻ không hỗ trợ kiến trúc của máy tính "
 "này. Hãy thử nhân bản khác."
 
 #. Type: text
@@ -199,8 +200,8 @@ msgstr "chưa ổn định"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
-msgstr "Chọn một máy bản sao kho Debian"
+msgid "Choose a mirror of the Kaisen archive"
+msgstr "Chọn một máy bản sao kho Kaisen"
 
 # [NOTE] Translate the ISO country codes below into localised country names.
 #. Type: select
@@ -218,8 +219,8 @@ msgstr "nhập thông tin bằng tay"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
+#. which you know hosts at least one Kaisen HTTP mirror. Please check
+#. that the country really has a Kaisen HTTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
@@ -244,8 +245,8 @@ msgstr "VN"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
-msgstr "Quốc gia đặt máy bản sao kho Debian:"
+msgid "Kaisen archive mirror country:"
+msgstr "Quốc gia đặt máy bản sao kho Kaisen:"
 
 #. Type: select
 #. Description
@@ -256,11 +257,11 @@ msgstr "Quốc gia đặt máy bản sao kho Debian:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Mục đích là tìm máy bản sao kho Debian ở gần chỗ bạn trên mạng. Chú ý rằng "
+"Mục đích là tìm máy bản sao kho Kaisen ở gần chỗ bạn trên mạng. Chú ý rằng "
 "những quốc gia gần hơn, ngay cả quốc gia bạn, có thể không phải là sự chọn "
 "tốt nhất."
 
@@ -272,8 +273,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
-msgstr "Nhân bản kho Debian:"
+msgid "Kaisen archive mirror:"
+msgstr "Nhân bản kho Kaisen:"
 
 #. Type: select
 #. Description
@@ -284,11 +285,11 @@ msgstr "Nhân bản kho Debian:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Hãy chọn một máy bản sao kho Debian. Bạn nên sử dụng máy bản sao trong quốc "
+"Hãy chọn một máy bản sao kho Kaisen. Bạn nên sử dụng máy bản sao trong quốc "
 "gia hay miền gần nhất, nếu bạn chưa biết máy bản sao nào có đường dẫn Mạng "
 "tốt nhất đến chỗ bạn."
 
@@ -296,8 +297,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
-msgid "Usually, deb.debian.org is a good choice."
-msgstr "Bình thường, <deb.debian.org> là lựa chọn tốt."
+msgid "Usually, deb.kaisenlinux.org is a good choice."
+msgstr "Bình thường, <deb.kaisenlinux.org> là lựa chọn tốt."
 
 #. Type: string
 #. Description
@@ -307,8 +308,8 @@ msgstr "Bình thường, <deb.debian.org> là lựa chọn tốt."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
-msgstr "Tên máy bản sao kho Debian:"
+msgid "Kaisen archive mirror hostname:"
+msgstr "Tên máy bản sao kho Kaisen:"
 
 #. Type: string
 #. Description
@@ -319,8 +320,8 @@ msgstr "Tên máy bản sao kho Debian:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr "Hãy nhập tên máy của máy bản sao nơi mà sẽ tải Debian từ đó."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
+msgstr "Hãy nhập tên máy của máy bản sao nơi mà sẽ tải Kaisen từ đó."
 
 #. Type: string
 #. Description
@@ -333,15 +334,15 @@ msgstr "Hãy nhập tên máy của máy bản sao nơi mà sẽ tải Debian t�
 msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
-msgstr "Có thể ghi rõ một cổng xen kẽ có dạng chuẩn: [tên_máy]:[cổng]"
+msgstr "Có thể ghi rõ một cổng xen kẽ có dạng chuẩn: [tên_máy]:[cổng]."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
-msgstr "Thư mục kho bản sao Debian:"
+msgid "Kaisen archive mirror directory:"
+msgstr "Thư mục kho bản sao Kaisen:"
 
 #. Type: string
 #. Description
@@ -349,9 +350,9 @@ msgstr "Thư mục kho bản sao Debian:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
-msgstr "Hãy nhập thư mục chứa kho bản sao Debian."
+msgstr "Hãy nhập thư mục chứa kho bản sao Kaisen."
 
 #. Type: string
 #. Description
@@ -407,8 +408,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
@@ -433,7 +434,7 @@ msgid "Usually, ftp.<your country code>.debian.org is a good choice."
 msgstr ""
 "Bình thường, <ftp.<mã quốc gia của bạn>.debian.org> là lựa chọn tốt.\n"
 "v.d. <ftp.jp.debian.org> hay <ftp.hk.debian.org>\n"
-"Danh sách các máy bản sao Debian: <https://www.debian.org/mirror/list>."
+"Danh sách các máy bản sao Kaisen: <https://www.debian.org/mirror/list>."
 
 #. Type: select
 #. Description
