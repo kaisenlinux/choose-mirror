@@ -50,7 +50,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Kaisen version to install:"
-msgstr "Dystrybucja Kaisena do zainstalowania:"
+msgstr "Dystrybucja Kaisen do zainstalowania:"
 
 #. Type: select
 #. Description
@@ -79,7 +79,7 @@ msgstr "Tylko wersje dostępne na wybranym serwerze lustrzanym są widoczne."
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
 msgid "Checking the Kaisen archive mirror"
-msgstr "Sprawdzanie serwera lustrzanego z archiwum Kaisena"
+msgstr "Sprawdzanie serwera lustrzanego z archiwum Kaisen"
 
 #. Type: text
 #. Description
@@ -105,7 +105,7 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Wybrana (domyślna) wersja Kaisena (${RELEASE}) nie jest dostępna na wybranym "
+"Wybrana (domyślna) wersja Kaisen (${RELEASE}) nie jest dostępna na wybranym "
 "serwerze lustrzanym. Możesz kontynuować i wybrać inną wersję, ale zazwyczaj "
 "należy powrócić i skorzystać z innego serwera lustrzanego zawierającego "
 "instalowaną wersję."
@@ -125,7 +125,7 @@ msgid ""
 "An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
-"Wystąpił błąd podczas próby użycia wybranego archiwum lustrzanego Kaisena."
+"Wystąpił błąd podczas próby użycia wybranego archiwum lustrzanego Kaisen."
 
 #. Type: error
 #. Description
@@ -140,7 +140,7 @@ msgstr ""
 "Pośród prawdopodobnych przyczyn błędów są: błędny serwer lustrzany, serwer "
 "lustrzany jest niedostępny (prawdopodobnie przez problemy z siecią), serwer "
 "lustrzany jest uszkodzony (na przykład z powodu błędnego pliku Release), "
-"serwer lustrzany nie zawiera pakietów dla tej wersji Kaisena."
+"serwer lustrzany nie zawiera pakietów dla tej wersji Kaisen."
 
 #. Type: error
 #. Description
@@ -213,7 +213,7 @@ msgstr "niestabilna"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Kaisen archive"
-msgstr "Wybierz serwer lustrzany z archiwum Kaisena"
+msgstr "Wybierz serwer lustrzany z archiwum Kaisen"
 
 #. Type: select
 #. Choices
@@ -256,7 +256,7 @@ msgstr "PL"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid "Kaisen archive mirror country:"
-msgstr "Kraj serwera lustrzanego z archiwum Kaisena:"
+msgstr "Kraj serwera lustrzanego z archiwum Kaisen:"
 
 #. Type: select
 #. Description
@@ -284,7 +284,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Kaisen archive mirror:"
-msgstr "Serwer lustrzany z archiwum Kaisena:"
+msgstr "Serwer lustrzany z archiwum Kaisen:"
 
 #. Type: select
 #. Description
@@ -299,7 +299,7 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Proszę wybrać serwer lustrzany Kaisena. Jeśli nie wiesz, który serwer "
+"Proszę wybrać serwer lustrzany Kaisen. Jeśli nie wiesz, który serwer "
 "posiada najlepsze połączenie do Ciebie, powinieneś/powinnaś wybrać serwer ze "
 "swojego kraju lub regionu."
 
@@ -319,7 +319,7 @@ msgstr "Zazwyczaj deb.kaisenlinux.org jest dobrym wyborem."
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid "Kaisen archive mirror hostname:"
-msgstr "Nazwa hosta serwera lustrzanego Kaisena:"
+msgstr "Nazwa hosta serwera lustrzanego Kaisen:"
 
 #. Type: string
 #. Description
@@ -355,7 +355,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid "Kaisen archive mirror directory:"
-msgstr "Katalog serwera lustrzanego Kaisena:"
+msgstr "Katalog serwera lustrzanego Kaisen:"
 
 #. Type: string
 #. Description
@@ -366,7 +366,7 @@ msgid ""
 "Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
 msgstr ""
-"Wprowadź katalog, w którym znajduje się odbicie lustrzane serwera Kaisena."
+"Wprowadź katalog, w którym znajduje się odbicie lustrzane serwera Kaisen."
 
 #. Type: string
 #. Description

@@ -46,7 +46,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Kaisen version to install:"
-msgstr "Paigaldatav Kaiseni versioon:"
+msgstr "Paigaldatav Kaisen versioon:"
 
 #. Type: select
 #. Description
@@ -58,7 +58,7 @@ msgid ""
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Kaiseni on mitme erineva mekiga. Stabiilne on põhjalikult läbi testitud ja "
+"Kaisen on mitme erineva mekiga. Stabiilne on põhjalikult läbi testitud ja "
 "muutub harva. Ebastabiilne on testimata ja muutub pidevalt. Testitav on "
 "vahepealne - sellesse tuuakse ebastabiilsest sisse paljude pakettide uued "
 "versioonid, juhul kui need pole liiga vigased."
@@ -75,7 +75,7 @@ msgstr "Kuvatakse ainult valitud peeglist saadaolevat."
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
 msgid "Checking the Kaisen archive mirror"
-msgstr "Kaiseni arhiivi peegli kontrollimine"
+msgstr "Kaisen arhiivi peegli kontrollimine"
 
 #. Type: text
 #. Description
@@ -101,7 +101,7 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Määratud (vaikimisi) Kaiseni versioon (${RELEASE}) ei ole valitud peeglist "
+"Määratud (vaikimisi) Kaisen versioon (${RELEASE}) ei ole valitud peeglist "
 "saadaval. On võimalik jätkata ja valida paigalduse jaoks teine väljalase, "
 "kuid tavaliselt tuleks minna tagasi ja valida selline peegel, mis toetab "
 "õiget versiooni."
@@ -120,7 +120,7 @@ msgstr "Kehv arhiivi peegel"
 msgid ""
 "An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
-msgstr "Määratud Kaiseni varamu peegli leidmisel esines viga."
+msgstr "Määratud Kaisen varamu peegli leidmisel esines viga."
 
 #. Type: error
 #. Description
@@ -134,7 +134,7 @@ msgid ""
 msgstr ""
 "Vea võimalikud põhjused on: määrati vigane peegel; peegel ei olnud saadaval "
 "(näiteks töökindlusetu võrguühenduse tõttu); peegel on katki (näiteks on "
-"Release fail vigane); peegel ei toeta seda Kaiseni versiooni."
+"Release fail vigane); peegel ei toeta seda Kaisen versiooni."
 
 #. Type: error
 #. Description
@@ -167,7 +167,7 @@ msgid ""
 "The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Määratud Kaiseni arhiivi peegel ei toeta su süsteemiarhitektuuri. Palun "
+"Määratud Kaisen arhiivi peegel ei toeta su süsteemiarhitektuuri. Palun "
 "proovi mõnd teist peeglit."
 
 #. Type: text
@@ -205,7 +205,7 @@ msgstr "ebastabiilne"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Kaisen archive"
-msgstr "Kaiseni arhiivi peegli valimine"
+msgstr "Kaisen arhiivi peegli valimine"
 
 #. Type: select
 #. Choices
@@ -248,7 +248,7 @@ msgstr "EE"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid "Kaisen archive mirror country:"
-msgstr "Kaiseni arhiivi peegli riik:"
+msgstr "Kaisen arhiivi peegli riik:"
 
 #. Type: select
 #. Description
@@ -263,7 +263,7 @@ msgid ""
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Otsi Kaiseni arhiivi peegel, mis asub sulle võrgus kõige lähemal. Pea "
+"Otsi Kaisen arhiivi peegel, mis asub sulle võrgus kõige lähemal. Pea "
 "meeles, et mitte alati ei ole naabruses või samas riigis asuv peegel kõige "
 "parem valik."
 
@@ -276,7 +276,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Kaisen archive mirror:"
-msgstr "Kaiseni arhiivi peegel:"
+msgstr "Kaisen arhiivi peegel:"
 
 #. Type: select
 #. Description
@@ -291,7 +291,7 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Palun vali Kaiseni arhiivi peegel. Kui sa ei tea, millise peegeliga sul "
+"Palun vali Kaisen arhiivi peegel. Kui sa ei tea, millise peegeliga sul "
 "parim Internetiühendus on, vali peegel, mis asub sinuga samas riigis või "
 "piirkonnas."
 
@@ -311,7 +311,7 @@ msgstr "Tavaliselt on deb.kaisenlinux.org hea valik."
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid "Kaisen archive mirror hostname:"
-msgstr "Kaiseni arhiivi peegli võrgunimi:"
+msgstr "Kaisen arhiivi peegli võrgunimi:"
 
 #. Type: string
 #. Description
@@ -345,7 +345,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid "Kaisen archive mirror directory:"
-msgstr "Kaiseni arhiivi peegli kataloog:"
+msgstr "Kaisen arhiivi peegli kataloog:"
 
 #. Type: string
 #. Description
@@ -355,7 +355,7 @@ msgstr "Kaiseni arhiivi peegli kataloog:"
 msgid ""
 "Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
-msgstr "Palun sisesta kataloog, kus Kaiseni arhiivi peegel asub."
+msgstr "Palun sisesta kataloog, kus Kaisen arhiivi peegel asub."
 
 #. Type: string
 #. Description

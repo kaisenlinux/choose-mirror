@@ -1,7 +1,26 @@
+choose-mirror (2.113-1kaisen) kaisen-packages; urgency=medium
+
+  * Import 2.113 version
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 15 Aug 2022 14:19:12 +0100
+
+choose-mirror (2.113) unstable; urgency=medium
+
+  * Team upload
+
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Ukrainian (uk.po) by Taras Panchenko
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 03 Jun 2022 20:50:36 +0200
+
 choose-mirror (2.112-1kaisen) kaisen-packages; urgency=medium
 
   * Import 2.112 version
-  * Change Debian by Kaisen is translation
+  * Change Debian by Kaisen in translations
 
  -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 07 Nov 2021 23:59:04 +0200
 

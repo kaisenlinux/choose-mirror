@@ -40,7 +40,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Kaisen version to install:"
-msgstr "Verzija Kaisena koja se instalira:"
+msgstr "Verzija Kaisen koja se instalira:"
 
 #. Type: select
 #. Description
@@ -131,7 +131,7 @@ msgstr ""
 "Mogući razlozi za grešku su: nepravilan mirror odabran; mirror nije dostupan "
 "(moguće zbog nepouzdane mrežne konekcije); mirror je pokvaren (npr. jer je "
 "nepravilna Release datoteka nađena); mirror ne podržava korektnu verziju "
-"Kaisena."
+"Kaisen."
 
 #. Type: error
 #. Description

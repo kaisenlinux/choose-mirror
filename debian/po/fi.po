@@ -41,7 +41,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Kaisen version to install:"
-msgstr "Mikä Kaisenin versio asennetaan:"
+msgstr "Mikä Kaisenn versio asennetaan:"
 
 #. Type: select
 #. Description
@@ -98,7 +98,7 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Oletuksena valittua Kaisenin versiota (${RELEASE}) ei ole saatavilla "
+"Oletuksena valittua Kaisenn versiota (${RELEASE}) ei ole saatavilla "
 "valitulta asennuspalvelimelta. Voit jatkaa ja valita toisen version "
 "asennettavaksi, mutta yleensä tulisi palata takaisin ja valita toinen "
 "asennuspalvelin, joka tukee oikeaa versiota."
@@ -132,7 +132,7 @@ msgstr ""
 "Virheen mahdollisia syitä ovat väärin valittu asennuspalvelin, ongelmat "
 "asennettavan järjestelmän ja asennuspalvelimen välisessä verkkoyhteydessä, "
 "virheellisesti toimiva asennuspalvelin (esimerkiksi epäkelpo Release-"
-"tiedosto) tai se ettei asennuspalvelin tue oikeaa Kaisenin versiota."
+"tiedosto) tai se ettei asennuspalvelin tue oikeaa Kaisenn versiota."
 
 #. Type: error
 #. Description
@@ -205,7 +205,7 @@ msgstr "epävakaa"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Kaisen archive"
-msgstr "Valitse Kaisenin arkiston kopio"
+msgstr "Valitse Kaisenn arkiston kopio"
 
 #. Type: select
 #. Choices
@@ -355,7 +355,7 @@ msgstr "Kirjoita asennuspalvelimen hakemisto:"
 msgid ""
 "Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
-msgstr "Kirjoita hakemisto, jossa Kaisenin asennuspalvelimen kopio sijaitsee."
+msgstr "Kirjoita hakemisto, jossa Kaisenn asennuspalvelimen kopio sijaitsee."
 
 #. Type: string
 #. Description

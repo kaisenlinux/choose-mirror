@@ -36,7 +36,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Kaisen version to install:"
-msgstr "Instalota Kaisena versio:"
+msgstr "Instalota Kaisen versio:"
 
 #. Type: select
 #. Description
@@ -65,7 +65,7 @@ msgstr "Nur tipoj disponeblaj en la elektita spegulo estas listitaj."
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
 msgid "Checking the Kaisen archive mirror"
-msgstr "Kontrolado de la Kaisena spegularkivo"
+msgstr "Kontrolado de la Kaisen spegularkivo"
 
 #. Type: text
 #. Description
@@ -91,7 +91,7 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"La indikita (apriora) Kaisena versio (${RELEASE}) ne disponeblas el la "
+"La indikita (apriora) Kaisen versio (${RELEASE}) ne disponeblas el la "
 "elektita spegulo. Eblas daŭrigi kaj elekti malsaman eldonon por via instalo, "
 "tamen pli konsilinde estas retroiri kaj elekti malsaman spegulon kiu fakte "
 "subtenu la ĝustan version."
@@ -101,7 +101,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Malĝusta Kaisena spegularkivo"
+msgstr "Malĝusta Kaisen spegularkivo"
 
 #. Type: error
 #. Description
@@ -111,7 +111,7 @@ msgid ""
 "An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
-"Eraro estis detektata dum provo uzi la indikitan Kaisenan spegul-arkivon."
+"Eraro estis detektata dum provo uzi la indikitan Kaisenn spegul-arkivon."
 
 #. Type: error
 #. Description
@@ -126,7 +126,7 @@ msgstr ""
 "Eblaj kialoj por la eraro estas: malĝusta spegulo indikite; spegulo ne "
 "disponeblas (eble pro malfidinda retkonekto); spegulo estas rompita "
 "(ekzemple kiam malvalida dosiero Release estas trovita); spegulo ne subtenas "
-"la ĝustan Kaisenan version."
+"la ĝustan Kaisenn version."
 
 #. Type: error
 #. Description
@@ -160,7 +160,7 @@ msgid ""
 "The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"La indikita Kaisena spegularkivo ne subtenas vian arkitekturon. Bonvolu "
+"La indikita Kaisen spegularkivo ne subtenas vian arkitekturon. Bonvolu "
 "provi alian spegularkivon."
 
 #. Type: text
@@ -198,7 +198,7 @@ msgstr "'unstable'"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Kaisen archive"
-msgstr "Elektu Kaisenan spegularkivon"
+msgstr "Elektu Kaisenn spegularkivon"
 
 #. Type: select
 #. Choices
@@ -241,7 +241,7 @@ msgstr "US"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid "Kaisen archive mirror country:"
-msgstr "Kaisena spegularkiva lando:"
+msgstr "Kaisen spegularkiva lando:"
 
 #. Type: select
 #. Description
@@ -269,7 +269,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Kaisen archive mirror:"
-msgstr "Kaisena spegularkivo:"
+msgstr "Kaisen spegularkivo:"
 
 #. Type: select
 #. Description
@@ -284,7 +284,7 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Bonvolu elekti Kaisenan spegularkivon. Elektu spegularkivon kiu situas en "
+"Bonvolu elekti Kaisenn spegularkivon. Elektu spegularkivon kiu situas en "
 "via lando aŭ regiono, se vi ne scias kiun spegularkivo posedas la plej bonan "
 "interretan konekton."
 
@@ -304,7 +304,7 @@ msgstr "Kutime, deb.kaisenlinux.org estas bona elekto."
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid "Kaisen archive mirror hostname:"
-msgstr "Kaisena spegularkiva gastnomo:"
+msgstr "Kaisen spegularkiva gastnomo:"
 
 #. Type: string
 #. Description
@@ -339,7 +339,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid "Kaisen archive mirror directory:"
-msgstr "Kaisena spegularkiva dosierujo:"
+msgstr "Kaisen spegularkiva dosierujo:"
 
 #. Type: string
 #. Description
@@ -349,7 +349,7 @@ msgstr "Kaisena spegularkiva dosierujo:"
 msgid ""
 "Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
-msgstr "Bonvolu indiki la dosierujon kie la Kaisena spegularkivo troviĝas."
+msgstr "Bonvolu indiki la dosierujon kie la Kaisen spegularkivo troviĝas."
 
 #. Type: string
 #. Description

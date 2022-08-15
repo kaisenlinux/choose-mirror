@@ -133,7 +133,7 @@ msgstr ""
 "Mogući razlozi za ovu grešku su: odabir neispravnog zrcalnog poslužitelja; "
 "poslužitelj nije dostupan (moguće zbog nepouzdanog mrežnog povezivanja); "
 "zrcalni poslužitelj nije ispravan (npr. jer je na njemu pronađena neispravna "
-"datoteka izdanja); zrcalni poslužitelj ne podržava ispravnu inačicu Kaisena."
+"datoteka izdanja); zrcalni poslužitelj ne podržava ispravnu inačicu Kaisen."
 
 #. Type: error
 #. Description

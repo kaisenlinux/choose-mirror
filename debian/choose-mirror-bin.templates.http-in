@@ -6,8 +6,8 @@ Choices-C: manual
 # :sl1:
 __Choices: enter information manually
 #  Translators, you should put here the ISO 3166 code of a country
-#  which you know hosts at least one Kaisen HTTP mirror. Please check
-#  that the country really has a Kaisen HTTP mirror before putting a
+#  which you know hosts at least one Debian HTTP mirror. Please check
+#  that the country really has a Debian HTTP mirror before putting a
 #  random value here
 #
 #  First check that the country you mention here is listed in
@@ -36,7 +36,7 @@ _Description: Kaisen archive mirror:
  your country or region if you do not know which mirror has the best
  Internet connection to you.
  .
- Usually, deb.kaisenlinux.org.org is a good choice.
+ Usually, deb.kaisenlinux.org is a good choice.
 
 Template: mirror/http/hostname
 Type: string
@@ -50,7 +50,7 @@ _Description: Kaisen archive mirror hostname:
 
 Template: mirror/http/directory
 Type: string
-Default: /debian/
+Default: /
 # :sl2:
 _Description: Kaisen archive mirror directory:
  Please enter the directory in which the mirror of the Kaisen archive is
