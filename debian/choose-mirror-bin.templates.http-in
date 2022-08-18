@@ -20,7 +20,7 @@ __Choices: enter information manually
 #  msgid "US[ Default value for http]"
 #  msgstr "FR"
 # :sl1:
-_Default: US[ Default value for http]
+_Default: FR
 # :sl1:
 _Description: Kaisen archive mirror country:
  The goal is to find a mirror of the Kaisen archive that is close to you on the network -- be
