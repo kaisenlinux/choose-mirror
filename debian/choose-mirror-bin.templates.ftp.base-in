@@ -4,8 +4,8 @@ Template: mirror/ftp/hostname
 Type: string
 Default: mirror
 # :sl2:
-_Description: Kaisen archive mirror hostname:
- Please enter the hostname of the mirror from which Kaisen will be downloaded.
+_Description: Debian archive mirror hostname:
+ Please enter the hostname of the mirror from which Debian will be downloaded.
  .
  An alternate port can be specified using the standard [hostname]:[port]
  format.
@@ -14,8 +14,8 @@ Template: mirror/ftp/directory
 Type: string
 Default: /debian/
 # :sl2:
-_Description: Kaisen archive mirror directory:
- Please enter the directory in which the mirror of the Kaisen archive is
+_Description: Debian archive mirror directory:
+ Please enter the directory in which the mirror of the Debian archive is
  located.
 
 Template: mirror/ftp/proxy

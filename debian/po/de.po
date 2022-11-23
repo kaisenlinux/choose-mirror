@@ -52,20 +52,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Kaisen version to install:"
-msgstr "Diese Version von Kaisen installieren:"
+msgid "Debian version to install:"
+msgstr "Diese Version von Debian installieren:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
+"Debian comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Kaisen gibt es für jeden Geschmack. Stable ist ausgiebig getestet und "
+"Debian gibt es für jeden Geschmack. Stable ist ausgiebig getestet und "
 "verändert sich kaum. Unstable ist nicht getestet und ändert sich ständig. "
 "Testing ist ein Kompromiss, in den neue Pakete aus Unstable einfließen, wenn "
 "sie nicht zu fehlerhaft sind."
@@ -83,8 +83,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Kaisen archive mirror"
-msgstr "Prüfen des Kaisen-Archiv-Spiegelservers"
+msgid "Checking the Debian archive mirror"
+msgstr "Prüfen des Debian-Archiv-Spiegelservers"
 
 #. Type: text
 #. Description
@@ -105,12 +105,12 @@ msgstr "Zurückgehen und einen anderen Spiegel ausprobieren?"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Kaisen version (${RELEASE}) is not available from "
+"The specified (default) Debian version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Die festgelegte (standardmäßige) Kaisen-Version (${RELEASE}) ist auf dem "
+"Die festgelegte (standardmäßige) Debian-Version (${RELEASE}) ist auf dem "
 "ausgewählten Spiegel nicht verfügbar. Es ist möglich, fortzufahren und eine "
 "andere Version für die Installation zu wählen, aber normalerweise sollten "
 "Sie zurückgehen und einen anderen Spiegelserver auswählen, der die korrekte "
@@ -128,10 +128,10 @@ msgstr "Ungültiger Archiv-Spiegel"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Kaisen archive "
+"An error has been detected while trying to use the specified Debian archive "
 "mirror."
 msgstr ""
-"Beim Versuch, den angegebenen Kaisen-Archiv-Spiegelserver zu verwenden, "
+"Beim Versuch, den angegebenen Debian-Archiv-Spiegelserver zu verwenden, "
 "wurde ein Fehler erkannt."
 
 #. Type: error
@@ -142,13 +142,13 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Kaisen version."
+"not support the correct Debian version."
 msgstr ""
 "Mögliche Ursachen für den Fehler sind: falscher Spiegelserver wurde "
 "angegeben; Spiegel ist nicht erreichbar (möglicherweise aufgrund einer "
 "unzuverlässigen Netzwerkverbindung); Spiegel ist beschädigt (zum Beispiel "
 "weil eine ungültige Release-Datei gefunden wurde); Spiegel unterstützt die "
-"korrekte Kaisen-Version nicht."
+"korrekte Debian-Version nicht."
 
 #. Type: error
 #. Description
@@ -182,10 +182,10 @@ msgstr "Architektur nicht unterstützt"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Kaisen archive mirror does not seem to support your "
+"The specified Debian archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Der angegebene Kaisen-Archiv-Spiegel scheint Ihre Architektur nicht zu "
+"Der angegebene Debian-Archiv-Spiegel scheint Ihre Architektur nicht zu "
 "unterstützen. Bitte wählen Sie einen anderen Spiegelserver."
 
 #. Type: text
@@ -222,8 +222,8 @@ msgstr "Unstable"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Kaisen archive"
-msgstr "Spiegelserver für das Kaisen-Archiv wählen"
+msgid "Choose a mirror of the Debian archive"
+msgstr "Spiegelserver für das Debian-Archiv wählen"
 
 #. Type: select
 #. Choices
@@ -239,8 +239,8 @@ msgstr "Daten von Hand eingeben"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Kaisen HTTP mirror. Please check
-#. that the country really has a Kaisen HTTP mirror before putting a
+#. which you know hosts at least one Debian HTTP mirror. Please check
+#. that the country really has a Debian HTTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
@@ -265,8 +265,8 @@ msgstr "DE"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Kaisen archive mirror country:"
-msgstr "Land des Kaisen-Archiv-Spiegelservers:"
+msgid "Debian archive mirror country:"
+msgstr "Land des Debian-Archiv-Spiegelservers:"
 
 # FIXME en-dash statt --
 #. Type: select
@@ -278,7 +278,7 @@ msgstr "Land des Kaisen-Archiv-Spiegelservers:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Kaisen archive that is close to you on "
+"The goal is to find a mirror of the Debian archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
@@ -294,8 +294,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Kaisen archive mirror:"
-msgstr "Kaisen-Archiv-Spiegelserver:"
+msgid "Debian archive mirror:"
+msgstr "Debian-Archiv-Spiegelserver:"
 
 #. Type: select
 #. Description
@@ -306,11 +306,11 @@ msgstr "Kaisen-Archiv-Spiegelserver:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Kaisen archive mirror. You should use a mirror in your "
+"Please select a Debian archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Bitte wählen Sie einen Spiegelserver für das Kaisen-Archiv. Falls Sie nicht "
+"Bitte wählen Sie einen Spiegelserver für das Debian-Archiv. Falls Sie nicht "
 "wissen, welcher die beste Internetverbindung zu Ihnen hat, sollten Sie einen "
 "Spiegel in Ihrem Land oder in Ihrer Nähe wählen."
 
@@ -318,8 +318,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
-msgid "Usually, deb.kaisenlinux.org is a good choice."
-msgstr "Meist ist deb.kaisenlinux.org eine gute Wahl."
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "Meist ist deb.debian.org eine gute Wahl."
 
 #. Type: string
 #. Description
@@ -329,8 +329,8 @@ msgstr "Meist ist deb.kaisenlinux.org eine gute Wahl."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Kaisen archive mirror hostname:"
-msgstr "Rechnername des Kaisen-Archiv-Spiegelservers:"
+msgid "Debian archive mirror hostname:"
+msgstr "Rechnername des Debian-Archiv-Spiegelservers:"
 
 #. Type: string
 #. Description
@@ -341,9 +341,9 @@ msgstr "Rechnername des Kaisen-Archiv-Spiegelservers:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Kaisen will be downloaded."
+"Please enter the hostname of the mirror from which Debian will be downloaded."
 msgstr ""
-"Geben Sie den Namen des Spiegelservers ein, von dem Kaisen heruntergeladen "
+"Geben Sie den Namen des Spiegelservers ein, von dem Debian heruntergeladen "
 "werden soll."
 
 #. Type: string
@@ -364,8 +364,8 @@ msgstr "Ein anderer Port kann mit [Rechnername]:[Port] angegeben werden."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Kaisen archive mirror directory:"
-msgstr "Kaisen-Archiv Spiegel-Verzeichnis:"
+msgid "Debian archive mirror directory:"
+msgstr "Debian-Archiv Spiegel-Verzeichnis:"
 
 #. Type: string
 #. Description
@@ -373,10 +373,10 @@ msgstr "Kaisen-Archiv Spiegel-Verzeichnis:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Kaisen archive is "
+"Please enter the directory in which the mirror of the Debian archive is "
 "located."
 msgstr ""
-"Bitte geben Sie das Verzeichnis an, in dem sich der Kaisen-Archiv-Spiegel "
+"Bitte geben Sie das Verzeichnis an, in dem sich der Debian-Archiv-Spiegel "
 "befindet."
 
 #. Type: string
@@ -433,8 +433,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Kaisen FTP mirror. Please check
-#. that the country really has a Kaisen FTP mirror before putting a
+#. which you know hosts at least one Debian FTP mirror. Please check
+#. that the country really has a Debian FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

@@ -49,20 +49,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Kaisen version to install:"
-msgstr "Разновидност на Kaisen, която да се инсталира:"
+msgid "Debian version to install:"
+msgstr "Разновидност на Debian, която да се инсталира:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
+"Debian comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Kaisen има няколко разновидности. Stable е добре тествана и рядко се "
+"Debian има няколко разновидности. Stable е добре тествана и рядко се "
 "променя. Unstable не е тествана и често се променя. Testing е по средата и "
 "получава много от новите версии на пакетите от unstable, ако не са твърде "
 "проблемни."
@@ -79,7 +79,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Kaisen archive mirror"
+msgid "Checking the Debian archive mirror"
 msgstr "Проверка на огледалния сървър с архива на Дебиан"
 
 #. Type: text
@@ -101,7 +101,7 @@ msgstr "Връщане и избор на друг огледален сървъ
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Kaisen version (${RELEASE}) is not available from "
+"The specified (default) Debian version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
@@ -123,7 +123,7 @@ msgstr "Проблем с огледалния сървър"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Kaisen archive "
+"An error has been detected while trying to use the specified Debian archive "
 "mirror."
 msgstr ""
 "Беше получена грешка при използването на избрания огледален сървър на Дебиан."
@@ -136,7 +136,7 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Kaisen version."
+"not support the correct Debian version."
 msgstr ""
 "Възможни причини: избран грешен огледален сървър; огледалният сървър не е на "
 "разположение (например поради нестабилна мрежова връзка); повредено "
@@ -173,10 +173,10 @@ msgstr "Архитектурата не се поддържа"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Kaisen archive mirror does not seem to support your "
+"The specified Debian archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Зададеният архив на Kaisen изглежда не поддържа архитектурата на Вашия "
+"Зададеният архив на Debian изглежда не поддържа архитектурата на Вашия "
 "компютър. Моля, опитайте с друг огледален сървър."
 
 #. Type: text
@@ -213,7 +213,7 @@ msgstr "нестабилна"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Kaisen archive"
+msgid "Choose a mirror of the Debian archive"
 msgstr "Изберете огледален сървър с архива на Дебиан"
 
 #. Type: select
@@ -230,8 +230,8 @@ msgstr "ръчно въвеждане на информацията"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Kaisen HTTP mirror. Please check
-#. that the country really has a Kaisen HTTP mirror before putting a
+#. which you know hosts at least one Debian HTTP mirror. Please check
+#. that the country really has a Debian HTTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
@@ -256,7 +256,7 @@ msgstr "BG"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Kaisen archive mirror country:"
+msgid "Debian archive mirror country:"
 msgstr "Държава на огледалния сървър с архив на Дебиан:"
 
 #. Type: select
@@ -268,7 +268,7 @@ msgstr "Държава на огледалния сървър с архив на
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Kaisen archive that is close to you on "
+"The goal is to find a mirror of the Debian archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
@@ -284,7 +284,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Kaisen archive mirror:"
+msgid "Debian archive mirror:"
 msgstr "Огледален сървър на архива на Дебиан:"
 
 #. Type: select
@@ -296,7 +296,7 @@ msgstr "Огледален сървър на архива на Дебиан:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Kaisen archive mirror. You should use a mirror in your "
+"Please select a Debian archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
@@ -308,8 +308,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
-msgid "Usually, deb.kaisenlinux.org is a good choice."
-msgstr "Обикновено deb.kaisenlinux.org е добър избор."
+msgid "Usually, deb.debian.org is a good choice."
+msgstr "Обикновено deb.debian.org е добър избор."
 
 #. Type: string
 #. Description
@@ -319,7 +319,7 @@ msgstr "Обикновено deb.kaisenlinux.org е добър избор."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Kaisen archive mirror hostname:"
+msgid "Debian archive mirror hostname:"
 msgstr "Име на огледалния сървър с архива на Дебиан:"
 
 #. Type: string
@@ -331,7 +331,7 @@ msgstr "Име на огледалния сървър с архива на Де�
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Kaisen will be downloaded."
+"Please enter the hostname of the mirror from which Debian will be downloaded."
 msgstr ""
 "Моля, въведете името на огледалния сървър, от който ще бъде изтеглена Дебиан."
 
@@ -355,8 +355,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Kaisen archive mirror directory:"
-msgstr "Директория на огледалния сървър с архива на Kaisen:"
+msgid "Debian archive mirror directory:"
+msgstr "Директория на огледалния сървър с архива на Debian:"
 
 #. Type: string
 #. Description
@@ -364,11 +364,11 @@ msgstr "Директория на огледалния сървър с архи�
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Kaisen archive is "
+"Please enter the directory in which the mirror of the Debian archive is "
 "located."
 msgstr ""
 "Моля, въведете директорията в огледалният сървър, където се намира архива на "
-"Kaisen."
+"Debian."
 
 #. Type: string
 #. Description
@@ -424,8 +424,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Kaisen FTP mirror. Please check
-#. that the country really has a Kaisen FTP mirror before putting a
+#. which you know hosts at least one Debian FTP mirror. Please check
+#. that the country really has a Debian FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
