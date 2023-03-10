@@ -1,3 +1,48 @@
+choose-mirror (2.118-1kaisen) kaisen-packages; urgency=medium
+
+  * Import the 2.118 version
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 10 Mar 2023 18:14:07 +0100
+
+choose-mirror (2.118) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Spanish (es.po) by gallegonovato
+  * Macedonian (mk.po) by Kristijan Fremen Velkovski
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 15 Feb 2023 16:53:28 +0100
+
+choose-mirror (2.117) unstable; urgency=medium
+
+  * debian/choose-mirror-bin.templates.http-in: Enable partial translation for
+    country list.
+  * mktemplates: Do not use our own intltool-merge.
+  * intltool-merge: Drop.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 02 Jan 2023 14:10:51 +0100
+
+choose-mirror (2.116) unstable; urgency=medium
+
+  * intltool-merge: Fix emitting utf8 templates.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 01 Jan 2023 17:03:59 +0100
+
+choose-mirror (2.115) unstable; urgency=medium
+
+  * Team upload
+
+  [ Samuel Thibault ]
+  * Make gbp tag produce the right tag format
+
+  [ Updated translations ]
+  * Amharic (am.po) by Danial Behzadi
+  * Asturian (ast.po) by Danial Behzadi
+  * Bengali (bn.po) by Danial Behzadi
+  * Greek (el.po) by george kitsoukakis
+  * Persian (fa.po) by Danial Behzadi
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 31 Dec 2022 17:44:32 +0100
+
 choose-mirror (2.114-1kaisen) kaisen-packages; urgency=medium
 
   * Import the 2.114 version

@@ -4,6 +4,7 @@ Template: mirror/http/countries
 Type: select
 Choices-C: manual
 # :sl1:
+#flag:partial
 __Choices: enter information manually
 #  Translators, you should put here the ISO 3166 code of a country
 #  which you know hosts at least one Debian HTTP mirror. Please check
