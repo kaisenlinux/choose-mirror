@@ -1,3 +1,51 @@
+choose-mirror (2.122-1kaisen) kaisen-packages; urgency=medium
+
+  * Import the 2.122 version
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 24 May 2023 12:37:47 +0100
+
+choose-mirror (2.122) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Bengali (bn.po) by Indrani Roy
+  * Norwegian Nynorsk (nn.po) by Yngve Spjeld-Landro
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 21 May 2023 23:26:50 +0200
+
+choose-mirror (2.121) unstable; urgency=medium
+
+  [ Cyril Brulebois ]
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Polish (pl.po) by Matthaiks
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 13 May 2023 01:06:13 +0200
+
+choose-mirror (2.120) unstable; urgency=medium
+
+  [ Cyril Brulebois ]
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Georgian (ka.po) by Temuri Doghonadze
+  * Polish (pl.po) by Matthaiks
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 26 Apr 2023 01:00:04 +0200
+
+choose-mirror (2.119) unstable; urgency=medium
+
+  [ Cyril Brulebois ]
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Vietnamese (vi.po) by tictactoe
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 29 Mar 2023 14:21:22 +0200
+
 choose-mirror (2.118-1kaisen) kaisen-packages; urgency=medium
 
   * Import the 2.118 version

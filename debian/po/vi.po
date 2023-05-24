@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2022-07-16 14:23+0700\n"
-"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"PO-Revision-Date: 2023-02-24 10:38+0000\n"
+"Last-Translator: tictactoe <phandinhminh@protonmail.ch>\n"
 "Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -273,7 +273,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Debian archive mirror:"
-msgstr "Kho lưu bản bản sao Debian:"
+msgstr "Kho liên kết mirror lưu trữ bản sao Debian:"
 
 #. Type: select
 #. Description
@@ -333,7 +333,9 @@ msgstr "Hãy nhập tên máy của máy bản sao nơi mà sẽ tải Debian t�
 msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
-msgstr "Có thể ghi rõ một cổng khác dùng dạng chuẩn: [tên_máy]:[cổng]"
+msgstr ""
+"Một cổng thay thế có thể được chỉ định bằng cách sử dụng tiêu chuẩn format "
+"[tên hostname]:[cổng]."
 
 #. Type: string
 #. Description

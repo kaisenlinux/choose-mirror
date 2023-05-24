@@ -1,0 +1,147 @@
+diff --git a/Mirrors.masterlist b/Mirrors.masterlist
+index 26c75ab..58259b4 100644
+--- a/Mirrors.masterlist
++++ b/Mirrors.masterlist
+@@ -476,7 +476,7 @@ Type: Push-Primary
+ Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+ Archive-http: /debian/
+ Archive-rsync: debian/
+-CDImage-http: /debian-cd/
++CDImage-http: /debian-cdimage/
+ CDImage-rsync: debian-cdimage/
+ Maintainer: support@osuosl.org
+ Country: US United States
+@@ -2118,13 +2118,12 @@ Connect-http-monitor: eu.mirror.i3d.net:80
+ 
+ Site: debian.mirror.iphh.net
+ Type: leaf
+-Archive-architecture: amd64 armel armhf i386 mips mipsel s390x
++Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel powerpc ppc64el s390x
+ Archive-http: /debian/
+-Updates: once
+-Maintainer: IPHH Mirror-Team <debian-mirror@iphh.net>
++Maintainer: Carsten Rosenberg <repository@iphh.net>
+ Country: DE Germany
+ Location: Hamburg
+-Sponsor: IPHH http://www.iphh.net
++Sponsor: IPHH Internet Port Hamburg GmbH https://www.iphh.net
+ 
+ Site: mirror.pmf.kg.ac.rs
+ Type: leaf
+@@ -2165,15 +2164,6 @@ Maintainer: Julien Crifo <mirror@crifo.org>
+ Country: FR France
+ Location: Paris
+ 
+-Site: mirror.crazynetwork.it
+-Type: leaf
+-CDImage-http: /debian-cd/
+-Updates: twice
+-Maintainer: Andrea Iannucci <support@crazynetwork.it>
+-Country: IT Italy
+-Location: Roma, Lazio
+-Sponsor: Crazy Network http://www.crazynetwork.it
+-
+ Site: debian.mirror.estruxture.net
+ Type: leaf
+ Archive-architecture: ALL amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+@@ -2364,7 +2354,6 @@ Site: mirror.sov.uk.goscomb.net
+ Type: leaf
+ Archive-architecture: amd64 armhf i386 s390x
+ Archive-http: /debian/
+-CDImage-http: /debian-cd/
+ Updates: twice
+ Maintainer: Goscomb Technologies Limited <mirrors@goscomb.net>
+ Country: GB United Kingdom
+@@ -2800,19 +2789,6 @@ Country: PL Poland
+ Location: Szczecin
+ Sponsor: Technical University of Szczecin http://www.ps.pl/
+ 
+-Site: debian.inode.at
+-Type: leaf
+-Archive-architecture: amd64 i386
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-CDImage-http: /debian-cd/
+-CDImage-rsync: debian-cd/
+-Updates: four
+-Maintainer: mirror@inode.at Team <mirror@inode.at>
+-Country: AT Austria
+-Location: Vienna
+-Sponsor: UPC http://www.upc.at
+-
+ Site: ftp.cica.es
+ Type: leaf
+ Archive-http: /debian/
+@@ -3231,16 +3207,6 @@ Country: AU Australia
+ Location: Canberra
+ Sponsor: Australian Academic and Research Network http://www.aarnet.edu.au/
+ 
+-Site: ftp.nluug.nl
+-Alias: ftp.surfnet.nl
+-Type: leaf
+-Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+-Archive-http: /debian/
+-Maintainer: ftp-admin@nluug.nl
+-Sponsor: The Netherlands Unix Users Group, NLUUG http://www.nluug.nl/
+-Sponsor: SURFnet http://www.surfnet.nl/
+-Country: NL Netherlands
+-
+ Site: ftp.uni-stuttgart.de
+ Alias: ftp6.uni-stuttgart.de
+ Alias: mirror.rus.uni-stuttgart.de
+@@ -3558,17 +3524,6 @@ Country: EC Ecuador
+ Location: Ambato
+ Sponsor: Universidad Tecnica de Ambato http://www.uta.edu.ec
+ 
+-Site: mirror.ueb.edu.ec
+-Type: leaf
+-Archive-architecture: ALL amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+-CDImage-http: /debian-cd/
+-CDImage-rsync: debian-cd/
+-Updates: four
+-Maintainer: Ernesto Perez <mirror@cedia.org.ec>, Paul Bernal <paul.bernal@cedia.org.ec>
+-Country: EC Ecuador
+-Location: Guaranda
+-Sponsor: Universidad Estatal de Bolivar http://www.ueb.edu.ec
+-
+ Site: mirror.truenetwork.ru
+ Type: leaf
+ Archive-architecture: ALL amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+@@ -4466,3 +4421,22 @@ Maintainer: Campus Computer & Network Society, National Cheng Kung University <s
+ Country: TW Taiwan
+ Location: Tainan, Taiwan
+ Sponsor: The Department of Computer Science and Information Engineering, National Cheng Kung University http://www.csie.ncku.edu.tw
++
++Site: mirror.telepoint.bg
++Type: leaf
++Archive-architecture: ALL amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
++Archive-http: /debian/
++Archive-rsync: debian/
++Maintainer: Valentin Nikolov <mirror@telepoint.bg>
++Country: BG Bulgaria
++Location: Telepoint Tier3 Data Center
++Sponsor: Telepoint https://telepoint.bg
++
++Site: mirror.sjtu.edu.cn
++Type: leaf
++Archive-architecture: ALL amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
++Archive-http: /debian/
++Maintainer: Shanghai Jiao Tong University Linux User Group <sjtug-mirror-maintainers@googlegroups.com>
++Country: CN China
++Location: Shanghai
++Sponsor: Shanghai Jiao Tong University Network Information Center https://net.sjtu.edu.cn
+diff --git a/debian/changelog b/debian/changelog
+index 5ec36ac..02cc97c 100644
+--- a/debian/changelog
++++ b/debian/changelog
+@@ -1,3 +1,10 @@
++choose-mirror (2.110) unstable; urgency=medium
++
++  * Team upload.
++  * Update Mirros.masterlist.
++
++ -- Holger Wansing <hwansing@mailbox.org>  Fri, 02 Apr 2021 12:16:44 +0200
++
+ choose-mirror (2.109) unstable; urgency=medium
+ 
+   * Team upload
