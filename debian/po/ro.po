@@ -20,6 +20,8 @@
 #
 # Eddy Petrișor <eddy.petrisor@gmail.com>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
 # Jobava <jobaval10n@gmail.com>, 2018.
+# Andrei Popescu <andreimpopescu@gmail.com>, 2018, 2020.
+# Sergiu <adinfinitvm@wail.ch>, 2020.
 #
 # Translations from iso-codes:
 # Alastair McKinstry <mckinstry@debian.org>, 2004
@@ -37,8 +39,8 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2018-01-05 19:24+0000\n"
-"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"PO-Revision-Date: 2023-06-19 12:51+0000\n"
+"Last-Translator: NicolaeFericitu <cni@disroot.org>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +90,7 @@ msgstr "Se verifică situl alternativ al arhivei Debian"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:6001
 msgid "Downloading Release files..."
-msgstr "Se descarcă fișierele Release..."
+msgstr "Se descarcă fișierele de lansare..."
 
 #. Type: boolean
 #. Description
@@ -216,7 +218,7 @@ msgstr "instabil"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Debian archive"
-msgstr "Alegere a unui sit alternativ cu o arhivă Debian"
+msgstr "Alegeți un sit alternativ a arhivei Debian"
 
 #. Type: select
 #. Choices
@@ -227,7 +229,7 @@ msgstr "Alegere a unui sit alternativ cu o arhivă Debian"
 #: ../choose-mirror-bin.templates.http-in:2001
 #: ../choose-mirror-bin.templates.ftp.sel-in:2001
 msgid "enter information manually"
-msgstr "Introduceți informația manual"
+msgstr "introduceți informația manual"
 
 #. Type: select
 #. Default
@@ -247,6 +249,7 @@ msgstr "Introduceți informația manual"
 #. msgstr "FR"
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:2002
+#, fuzzy
 msgid "US[ Default value for http]"
 msgstr "RO"
 
@@ -274,9 +277,9 @@ msgid ""
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Scopul este găsirea unui sit al arhivei care este mai apropiat de "
-"dumneavoastră din punct de vedere al rețelei -- atenție: țările apropiate "
-"sau chiar țara dumneavoastră s-ar putea să nu fie cele mai bune alegeri."
+"Scopul este de a găsi un sit al arhivei Debian care se află aproape de dvs. "
+"în rețea -- fiți atenți la faptul că este posibil ca țările din apropiere, "
+"sau chiar țara dvs., să nu fie cea mai bună alegere."
 
 #. Type: select
 #. Description
@@ -303,8 +306,8 @@ msgid ""
 "connection to you."
 msgstr ""
 "Vă rugăm să selectați un sit alternativ pentru arhiva Debian. Ar trebui să "
-"folosiți un sit din țara dumneavoastră sau unul din apropiere, dacă nu știți "
-"care sit are cea mai bună conexiune cu dumneavoastră."
+"folosiți un sit din țara sau regiunea dvs. dacă nu știți care sit are cea "
+"mai bună conexiune la internet pentru dvs."
 
 #. Type: select
 #. Description
@@ -322,7 +325,7 @@ msgstr "De obicei, deb.debian.org este o alegere bună."
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid "Debian archive mirror hostname:"
-msgstr "Numele sitului alternativ cu arhiva Debian:"
+msgstr "Numele de gazdă al sitului alternativ cu arhiva Debian:"
 
 #. Type: string
 #. Description
@@ -335,8 +338,8 @@ msgstr "Numele sitului alternativ cu arhiva Debian:"
 msgid ""
 "Please enter the hostname of the mirror from which Debian will be downloaded."
 msgstr ""
-"Vă rugăm să introduceți numele sitului alternativ de pe care se va descărca "
-"Debian."
+"Vă rugăm să introduceți numele de gazdă al sitului alternativ de pe care se "
+"va descărca Debian."
 
 #. Type: string
 #. Description
@@ -350,8 +353,8 @@ msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
 msgstr ""
-"Se poate specifica un port alternativ, folosind formatul standard [nume "
-"calculator]:[port]."
+"Se poate specifica un port alternativ, folosind formatul standard [nume de "
+"gazdă]:[port]."
 
 #. Type: string
 #. Description
@@ -377,7 +380,7 @@ msgstr ""
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "Informații despre proxy (lăsați gol dacă nu există):"
+msgstr "Informații despre proxy-ul HTTP (lăsați gol dacă nu există):"
 
 #. Type: string
 #. Description
@@ -402,8 +405,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Informațiile despre proxy trebuie introduse în forma standard „http://"
-"[[utilizator][:parolă]@]adresa[:port]/”."
+"Informațiile despre proxy trebuie introduse în forma standard \"http://"
+"[[utilizator][:parolă]@]gazdă[:port]/\"."
 
 #. Type: string
 #. Description
