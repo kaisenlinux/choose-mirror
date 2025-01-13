@@ -21,14 +21,14 @@
 # Freek de Kruijf <f.de.kruijf@hetnet.nl>, 2006, 2007, 2008, 2009, 2010, 2011.
 # Taco Witte <tcwitte@cs.uu.nl>, 2004.
 # Reinout van Schouwen <reinouts@gnome.org>, 2007.
-# Frans Spiesschaert <Frans.Spiesschaert@yucom.be>, 2014-2022.
+# Frans Spiesschaert <Frans.Spiesschaert@yucom.be>, 2014-2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer/sublevel1\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2022-01-08 21:43+0100\n"
+"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"PO-Revision-Date: 2024-04-08 20:48+0200\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -73,7 +73,7 @@ msgstr ""
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
 msgid "Checking the Debian archive mirror"
-msgstr "Debian-archief-spiegelserver wordt gecontroleerd..."
+msgstr "De spiegelserver voor het Debian archief wordt gecontroleerd"
 
 #. Type: text
 #. Description
@@ -226,17 +226,19 @@ msgstr "informatie handmatig invoeren"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
-#. random value here
+#. which you know hosts at least one Debian HTTP mirror and which is
+#. network-wise near by your country.
+#. Please check that the country really has a Debian HTTP mirror before
+#. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
-#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist.in
 #.
-#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#. BE CAREFUL to only use the TWO LETTER ISO-3166 CODE and nothing else!
 #.
-#. You do not need to translate what's between the square brackets
+#. You do not need to translate what's between the square brackets.
 #. You should even NOT put square brackets in translations:
+#. Do it like this:
 #. msgid "US[ Default value for http]"
 #. msgstr "FR"
 #. :sl1:
@@ -253,7 +255,7 @@ msgstr "NL"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid "Debian archive mirror country:"
-msgstr "Land van Debian-archief-spiegelserver"
+msgstr "Land van de spiegelserver voor het Debian archief:"
 
 #. Type: select
 #. Description
@@ -329,8 +331,8 @@ msgstr "Computernaam van de Debian-archief-spiegelserver:"
 msgid ""
 "Please enter the hostname of the mirror from which Debian will be downloaded."
 msgstr ""
-"Wat is de computernaam van de spiegelserver waarvan Debian opgehaald zal "
-"worden?"
+"Voer de computernaam in van de spiegelserver waarvan Debian opgehaald zal "
+"worden."
 
 #. Type: string
 #. Description

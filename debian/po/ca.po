@@ -4,10 +4,13 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Catalan messages for debian-installer.
-# Copyright 2002-2008, 2010, 2012, 2015, 2017 Software in the Public Interest, Inc.
+# Copyright 2002-2008, 2010, 2012, 2015, 2017-2018 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
-# Jordi Mallach <jordi@debian.org>, 2002-2008, 2010, 2012, 2015, 2017.
+# Jordi Mallach <jordi@debian.org>, 2002-2008, 2010, 2012, 2015, 2017-2018.
 # Guillem Jover <guillem@debian.org>, 2005, 2007.
+# d <dmanye@gmail.com>, 2021.
+# Maite Guix <maite.guix@gmail.com>, 2022.
+# Innocent De Marchi <tangram.peces@gmail.com>, 2017.
 #
 # Translations from iso-codes:
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
@@ -18,16 +21,17 @@
 # Traductor: Jordi Ferré <jordiferre@catalonia.altranet.fr>
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer buster\n"
+"Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2017-11-14 10:33+0100\n"
-"Last-Translator: Jordi Mallach <jordi@debian.org>\n"
+"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"PO-Revision-Date: 2024-03-24 21:01+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: select
 #. Description
@@ -215,17 +219,19 @@ msgstr "introdueix la informació manualment"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
-#. random value here
+#. which you know hosts at least one Debian HTTP mirror and which is
+#. network-wise near by your country.
+#. Please check that the country really has a Debian HTTP mirror before
+#. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
-#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist.in
 #.
-#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#. BE CAREFUL to only use the TWO LETTER ISO-3166 CODE and nothing else!
 #.
-#. You do not need to translate what's between the square brackets
+#. You do not need to translate what's between the square brackets.
 #. You should even NOT put square brackets in translations:
+#. Do it like this:
 #. msgid "US[ Default value for http]"
 #. msgstr "FR"
 #. :sl1:
@@ -257,9 +263,9 @@ msgid ""
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"L'objectiu és trobar una rèplica de l'arxiu de Debian que siga prop vostre a "
-"la xarxa -- teniu en compte que els països propers, o fins i tot el vostre, "
-"poden no ser la millor opció."
+"L'objectiu és trobar una rèplica de l'arxiu de Debian que estigui a prop "
+"vostre a la xarxa -- tingueu en compte que els països propers, o fins i tot "
+"el vostre, poden no ser la millor opció."
 
 #. Type: select
 #. Description
@@ -285,9 +291,9 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Si us plau, seleccioneu una rèplica de l'arxiu de Debian. Hauríeu d'emprar "
-"una rèplica al vostre país o regió si no sabeu quina rèplica té la millor "
-"connexió d'Internet amb vosaltres."
+"Seleccioneu una rèplica de l'arxiu de Debian. Hauríeu d'emprar una rèplica "
+"al vostre país o regió si no sabeu quina rèplica té la millor connexió "
+"d'Internet amb vosaltres."
 
 #. Type: select
 #. Description

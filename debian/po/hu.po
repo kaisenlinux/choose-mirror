@@ -28,9 +28,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2018-07-28 11:38+0000\n"
-"Last-Translator: Dr. Nagy Elemér Károly <eknagy@omikk.bme.hu>\n"
+"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"PO-Revision-Date: 2024-10-13 13:16+0000\n"
+"Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
 "Language: hu\n"
@@ -62,10 +62,10 @@ msgid ""
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"A Debian többféle változatban létezik. A stabil nagyon szigorúan kipróbált "
-"(tesztelt) és ritkán változik. Az instabil még csak alap próbákon esett át "
-"és gyakran változik. A próba (testing) változat egy középút, mely az "
-"instabilból számos új szoftver-változatot átvesz, ha azok nem túl hibásak."
+"A Debian többféle változatban létezik. A stabil nagyon szigorúan tesztelt "
+"(kipróbált) és ritkán változik. Az instabil még csak alap próbákon esett át "
+"és gyakran változik. A teszt (próba) változat egy középút, mely az "
+"instabilból számos új szoftverváltozatot átvesz, ha azok nem túl hibásak."
 
 # Type: select
 # Description
@@ -75,7 +75,9 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Only flavors available on the selected mirror are listed."
-msgstr "Csak a választott tükrön lévő altípusokat listázzuk."
+msgstr ""
+"Csak a kiválasztott tükörszerveren elérhető változatok szerepelnek a "
+"listában."
 
 #. Type: text
 #. Description
@@ -99,7 +101,7 @@ msgstr "Release fájlok letöltése..."
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid "Go back and try a different mirror?"
-msgstr "Visszalép és másik tükörrel próbálkozik?"
+msgstr "Visszalépsz, és megpróbálod egy másik tükörszerverrel?"
 
 # Type: boolean
 # Description
@@ -114,10 +116,10 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"A megadott (alapértelmezett) Debian verzió (${RELEASE}) nincs a kiválasztott "
-"tükrön. Lehetősége van folytatni a telepítést egy másik verzió "
-"kiválasztásával, de a javasolt út az, hogy visszamegy és választ egy másik "
-"tükröt, ami támogatja a kért verziót."
+"A megadott (alapértelmezett) Debian verzió (${RELEASE}) nem érhető el a "
+"kiválasztott tükörszerverről. Lehetőséged van folytatni a telepítést egy "
+"másik verzió kiválasztásával, de a javasolt út az, hogy visszalépsz és egy "
+"másik tükörszerverrel folytatod, amely támogatja a kért verziót."
 
 # Type: error
 # Description
@@ -127,7 +129,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Hibás archívum tükör"
+msgstr "Hibás archívum-tükörszerver"
 
 # Type: error
 # Description
@@ -139,7 +141,8 @@ msgstr "Hibás archívum tükör"
 msgid ""
 "An error has been detected while trying to use the specified Debian archive "
 "mirror."
-msgstr "Hiba történt a megadott Debian archívum tükör használatakor."
+msgstr ""
+"Hiba történt a megadott Debian archívum-tükörszerver használata közben."
 
 # Type: error
 # Description
@@ -154,9 +157,9 @@ msgid ""
 "broken (for example because an invalid Release file was found); mirror does "
 "not support the correct Debian version."
 msgstr ""
-"A hiba lehetséges okai: a megadott tükör érvénytelen; a tükör nem elérhető "
-"(talán megbízhatatlan hálózati kapcsolat miatt); a tükör hibás (például "
-"érvénytelen Release fájl); a tükör nem támogatja a kívánt Debian verziót."
+"A hiba lehetséges okai: helytelenül megadott tükör; a tükör nem elérhető "
+"(talán a megbízhatatlan hálózati kapcsolat miatt); a tükör hibás (például "
+"érvénytelen a Release fájl); a tükör nem támogatja a kívánt Debian verziót."
 
 # Type: error
 # Description
@@ -169,8 +172,8 @@ msgid ""
 "Additional details may be available in /var/log/syslog or on virtual console "
 "4."
 msgstr ""
-"Tovább részletek a /var/log/syslog fájlban vagy a 4. virtuális konzolon "
-"találhatóak."
+"Tovább részleteket találsz a /var/log/syslog fájlban vagy a 4. virtuális "
+"konzolon."
 
 # Type: error
 # Description
@@ -180,7 +183,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Please check the specified mirror or try a different one."
-msgstr "Kérem, ellenőrizze a megadott tükröt vagy válasszon másikat."
+msgstr "Kérlek, ellenőrizd a megadott tükröt, vagy válassz egy másikat."
 
 #. Type: error
 #. Description
@@ -228,7 +231,7 @@ msgstr "stabil"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:12001
 msgid "testing"
-msgstr "próba"
+msgstr "teszt (próba)"
 
 # Type: text
 # Description
@@ -263,17 +266,19 @@ msgstr "információ megadása kézzel"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
-#. random value here
+#. which you know hosts at least one Debian HTTP mirror and which is
+#. network-wise near by your country.
+#. Please check that the country really has a Debian HTTP mirror before
+#. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
-#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist.in
 #.
-#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#. BE CAREFUL to only use the TWO LETTER ISO-3166 CODE and nothing else!
 #.
-#. You do not need to translate what's between the square brackets
+#. You do not need to translate what's between the square brackets.
 #. You should even NOT put square brackets in translations:
+#. Do it like this:
 #. msgid "US[ Default value for http]"
 #. msgstr "FR"
 #. :sl1:
@@ -388,7 +393,7 @@ msgstr "Más port is megadható a szabványos [gazdagépnév]:[port] formában."
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid "Debian archive mirror directory:"
-msgstr "Debian archívum tükör könyvtára:"
+msgstr "A debian archívumtükör könyvtára:"
 
 # Type: string
 # Description
@@ -401,7 +406,7 @@ msgstr "Debian archívum tükör könyvtára:"
 msgid ""
 "Please enter the directory in which the mirror of the Debian archive is "
 "located."
-msgstr "Kérem, adja meg a Debian archívum tükröt tartalmazó könyvtárat."
+msgstr "Kérlek, add meg a Debian archívumtükröt tartalmazó könyvtárat."
 
 #. Type: string
 #. Description
@@ -444,7 +449,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.base-in:4001
 msgid "FTP proxy information (blank for none):"
-msgstr "FTP-proxy adatok (hagyja üresen, ha nincs):"
+msgstr "FTP-proxy adatok (ha nincs, hagyd üresen):"
 
 # Type: string
 # Description
@@ -458,25 +463,8 @@ msgid ""
 "information here. Otherwise, leave this blank."
 msgstr ""
 "Ha a külvilág eléréséhez FTP proxy szükséges, a proxy adatait itt kell "
-"megadni. Amúgy üresen kell hagyni."
+"megadni. Különben üresen kell hagyni."
 
-# Type: select
-# Default
-# Translators, you should put here the ISO 3166 code of a country
-# which you know hosts at least one Debian FTP mirror. Please check
-# that the country really has a Debian FTP mirror before putting a
-# random value here
-#
-# First check that the country you mention here is listed in
-# http://svn.debian.org/wsvn/webwml/trunk/webwml/english/mirror/Mirrors.masterlist
-#
-# BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
-#
-# You do not need to translate what's between the square brackets
-# You should even NOT put square brackets in translations:
-# msgid "US[ Default value for ftp]"
-# msgstr "FR"
-# :sl2:
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
@@ -526,5 +514,6 @@ msgid ""
 "Please select the protocol to be used for downloading files. If unsure, "
 "select \"http\"; it is less prone to problems involving firewalls."
 msgstr ""
-"Kérem, válassza ki a fájlletöltéshez használt protokollt. Kétség esetén a "
-"\"http\" protokollt érdemes; ez kevésbé ütközik tűzfal gondokba."
+"Kérlek, válaszd ki a fájlletöltéshez használni kívánt protokollt. Kétség "
+"esetén a „http” protokollt érdemes kiválasztani; ez kevésbé hajlamos a "
+"tűzfalakkal kapcsolatos problémákra."

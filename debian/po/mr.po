@@ -19,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2020-10-10 17:26+0000\n"
-"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
+"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"PO-Revision-Date: 2023-12-10 18:08+0000\n"
+"Last-Translator: omwani <omwani03+gitlab@gmail.com>\n"
 "Language-Team: CDAC_DI\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -46,8 +46,8 @@ msgid ""
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"डेबियन वेगवेगळ्या प्रकारांत उपलब्ध आहे.  स्थिर ची व्यवस्थित चाचणी झालेली असते व त्यात "
-"क्वचितच बदल होतो.  अस्थिर ची चाचणी झालेली नसते आणि त्यात वारंवार बदल होत असतात. "
+"डेबियन वेगवेगळ्या प्रकारांत उपलब्ध आहे. स्थिर ची व्यवस्थित चाचणी झालेली असते व त्यात "
+"क्वचितच बदल होतो. अस्थिर ची चाचणी झालेली नसते आणि त्यात वारंवार बदल होत असतात. "
 "चाचणीखाली हे दोहोंमधे असते, ज्यात फारशा दोषपूर्ण नसलेल्या अनेक नवीन आवृत्या अस्थिर मधून "
 "समाविष्ट होत असतात."
 
@@ -90,8 +90,8 @@ msgid ""
 "different mirror that does support the correct version."
 msgstr ""
 "निश्चित केलेली (मूलनिर्धारित) डेबियन आवृत्ती (${RELEASE}) निवडलेल्या दर्पणकडे उपलब्ध "
-"नाही.  असेच पुढे जाऊन तुमच्या प्रतिष्ठापनेच्रे अन्य वितरण निवडणे शक्य आहे, पण सामान्यतः "
-"तुम्ही मागे जाऊन योग्य आवृत्तीला समर्थन देणारा अन्य दर्पण निवडणे इष्ट ठरेल."
+"नाही. असेच पुढे जाऊन तुमच्या प्रतिष्ठापनेच्रे अन्य वितरण निवडणे शक्य आहे, पण सामान्यतः तुम्ही "
+"मागे जाऊन योग्य आवृत्तीला समर्थन देणारा अन्य दर्पण निवडणे इष्ट ठरेल."
 
 #. Type: error
 #. Description
@@ -119,7 +119,7 @@ msgid ""
 "broken (for example because an invalid Release file was found); mirror does "
 "not support the correct Debian version."
 msgstr ""
-"या त्रुटीकरिता ही कारणे असू शकतीलः चुकीचा दर्पण निर्धारित केला;  दर्पण उपलब्ध नाही "
+"या त्रुटीकरिता ही कारणे असू शकतीलः चुकीचा दर्पण निर्धारित केला; दर्पण उपलब्ध नाही "
 "(बहुतेक्दा बेभरवशाची नेटवर्क जोडणी); दर्पण तुटलेला आहे (उदाहरणार्थ अवैध वितरण फाईल "
 "सापडल्यामुळे); दर्पण योग्य डेबियन आवृत्तीला समर्थन देत नाही."
 
@@ -155,7 +155,7 @@ msgid ""
 "architecture. Please try a different mirror."
 msgstr ""
 "निर्धारित केलेला डेबियन अर्काइव्ह दर्पण तुमच्या संगणकाच्या रचनेस पाठबळ देत असल्याचे वाटत "
-"नाही.  कृपया दुसऱ्या दर्पणसाठी प्रयत्न करा."
+"नाही. कृपया दुसऱ्या दर्पणसाठी प्रयत्न करा."
 
 #. Type: text
 #. Description
@@ -208,17 +208,19 @@ msgstr "माहिती स्वहस्ते द्या"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
-#. random value here
+#. which you know hosts at least one Debian HTTP mirror and which is
+#. network-wise near by your country.
+#. Please check that the country really has a Debian HTTP mirror before
+#. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
-#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist.in
 #.
-#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#. BE CAREFUL to only use the TWO LETTER ISO-3166 CODE and nothing else!
 #.
-#. You do not need to translate what's between the square brackets
+#. You do not need to translate what's between the square brackets.
 #. You should even NOT put square brackets in translations:
+#. Do it like this:
 #. msgid "US[ Default value for http]"
 #. msgstr "FR"
 #. :sl1:
@@ -437,6 +439,6 @@ msgid ""
 "Please select the protocol to be used for downloading files. If unsure, "
 "select \"http\"; it is less prone to problems involving firewalls."
 msgstr ""
-"कृपया संचिका डाउनलोड करताना वापरायचा शिष्टाचार निवडा.  निश्चित खात्री नसल्यास "
-"\"http\"; ची निवड करावी. सुरक्षाभिंतींमुळे निर्माण होणाऱ्या तांत्रिक गुंत्यांपासून तुलनेने "
-"त्यात अधिक स्थिरता आहे."
+"कृपया संचिका डाउनलोड करताना वापरायचा शिष्टाचार निवडा. निश्चित खात्री नसल्यास \"http"
+"\"; ची निवड करावी. सुरक्षाभिंतींमुळे निर्माण होणाऱ्या तांत्रिक गुंत्यांपासून तुलनेने त्यात अधिक "
+"स्थिरता आहे."

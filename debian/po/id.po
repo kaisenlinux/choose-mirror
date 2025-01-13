@@ -18,6 +18,8 @@
 # * Setyo Nugroho (setyo@gmx.net), 2004.
 # * Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>, 2008-2011.
 # * Al Qalit <qal.smith@gmail.com>, 2018.
+# * Andika Triwidada <andika@gmail.com>, 2018, 2019, 2020, 2021.
+# * Fahmi Ali <fahmi.ali1945@gmail.com>, 2020.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2002.
@@ -32,8 +34,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2018-06-16 08:13+0000\n"
+"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"PO-Revision-Date: 2024-10-16 15:16+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
 "debian.org>\n"
@@ -84,7 +86,7 @@ msgstr "Memeriksa cermin arsip Debian"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:6001
 msgid "Downloading Release files..."
-msgstr "Mengunduh berkas Release ..."
+msgstr "Mengunduh berkas Release..."
 
 #. Type: boolean
 #. Description
@@ -210,7 +212,7 @@ msgstr "tak stabil"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Debian archive"
-msgstr "Memilih cermin arsip Debian"
+msgstr "Pilih suatu cermin arsip Debian"
 
 #. Type: select
 #. Choices
@@ -226,23 +228,25 @@ msgstr "masukkan informasi secara manual"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
-#. random value here
+#. which you know hosts at least one Debian HTTP mirror and which is
+#. network-wise near by your country.
+#. Please check that the country really has a Debian HTTP mirror before
+#. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
-#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist.in
 #.
-#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#. BE CAREFUL to only use the TWO LETTER ISO-3166 CODE and nothing else!
 #.
-#. You do not need to translate what's between the square brackets
+#. You do not need to translate what's between the square brackets.
 #. You should even NOT put square brackets in translations:
+#. Do it like this:
 #. msgid "US[ Default value for http]"
 #. msgstr "FR"
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:2002
 msgid "US[ Default value for http]"
-msgstr "US"
+msgstr "ID"
 
 #. Type: select
 #. Description
@@ -253,7 +257,7 @@ msgstr "US"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid "Debian archive mirror country:"
-msgstr "Negara tempat cermin arsip Debian berada:"
+msgstr "Negara tempat cermin arsip Debian:"
 
 #. Type: select
 #. Description
@@ -269,7 +273,7 @@ msgid ""
 "the best choice."
 msgstr ""
 "Tujuannnya adalah mencari cermin arsip Debian yang dekat dengan jaringan "
-"Anda -- bisa saja negara yang dekat ataupun negara Anda sendiri bukan "
+"Anda -- bisa saja negara yang dekat, ataupun negara Anda sendiri, bukan "
 "merupakan pilihan yang terbaik."
 
 #. Type: select
@@ -296,9 +300,9 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Silakan pilih cermin Debian. Sebaiknya gunakan cermin yang ada di negara "
-"atau wilayah Anda, bila tidak mengetahui cermin yang memiliki sambungan "
-"Internet terbaik ke komputer Anda."
+"Silakan pilih cermin arsip Debian. Sebaiknya gunakan cermin yang ada di "
+"negara atau wilayah Anda, bila tidak mengetahui cermin yang memiliki "
+"sambungan Internet terbaik ke komputer Anda."
 
 #. Type: select
 #. Description
@@ -328,7 +332,7 @@ msgstr "Nama host dari cermin arsip Debian:"
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
 "Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr "Silakan masukkan nama host dari cermin Debian yang akan dipakai."
+msgstr "Silakan masukkan nama host dari cermin, Debian akan diunduh dari sana."
 
 #. Type: string
 #. Description
@@ -341,7 +345,8 @@ msgstr "Silakan masukkan nama host dari cermin Debian yang akan dipakai."
 msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
-msgstr "Port alternatif dapat ditentukan dengan format baku [namahost]:[port]."
+msgstr ""
+"Port alternatif dapat ditentukan dengan format standar [namahost]:[port]."
 
 #. Type: string
 #. Description
@@ -366,7 +371,7 @@ msgstr "Masukkan nama direktori tempat arsip Debian berada."
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "Alamat proxy HTTP (kosongkan bila tak ada):"
+msgstr "Alamat proksi HTTP (kosongkan bila tak ada):"
 
 #. Type: string
 #. Description
@@ -376,8 +381,8 @@ msgid ""
 "If you need to use a HTTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"Bila Anda perlu menggunakan proxy HTTP untuk mengakses Internet, masukkan "
-"alamat proxy tersebut disini. Bila tidak, biarkan kosong."
+"Bila Anda perlu menggunakan proksi HTTP untuk mengakses Internet, masukkan "
+"alamat proksi tersebut di sini. Bila tidak, biarkan kosong."
 
 #. Type: string
 #. Description
@@ -391,8 +396,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Informasi proxy harus diberikan dalam bentuk baku sebagai berikut: \"http://"
-"[[user][:pass]@]host[:port]/\"."
+"Informasi proksi harus diberikan dalam bentuk standar sebagai berikut: "
+"\"http://[[pengguna][:sandi]@]host[:port]/\"."
 
 #. Type: string
 #. Description

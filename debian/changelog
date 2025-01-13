@@ -1,3 +1,52 @@
+choose-mirror (2.128-1kaisen) kaisen-packages; urgency=medium
+
+  * Import the 2.128 version
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 13 Jan 2025 22:35:25 +0100
+
+choose-mirror (2.128) unstable; urgency=medium
+
+  * Team upload
+
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Persian (fa.po) by peylight
+  * Punjabi (Gurmukhi) (pa.po) by Aman Alam
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 29 Nov 2024 22:24:38 +0100
+
+choose-mirror (2.127) unstable; urgency=medium
+
+  * Team upload
+
+  * Update Mirrors.masterlist.
+  * Change comment for translators in templates file, to improve
+    understandability and fix dead link.
+
+  [ Updated translations ]
+  * Hungarian (hu.po) by Szia Tomi
+  * Indonesian (id.po) by Andika Triwidada
+  * Georgian (ka.po) by Temuri Doghonadze
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 20 Oct 2024 22:48:21 +0200
+
+choose-mirror (2.126) unstable; urgency=medium
+
+  * Team upload
+
+  [ Adam D. Barratt ]
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Catalan (ca.po) by victor dargallo
+  * Estonian (et.po) by Kristjan Räts
+  * Marathi (mr.po) by omwani
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Romanian (ro.po) by ThinkRoot
+
+ -- Adam D. Barratt <adam@adam-barratt.org.uk>  Thu, 22 Aug 2024 20:35:40 +0100
+
 choose-mirror (2.125-1kaisen) kaisen-packages; urgency=medium
 
   * Import the 2.125 version

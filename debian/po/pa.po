@@ -21,14 +21,14 @@
 # Amanpreet Singh Alam <aalam@users.sf.net>, 2008, 2009.
 # Amanpreet Singh Alam[ਆਲਮ] <amanpreetalam@yahoo.com>, 2005.
 # A S Alam <aalam@users.sf.net>, 2009, 2012, 2014, 2017.
-# Aman ALam <alam.yellow@gmail.com>, 2018, 2019, 2020.
+# Aman Alam <alam.yellow@gmail.com>, 2018, 2019, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
-"POT-Creation-Date: 2020-10-05 20:01+0000\n"
-"PO-Revision-Date: 2020-10-15 04:26+0000\n"
-"Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
+"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"PO-Revision-Date: 2024-11-19 09:29+0000\n"
+"Last-Translator: Aman Alam <aalam@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Debian version to install:"
-msgstr "ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਡੈਬੀਅਨ ਵਰਜਨ:"
+msgstr "ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਡੈਬੀਅਨ ਵਰਜ਼ਨ:"
 
 #. Type: select
 #. Description
@@ -54,8 +54,8 @@ msgid ""
 "buggy."
 msgstr ""
 "ਡੇਬੀਅਨ ਕਈ ਰੂਪਾਂ ਵਿੱਚ ਮਿਲਦਾ ਹੈ। ਸਥਿਰ ਵਧੀਆ ਜਾਂਚ ਕੀਤਾ ਅਤੇ ਕੁਝ ਤਬਦੀਲੀਆਂ ਨਾਲ। ਅਸਥਿਰ ਬਿਨਾਂ "
-"ਜਾਂਚ ਕੀਤਾ ਅਤੇ ਘੱਟ ਤਬਦੀਲੀ ਵਾਲਾ ਹੁੰਦਾ ਹੈ। ਜਾਂਚ ਵਿਚਕਾਰਲਾ ਪੱਧਰ ਹੈ ਜੋ ਅਸਥਿਰ ਤੋਂ ਕੁਝ ਨਵੇਂ ਵਰਜਨ "
-"ਸਵੀਕਾਰ ਕਰਦਾ ਹੈ ਜੇ ਉਹਨਾਂ ਵਿੱਚ ਬੱਗ ਨਾ ਹੋਣ।"
+"ਜਾਂਚ ਕੀਤਾ ਅਤੇ ਘੱਟ ਤਬਦੀਲੀ ਵਾਲਾ ਹੁੰਦਾ ਹੈ। ਜਾਂਚ ਵਿਚਕਾਰਲਾ ਪੱਧਰ ਹੈ, ਜੋ ਅਸਥਿਰ ਤੋਂ ਕੁਝ ਨਵੇਂ ਵਰਜ਼ਨ "
+"ਸਵੀਕਾਰ ਕਰਦਾ ਹੈ, ਜੇ ਉਹਨਾਂ ਵਿੱਚ ਬੱਗ ਨਾ ਹੋਣ।"
 
 #. Type: select
 #. Description
@@ -95,9 +95,9 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"ਦਿੱਤਾ (ਡਿਫਾਲਟ) ਡੇਬੀਅਨ ਵਰਜਨ (${RELEASE}) ਚੁਣੇ ਮਿਰੱਰ ਤੋਂ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ। ਜਾਰੀ ਰੱਖਣਾ ਅਤੇ "
+"ਦਿੱਤਾ (ਡਿਫਾਲਟ) ਡੇਬੀਅਨ ਵਰਜ਼ਨ (${RELEASE}) ਚੁਣੇ ਮਿਰੱਰ ਤੋਂ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ। ਜਾਰੀ ਰੱਖਣਾ ਅਤੇ "
 "ਆਪਣੀ ਇੰਸਟਾਲੇਸ਼ਨ ਲਈ ਵੱਖਰਾ ਰੀਲਿਜ਼ ਚੁਣਨਾ ਸੰਭਵ ਹੈ, ਪਰ ਆਮ ਤੌਰ ਉੱਤੇ ਤੁਹਾਨੂੰ ਪਿੱਛੇ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ "
-"ਵੱਖਰਾ ਮਿੱਰਰ ਚੁਣਨਾ ਚਾਹੀਦਾ ਹੈ, ਜੋ ਕਿ ਸਹੀਂ ਵਰਜਨ ਨੂੰ ਸਹਿਯੋਗ ਕਰੇ।"
+"ਵੱਖਰਾ ਮਿੱਰਰ ਚੁਣਨਾ ਚਾਹੀਦਾ ਹੈ, ਜੋ ਕਿ ਸਹੀਂ ਵਰਜ਼ਨ ਨੂੰ ਸਹਿਯੋਗ ਕਰੇ।"
 
 #. Type: error
 #. Description
@@ -127,7 +127,7 @@ msgid ""
 msgstr ""
 "ਗਲਤੀ ਦੇ ਸੰਭਵ ਕਾਰਨ ਹੋ ਸਕਦੇ ਹਨ: ਗਲਤ ਮਿੱਰਰ ਦੇਣਾ; ਮਿੱਰਰ ਦਾ ਉਪਲੱਬਧ ਨਾ ਹੋਣਾ (ਸ਼ਾਇਦ ਗ਼ੈਰ-ਭਰੋਸੇਯੋਗ "
 "ਕੁਨੈਕਸ਼ਨ ਕਰਕੇ); ਮਿੱਰਰ ਦਾ ਬੇਕਾਰ ਹੋਣਾ (ਜਿਵੇਂ ਕਿ ਗਲਤ ਰੀਲਿਜ਼ ਫਾਇਲ ਮਿਲਣੀ); ਮਿੱਰਰ ਦਾ ਠੀਕ "
-"ਡੇਬੀਅਨ ਵਰਜਨ ਲਈ ਸਹਾਇਕ ਨਾ ਹੋਣਾ।"
+"ਡੇਬੀਅਨ ਵਰਜ਼ਨ ਲਈ ਸਹਾਇਕ ਨਾ ਹੋਣਾ।"
 
 #. Type: error
 #. Description
@@ -136,7 +136,7 @@ msgstr ""
 msgid ""
 "Additional details may be available in /var/log/syslog or on virtual console "
 "4."
-msgstr "ਪੂਰੀ ਜਾਣਕਾਰੀ ਨੂੰ /var/log/syslog ਵਿੱਚ ਜਾਂ ਵੁਰਚੁਅਲ ਕਨਸੋਲ ੪ ਉੱਤੇ ਵੇਖਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
+msgstr "ਪੂਰੀ ਜਾਣਕਾਰੀ ਨੂੰ /var/log/syslog ਵਿੱਚ ਜਾਂ ਵੁਰਚੁਅਲ ਕਨਸੋਲ 4 ਉੱਤੇ ਵੇਖਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #. Type: error
 #. Description
@@ -214,17 +214,19 @@ msgstr "ਜਾਣਕਾਰੀ ਖੁਦ ਦਿਓ"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
-#. random value here
+#. which you know hosts at least one Debian HTTP mirror and which is
+#. network-wise near by your country.
+#. Please check that the country really has a Debian HTTP mirror before
+#. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
-#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist.in
 #.
-#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#. BE CAREFUL to only use the TWO LETTER ISO-3166 CODE and nothing else!
 #.
-#. You do not need to translate what's between the square brackets
+#. You do not need to translate what's between the square brackets.
 #. You should even NOT put square brackets in translations:
+#. Do it like this:
 #. msgid "US[ Default value for http]"
 #. msgstr "FR"
 #. :sl1:
