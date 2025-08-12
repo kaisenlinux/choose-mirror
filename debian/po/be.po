@@ -23,34 +23,34 @@ msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2024-10-16 20:01+0000\n"
-"PO-Revision-Date: 2023-04-27 15:36+0300\n"
-"Last-Translator: Viktar Siarheichyk <vics@eq.by>\n"
+"PO-Revision-Date: 2025-06-22 09:21+0000\n"
+"Last-Translator: Joe <happenstance@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Belarusian <i18n@mova.org>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
-msgstr "Якую версію Debian патрэбна ўсталяваць:"
+msgid "Kaisen version to install:"
+msgstr "Якую версію Kaisen патрэбна ўсталяваць:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Debian выпускаецца ў некалькіх варыянтах. Стабільны - добра пратэставаны і "
+"Kaisen выпускаецца ў некалькіх варыянтах. Стабільны - добра пратэставаны і "
 "рэдка змяняецца. Нестабільны - нетэставаны і змяняецца часта. Тэставы - гэта "
 "кампрамісны варыянт, які дадаецца новымі версіямі з нестабільнага, калі яны "
 "не вельмі сырыя."
@@ -66,8 +66,8 @@ msgstr "Пералічаны толькія тыя варыянты, што ёс
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
-msgstr "Праверка люстэрка архіву Debian"
+msgid "Checking the Kaisen archive mirror"
+msgstr "Праверка люстэрка архіву Kaisen"
 
 #. Type: text
 #. Description
@@ -88,13 +88,13 @@ msgstr "Вярнуцца і паспрабаваць іншае люстэрка
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Выбраная (стандартная) версія Debian (${RELEASE}) недасяжная на вылучаным "
-"люстэрку. Магчыма працягнуць і вылучыць іншы выпуск Debian для ўсталявання, "
+"Выбраная (стандартная) версія Kaisen (${RELEASE}) недасяжная на вылучаным "
+"люстэрку. Магчыма працягнуць і вылучыць іншы выпуск Kaisen для ўсталявання, "
 "але лепей вярнуцца на крок назад і вылучыць люстэрка, што падтрымлівае "
 "патрэбную версію."
 
@@ -103,17 +103,17 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Люстэрка архіву Debian парушана"
+msgstr "Люстэрка архіву Kaisen парушана"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
-"Адбылася памылка падчас спробы выкарыстання выбранага люстэрка архіву Debian."
+"Адбылася памылка падчас спробы выкарыстання выбранага люстэрка архіву Kaisen."
 
 #. Type: error
 #. Description
@@ -123,11 +123,11 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "Магчымыя прычыны памылкі: выбрана няправільнае люстэрка; люстэрка недасяжнае "
 "(бо праблемы с сеціўным далучэннем); люстэрка сапсавана (напрыклад, "
-"нядзейсны файл Release); люстэрка не падтрымлівае патрэбную версію Debian."
+"нядзейсны файл Release); люстэрка не падтрымлівае патрэбную версію Kaisen."
 
 #. Type: error
 #. Description
@@ -159,10 +159,10 @@ msgstr "Архітэктура не падтрымліваецца"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Здаецца, вызначанае люстэрка архіву Debian не падтрымлівае Вашую "
+"Здаецца, вызначанае люстэрка архіву Kaisen не падтрымлівае Вашую "
 "архітэктуру. Калі ласка, паспрабуйце іншае люстэрка."
 
 #. Type: text
@@ -199,8 +199,8 @@ msgstr "нестабільны"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
-msgstr "Выберыце люстэрка архіву Debian"
+msgid "Choose a mirror of the Kaisen archive"
+msgstr "Выберыце люстэрка архіву Kaisen"
 
 #. Type: select
 #. Choices
@@ -216,9 +216,9 @@ msgstr "Увесці інфармацыю самастойна"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror and which is
+#. which you know hosts at least one Kaisen HTTP mirror and which is
 #. network-wise near by your country.
-#. Please check that the country really has a Debian HTTP mirror before
+#. Please check that the country really has a Kaisen HTTP mirror before
 #. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
@@ -244,8 +244,8 @@ msgstr "BY"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
-msgstr "Краіна люстэрка архіву Debian:"
+msgid "Kaisen archive mirror country:"
+msgstr "Краіна люстэрка архіву Kaisen:"
 
 #. Type: select
 #. Description
@@ -256,11 +256,11 @@ msgstr "Краіна люстэрка архіву Debian:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Мэта - знайсці найбліжэйшы сеткавы вузел з люстэркам архіву Debian. Майце на "
+"Мэта - знайсці найбліжэйшы сеткавы вузел з люстэркам архіву Kaisen. Майце на "
 "ўвазе, што навакольныя краіны, і нават Ваша ўласная, не ва ўсіх выпадках "
 "забяспечваюць найлепшы доступ."
 
@@ -272,8 +272,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
-msgstr "Люстэрка архіву Debian:"
+msgid "Kaisen archive mirror:"
+msgstr "Люстэрка архіву Kaisen:"
 
 #. Type: select
 #. Description
@@ -284,11 +284,11 @@ msgstr "Люстэрка архіву Debian:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Калі ласка, пазначце люстэрка архіву Debian. Калі Вы не ведаеце, з якім з "
+"Калі ласка, пазначце люстэрка архіву Kaisen. Калі Вы не ведаеце, з якім з "
 "люстэркаў магчымае найлепшае internet-спалучэнне, раім выкарыстаць люстэрка "
 "ў Вашай краіне ці рэгіёне."
 
@@ -297,7 +297,7 @@ msgstr ""
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
 msgid "Usually, deb.debian.org is a good choice."
-msgstr "Звычайна добры выбар - deb.debian.org"
+msgstr "Звычайна добры выбар — deb.debian.org."
 
 #. Type: string
 #. Description
@@ -307,8 +307,8 @@ msgstr "Звычайна добры выбар - deb.debian.org"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
-msgstr "Назва вузлу з люстэркам архіву Debian:"
+msgid "Kaisen archive mirror hostname:"
+msgstr "Назва вузлу з люстэркам архіву Kaisen:"
 
 #. Type: string
 #. Description
@@ -319,8 +319,8 @@ msgstr "Назва вузлу з люстэркам архіву Debian:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr "Калі ласка, увядзіце адрас люстэрка, з якога будзе спампаваны Debian."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
+msgstr "Калі ласка, увядзіце адрас люстэрка, з якога будзе спампаваны Kaisen."
 
 #. Type: string
 #. Description
@@ -335,15 +335,15 @@ msgid ""
 "format."
 msgstr ""
 "Альтэрнатыўны порт можа быць вызначаны ў стандартным фармаце [імя вузла]:"
-"[порт]"
+"[порт]."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
-msgstr "Каталог з люстэркам архіва Debian:"
+msgid "Kaisen archive mirror directory:"
+msgstr "Каталог з люстэркам архіва Kaisen:"
 
 #. Type: string
 #. Description
@@ -351,9 +351,9 @@ msgstr "Каталог з люстэркам архіва Debian:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
-msgstr "Калі ласка, увядзіце каталог, у якім месціцца люстэрка архіва Debian."
+msgstr "Калі ласка, увядзіце каталог, у якім месціцца люстэрка архіва Kaisen."
 
 #. Type: string
 #. Description
@@ -409,8 +409,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
@@ -432,7 +432,7 @@ msgstr "BY"
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "Звычайна добры выбар - ftp.<код Вашай краіны>.debian.org"
+msgstr "Звычайна ftp.<код вашай краіны>.debian.org з'яўляецца добрым выбарам."
 
 #. Type: select
 #. Description

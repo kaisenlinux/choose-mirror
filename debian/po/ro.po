@@ -39,8 +39,8 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2024-10-16 20:01+0000\n"
-"PO-Revision-Date: 2024-04-22 06:07+0000\n"
-"Last-Translator: ThinkRoot <social@crism.ro>\n"
+"PO-Revision-Date: 2024-12-04 12:00+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -53,84 +53,84 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
-msgstr "Versiunea Debian de instalat:"
+msgid "Kaisen version to install:"
+msgstr "Versiunea Kaisen de instalat:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Debian are diverse versiuni. „stabil” - foarte bine testată și se schimbă "
-"foarte rar. „instabil” este netestat și se schimbă frecvent. „testare” este "
-"undeva la mijloc; primește multe din noile versiuni din „instabil”, dacă "
-"acestea nu au probleme prea mari."
+"Kaisen are diverse versiuni. „stabilă” - foarte bine testată și se schimbă "
+"foarte rar. „instabilă” este netestată și se schimbă frecvent. „testare” "
+"este undeva la mijloc; primește multe din noile versiuni din „instabilă”, "
+"dacă acestea nu au probleme prea mari."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Only flavors available on the selected mirror are listed."
-msgstr "Sunt afișate doar variantele disponibile pe situl alternativ selectat."
+msgstr "Sunt afișate doar variantele disponibile pe oglinda selectată."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
-msgstr "Se verifică situl alternativ al arhivei Debian"
+msgid "Checking the Kaisen archive mirror"
+msgstr "Se verifică oglinda arhivei Kaisen"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:6001
 msgid "Downloading Release files..."
-msgstr "Se descarcă fișierele de lansare..."
+msgstr "Se descarcă fișierele „Release”..."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid "Go back and try a different mirror?"
-msgstr "Reveniți și alegeți un alt sit alternativ?"
+msgstr "Reveniți la pasul anterior și alegeți o altă oglindă?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Versiunea Debian specificată (implicită) (${RELEASE}) nu este disponibilă pe "
-"situl alternativ ales. Puteți să continuați și să alegeți o versiune "
-"diferită pentru instalare, dar în mod normal ar trebuie să reveniți și să "
-"selectați un alt sit alternativ care suportă versiunea corectă."
+"Versiunea Kaisen specificată (implicită) (${RELEASE}) nu este disponibilă de "
+"la oglinda aleasă. Puteți să continuați și să alegeți o versiune diferită "
+"pentru instalare, dar în mod normal ar trebuie să reveniți la pasul anterior "
+"și să selectați o altă oglindă care furnizează versiunea corectă."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Sit pentru arhivă defect"
+msgstr "Oglindă de arhivă defectuoasă"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
-"A fost detectată o eroare în timp ce se încerca folosirea sitului alternativ "
-"Debian specificat."
+"A fost detectată o eroare în timp ce se încerca folosirea oglinzii de arhivă "
+"Kaisen specificată."
 
 #. Type: error
 #. Description
@@ -140,12 +140,12 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
-"Posibile cauze pentru eroare sunt: situl alternativ specificat este "
-"incorect; situl alternativ nu este disponibil (spre exemplu deoarece s-a "
-"găsit un fișier Release invalid); situl alternativ nu suportă versiunea "
-"Debian corectă."
+"Cauzele posibile ale erorii sunt: oglinda specificată incorect; oglinda nu "
+"este disponibilă (posibil din cauza unei conexiuni de rețea nesigure); "
+"oglinda este deteriorată (de exemplu pentru că a fost găsit un fișier "
+"Release nevalid); oglinda nu furnizează versiunea Kaisen corectă."
 
 #. Type: error
 #. Description
@@ -155,15 +155,15 @@ msgid ""
 "Additional details may be available in /var/log/syslog or on virtual console "
 "4."
 msgstr ""
-"Se pot găsi detalii suplimentare în /var/log/syslog sau în consola virtuală "
-"4."
+"Detalii suplimentare pot fi disponibile în „/var/log/syslog” sau în consola "
+"virtuală 4."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Please check the specified mirror or try a different one."
-msgstr "Verificați situl alternativ specificat sau încercați altul."
+msgstr "Verificați oglinda specificată sau încercați alta."
 
 #. Type: error
 #. Description
@@ -177,25 +177,25 @@ msgstr "Arhitectură fără suport"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Situl arhivei Debian menționat se pare că nu oferă suport pentru arhitectura "
-"dumneavoastră. Vă rugăm să alegeți un alt sit."
+"Oglinda arhivei Kaisen menționată se pare că nu oferă suport pentru "
+"arhitectura dumneavoastră. Vă rugăm să alegeți o altă oglindă."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:10001
 msgid "oldstable"
-msgstr "stabil precedent"
+msgstr "stabilă-veche"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:11001
 msgid "stable"
-msgstr "stabil"
+msgstr "stabilă"
 
 #. Type: text
 #. Description
@@ -209,7 +209,7 @@ msgstr "testare"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:13001
 msgid "unstable"
-msgstr "instabil"
+msgstr "instabilă"
 
 #. Type: text
 #. Description
@@ -217,8 +217,8 @@ msgstr "instabil"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
-msgstr "Alegeți un sit alternativ a arhivei Debian"
+msgid "Choose a mirror of the Kaisen archive"
+msgstr "Alegeți o oglindă a arhivei Kaisen"
 
 #. Type: select
 #. Choices
@@ -234,9 +234,9 @@ msgstr "introduceți informația manual"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror and which is
+#. which you know hosts at least one Kaisen HTTP mirror and which is
 #. network-wise near by your country.
-#. Please check that the country really has a Debian HTTP mirror before
+#. Please check that the country really has a Kaisen HTTP mirror before
 #. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
@@ -262,8 +262,8 @@ msgstr "RO"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
-msgstr "Țara sitului cu arhiva Debian:"
+msgid "Kaisen archive mirror country:"
+msgstr "Țara oglinzii arhivei Kaisen:"
 
 #. Type: select
 #. Description
@@ -274,13 +274,13 @@ msgstr "Țara sitului cu arhiva Debian:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Scopul este de a găsi un sit al arhivei Debian care se află aproape de dvs. "
-"în rețea -- fiți atenți la faptul că este posibil ca țările din apropiere, "
-"sau chiar țara dvs., să nu fie cea mai bună alegere."
+"Scopul este de a găsi o oglindă a arhivei Kaisen care se află aproape de "
+"dvs. în rețea -- fiți atenți la faptul că este posibil ca țările din "
+"apropiere, sau chiar țara dvs., să nu fie cea mai bună alegere."
 
 #. Type: select
 #. Description
@@ -290,8 +290,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
-msgstr "Situl alternativ al arhivei Debian:"
+msgid "Kaisen archive mirror:"
+msgstr "Oglinda arhivei Kaisen:"
 
 #. Type: select
 #. Description
@@ -302,13 +302,13 @@ msgstr "Situl alternativ al arhivei Debian:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Vă rugăm să selectați un sit alternativ pentru arhiva Debian. Ar trebui să "
-"folosiți un sit din țara sau regiunea dvs. dacă nu știți care sit are cea "
-"mai bună conexiune la internet pentru dvs."
+"Vă rugăm să selectați o oglindă a arhivei Kaisen. Ar trebui să folosiți o "
+"oglindă din țara sau regiunea dvs. dacă nu știți care oglindă are cea mai "
+"bună conexiune la Internet pentru dvs."
 
 #. Type: select
 #. Description
@@ -325,8 +325,8 @@ msgstr "De obicei, deb.debian.org este o alegere bună."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
-msgstr "Numele de gazdă al sitului alternativ cu arhiva Debian:"
+msgid "Kaisen archive mirror hostname:"
+msgstr "Numele de gazdă a oglinzii arhivei Kaisen:"
 
 #. Type: string
 #. Description
@@ -337,10 +337,10 @@ msgstr "Numele de gazdă al sitului alternativ cu arhiva Debian:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
 msgstr ""
-"Vă rugăm să introduceți numele de gazdă al sitului alternativ de pe care se "
-"va descărca Debian."
+"Vă rugăm să introduceți numele de gazdă a oglinzii de la care se va descărca "
+"Kaisen."
 
 #. Type: string
 #. Description
@@ -362,8 +362,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
-msgstr "Directorul pe situl alternativ al arhivei Debian:"
+msgid "Kaisen archive mirror directory:"
+msgstr "Directorul oglinzii arhivei Kaisen:"
 
 #. Type: string
 #. Description
@@ -371,17 +371,18 @@ msgstr "Directorul pe situl alternativ al arhivei Debian:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
 msgstr ""
-"Vă rugăm să introduceți directorul în care se află arhiva Debian pe sit."
+"Vă rugăm să introduceți directorul în care se află oglinda arhivei Kaisen."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "Informații despre proxy-ul HTTP (lăsați gol dacă nu există):"
+msgstr ""
+"Informații despre proxy-ul HTTP (lăsați acest câmp gol dacă nu există):"
 
 #. Type: string
 #. Description
@@ -391,8 +392,8 @@ msgid ""
 "If you need to use a HTTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"Dacă aveți nevoie de un proxy HTTP pentru a accesa internetul, introduceți "
-"informațiile despre proxy aici. Altfel, lăsați gol."
+"Dacă aveți nevoie de un proxy HTTP pentru a accesa Internetul, introduceți "
+"informațiile despre proxy aici. Altfel, lăsați gol acest câmp."
 
 #. Type: string
 #. Description
@@ -406,8 +407,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Informațiile despre proxy trebuie introduse în forma standard \"http://"
-"[[utilizator][:parolă]@]gazdă[:port]/\"."
+"Informațiile despre proxy trebuie introduse în formatul standard „http://"
+"[[utilizator][:parolă]@]gazdă[:port]/”."
 
 #. Type: string
 #. Description
@@ -425,13 +426,13 @@ msgid ""
 "information here. Otherwise, leave this blank."
 msgstr ""
 "Dacă aveți nevoie de un proxy FTP pentru a accesa internetul, introduceți "
-"informațiile despre proxy aici. Altfel, lăsați gol."
+"informațiile despre proxy în acest câmp. Altfel, lăsați-l gol."
 
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
@@ -471,6 +472,6 @@ msgid ""
 "Please select the protocol to be used for downloading files. If unsure, "
 "select \"http\"; it is less prone to problems involving firewalls."
 msgstr ""
-"Vă rugăm să selectați protocolul utilizat pentru descărcarea fișierelor. "
-"Dacă știți sigur, selectați „http”; este mai puțin probabil să creeze "
-"probleme legate de firewall-uri."
+"Vă rugăm să selectați protocolul care urmează să fie utilizat pentru "
+"descărcarea fișierelor. Dacă nu sunteți sigur, selectați „http”; acesta este "
+"mai puțin predispus la probleme legate de paravanele de protecție."

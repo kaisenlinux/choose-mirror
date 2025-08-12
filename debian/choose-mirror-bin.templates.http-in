@@ -7,9 +7,9 @@ Choices-C: manual
 #flag:partial
 __Choices: enter information manually
 #  Translators, you should put here the ISO 3166 code of a country
-#  which you know hosts at least one Debian HTTP mirror and which is
+#  which you know hosts at least one Kaisen HTTP mirror and which is
 #  network-wise near by your country.
-#  Please check that the country really has a Debian HTTP mirror before
+#  Please check that the country really has a Kaisen HTTP mirror before
 #  putting a random value here.
 #
 #  First check that the country you mention here is listed in
@@ -25,8 +25,8 @@ __Choices: enter information manually
 # :sl1:
 _Default: US[ Default value for http]
 # :sl1:
-_Description: Debian archive mirror country:
- The goal is to find a mirror of the Debian archive that is close to you on the network -- be
+_Description: Kaisen archive mirror country:
+ The goal is to find a mirror of the Kaisen archive that is close to you on the network -- be
  aware that nearby countries, or even your own, may not be the best choice.
 
 Template: mirror/http/mirror
@@ -34,8 +34,8 @@ Type: select
 Choices: ${mirrors}
 Default: deb.debian.org
 # :sl1:
-_Description: Debian archive mirror:
- Please select a Debian archive mirror. You should use a mirror in
+_Description: Kaisen archive mirror:
+ Please select a Kaisen archive mirror. You should use a mirror in
  your country or region if you do not know which mirror has the best
  Internet connection to you.
  .
@@ -45,8 +45,8 @@ Template: mirror/http/hostname
 Type: string
 Default: deb.debian.org
 # :sl1:
-_Description: Debian archive mirror hostname:
- Please enter the hostname of the mirror from which Debian will be downloaded.
+_Description: Kaisen archive mirror hostname:
+ Please enter the hostname of the mirror from which Kaisen will be downloaded.
  .
  An alternate port can be specified using the standard [hostname]:[port]
  format.
@@ -55,8 +55,8 @@ Template: mirror/http/directory
 Type: string
 Default: /debian/
 # :sl2:
-_Description: Debian archive mirror directory:
- Please enter the directory in which the mirror of the Debian archive is
+_Description: Kaisen archive mirror directory:
+ Please enter the directory in which the mirror of the Kaisen archive is
  located.
 
 Template: mirror/http/proxy

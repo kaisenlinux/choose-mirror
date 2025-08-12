@@ -3,9 +3,9 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Bangla translation of Debian-Installer.
-# Copyright (C) 2005, 2006, Debian Foundation.
-# This file is distributed under the same license as the Debian-Installer package.
+# Bangla translation of Kaisen-Installer.
+# Copyright (C) 2005, 2006, Kaisen Foundation.
+# This file is distributed under the same license as the Kaisen-Installer package.
 # Anubadok, the en2bn auto-translator by Golam Mortuza Hossain <golam@imsc.res.in>, 2005.
 # Baishampayan Ghose <b.ghose@gnu.org.in>, 2005-2006.
 # Quazi Ashfaq-ur Rahman <quazi.ashfaq@gmail.com>, 2005.
@@ -21,7 +21,7 @@
 # Indrani Roy <indrani@scriptek.co.in>, 2021.
 #
 # Translations from iso-codes:
-#   Debian Foundation, 2005.
+#   Kaisen Foundation, 2005.
 #   Progga <progga@BengaLinux.Org>, 2005.
 #   Jamil Ahmed <jamil@bengalinux.org>, 2006.
 #   Md. Rezwan Shahid <rezwan@ankur.org.bd>, 2009.
@@ -46,7 +46,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
+msgid "Kaisen version to install:"
 msgstr "ডেবিয়ানের যে সংস্করণটি ইনস্টল করা হবে:"
 
 #. Type: select
@@ -54,7 +54,7 @@ msgstr "ডেবিয়ানের যে সংস্করণটি ইনস
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
@@ -76,7 +76,7 @@ msgstr "নির্বাচিত মিররে শুধুমাত্র 
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
+msgid "Checking the Kaisen archive mirror"
 msgstr "ডেবিয়ান আর্কাইভ মিরর (mirror) যাচাই করা হচ্ছে"
 
 #. Type: text
@@ -98,7 +98,7 @@ msgstr "পিছনে যান এবং একটি ভিন্ন মি�
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
@@ -120,7 +120,7 @@ msgstr "ত্রুটিপূর্ণ আর্কাইভ মিরর"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
 "উল্লেখিত ডেবিয়ান আর্কাইভ ম্যানেজার ব্যবহারের চেষ্টা করার সময় একটি ত্রুটি চিহ্নিত করা "
@@ -134,7 +134,7 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "ত্রুটির সম্ভাব্য কারনসমূহ হলো: ভুল মিরর উল্লেখ করা হয়েছে; মিররটি পাওয়া যায় না "
 "(সম্ভবত অনির্ভরযোগ্য নেটওয়ার্ক সলযোগের কারণে); মিররটি ব্রোকেন (যেমন, একটি অবৈধ "
@@ -168,7 +168,7 @@ msgstr "এই স্থাপত্যের কম্পিউটার সম
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
 "উল্লেখিত ডেবিয়ান আর্কাইভ মিররটি সম্ভবত আপনার কম্পিউটার স্থাপত্যকে সমর্থন করে না। "
@@ -208,7 +208,7 @@ msgstr "অব্যবহারযোগ্য"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
+msgid "Choose a mirror of the Kaisen archive"
 msgstr "ডেবিয়ান আর্কাইভের একটি মিরর বেছে নিন"
 
 #. Type: select
@@ -225,9 +225,9 @@ msgstr "নিজ হাতে তথ্য ঢোকান"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror and which is
+#. which you know hosts at least one Kaisen HTTP mirror and which is
 #. network-wise near by your country.
-#. Please check that the country really has a Debian HTTP mirror before
+#. Please check that the country really has a Kaisen HTTP mirror before
 #. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
@@ -253,7 +253,7 @@ msgstr "IN"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
+msgid "Kaisen archive mirror country:"
 msgstr "ডেবিয়ান আর্কাইভ মিররটি যে দেশে অবস্থিত:"
 
 #. Type: select
@@ -265,7 +265,7 @@ msgstr "ডেবিয়ান আর্কাইভ মিররটি যে �
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
@@ -281,7 +281,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
+msgid "Kaisen archive mirror:"
 msgstr "ডেবিয়ান আর্কাইভ মিরর:"
 
 #. Type: select
@@ -293,7 +293,7 @@ msgstr "ডেবিয়ান আর্কাইভ মিরর:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
@@ -316,7 +316,7 @@ msgstr "সাধারণত, deb.debian.org একটি ভাল পছন�
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
+msgid "Kaisen archive mirror hostname:"
 msgstr "ডেবিয়ান আর্কাইভ মিরর-এর হোস্টনাম:"
 
 #. Type: string
@@ -328,7 +328,7 @@ msgstr "ডেবিয়ান আর্কাইভ মিরর-এর হো�
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
 msgstr "ডেবিয়ান যে মিরর থেকে ডাউনলোড করা হবে, অনুগ্রহপূর্বক তার হোস্টনাম লিখুন।"
 
 #. Type: string
@@ -351,7 +351,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
+msgid "Kaisen archive mirror directory:"
 msgstr "ডেবিয়ান আর্কাইভ মিরর ডিরেক্টরি:"
 
 #. Type: string
@@ -360,7 +360,7 @@ msgstr "ডেবিয়ান আর্কাইভ মিরর ডিরেক
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
 msgstr ""
 "ডেবিয়ান আর্কাইভের মিরর যে ডিরেক্টরিতে অবস্থিত, অনুগ্রহপূর্বক সেখানে প্রবেশ করুন।"
@@ -419,8 +419,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

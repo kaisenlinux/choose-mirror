@@ -1,8 +1,8 @@
 Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 
---- choose-mirror-2.128.orig/Mirrors.masterlist
-+++ choose-mirror-2.128/Mirrors.masterlist
-@@ -1,2862 +1,6 @@
+--- choose-mirror-2.133.orig/Mirrors.masterlist
++++ choose-mirror-2.133/Mirrors.masterlist
+@@ -1,2902 +1,6 @@
 -Site: cdimage.debian.org
 -Country: SE Sweden
 -Type: Origin
@@ -33,7 +33,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: free.hands.com
 -Country: GB United Kingdom
 -Location: London
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Hands.com Ltd http://www.hands.com/
@@ -42,7 +42,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: ftp.debian.cz
 -Country: CZ Czech Republic
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: CESNET http://www.cesnet.cz/
@@ -63,10 +63,19 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Sponsor: Technical University of Dresden, Dept. of Computer Science http://www.inf.tu-dresden.de/
 -Comment: offers ssh triggers for downstream mirrors, contact maintainer for setup - see https://www.debian.org/mirror/push_mirroring
 -
+-Site: ftp.task.gda.pl
+-Country: PL Poland
+-Location: Gdańsk
+-Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: ftp/site/debian/
+-CDImage-rsync: debian-iso/
+-Sponsor: Technical University of Gdańsk http://www.task.gda.pl/
+-
 -Site: debian.uevora.pt
 -Country: PT Portugal
 -Location: Évora
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -75,7 +84,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: debian.proxad.net
 -Country: FR France
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Proxad http://www.proxad.net/
@@ -84,7 +93,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.acc.umu.se
 -Country: SE Sweden
 -Location: Umeå
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -95,7 +104,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: www.nic.funet.fi
 -Country: FI Finland
 -Location: Espoo
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: ftp/pub/mirrors/ftp.debian.org/debian/
 -Sponsor: Finnish Academic and Research Network FUNET http://www.funet.fi/
@@ -103,7 +112,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.csail.mit.edu
 -Country: US United States
 -Location: Cambridge, Massachusetts
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: MIT Computer Science and Artificial Intelligence Laboratory http://www.csail.mit.edu/
@@ -122,7 +131,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.snt.utwente.nl
 -Country: NL Netherlands
 -Location: Enschede
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Old-http: /debian-archive/
@@ -136,31 +145,16 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.lug.mtu.edu
 -Country: US United States
 -Location: Houghton, Michigan
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
 -CDImage-rsync: debian-cd/
 -
--Site: ftp.kaist.ac.kr
--Country: KR Korea, Republic of
--Location: Daejeon
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--Archive-rsync: debian/
--Ports-architecture: alpha hppa hurd-amd64 hurd-i386 ia64 loong64 m68k powerpc ppc64 sh4 sparc64 x32
--Ports-http: /debian-ports/
--Ports-rsync: debian-ports/
--Old-http: /debian-archive/
--Old-rsync: debian-archive/
--CDImage-http: /debian-cd/
--Sponsor: Korea Advanced Institute of Science and Technology http://www.kaist.ac.kr/
--Sponsor: SPARCS http://sparcs.kaist.ac.kr/
--
 -Site: debian.mirror.rafal.ca
 -Country: CA Canada
 -Location: Ontario
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Rafal Rzeczkowski http://www.rafal.ca/
@@ -170,7 +164,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.ethz.ch
 -Country: CH Switzerland
 -Location: Zurich, Hoenggerberg
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Old-http: /debian-archive/
@@ -182,7 +176,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: ulises.hostalia.com
 -Country: ES Spain
--Archive-architecture: amd64 arm64 armel armhf i386 mips mipsel riscv64
+-Archive-architecture: amd64 arm64 armel armhf i386 mipsel riscv64
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Hostalia http://www.hostalia.com/
@@ -206,7 +200,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.halifax.rwth-aachen.de
 -Country: DE Germany
 -Location: Aachen, Germany
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: /debian/
 -CDImage-http: /debian-cd/
@@ -216,7 +210,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.mephi.ru
 -Country: RU Russian Federation
 -Location: Russian Federation, Moscow
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Old-http: /debian-archive/
@@ -236,7 +230,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.ec-m.fr
 -Country: FR France
 -Location: Marseille
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Ecole Centrale Marseille https://cri.centrale-marseille.fr/
@@ -244,7 +238,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.kku.ac.th
 -Country: TH Thailand
 -Location: Khon Kaen
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Computer Center, Khon Kaen University http://www.computer.kku.ac.th/
@@ -252,14 +246,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: deb-mir1.naitways.net
 -Country: FR France
 -Location: Paris 19e
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Naitways http://www.naitways.com
 -
 -Site: debian.cc.lehigh.edu
 -Country: US United States
 -Location: Bethlehem, Pennsylvania
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Lehigh University http://www.lehigh.edu/
@@ -267,7 +261,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.mirror.vu.lt
 -Country: LT Lithuania
 -Location: Lithuania, Vilnius (Vilnius University)
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -276,7 +270,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: mirror.eu.oneandone.net
 -Country: DE Germany
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Old-http: /linux/distributions/debian/debian-archive/
@@ -286,7 +280,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.us.oneandone.net
 -Country: US United States
 -Location: Lenexa, KS
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: 1&1 Internet http://1and1.com
@@ -294,7 +288,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.it.ubc.ca
 -Country: CA Canada
 -Location: Vancouver
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: The University of British Columbia http://www.ubc.ca/
 -
@@ -308,7 +302,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.ustc.edu.cn
 -Country: CN China
 -Location: Hefei
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-rsync: debian-cd/
@@ -340,7 +334,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.volia.net
 -Country: UA Ukraine
 -Location: Kiev
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Old-http: /debian-archive/
@@ -348,6 +342,13 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -CDImage-http: /debian-cd/
 -CDImage-rsync: debian-cd/
 -Sponsor: Volia Broadband http://www.volia.com/
+-
+-Site: ftp.agh.edu.pl
+-Country: PL Poland
+-Location: AGH Kraków
+-Archive-architecture: amd64 arm64 armel armhf i386 riscv64
+-Archive-http: /debian/
+-Sponsor: AGH University of Science and Technology http://www.agh.edu.pl
 -
 -Site: mirror.sinavps.ch
 -Country: CH Switzerland
@@ -360,7 +361,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.nautile.nc
 -Country: NC New Caledonia
 -Location: Noumea, New Caledonia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -376,7 +377,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: mirror.as35701.net
 -Country: BE Belgium
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -390,7 +391,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: debian.cs.nycu.edu.tw
 -Country: TW Taiwan
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -400,7 +401,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.byfly.by
 -Country: BY Belarus
 -Location: Minsk
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -410,7 +411,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: miroir.univ-lorraine.fr
 -Country: FR France
 -Location: Nancy
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -CDImage-architecture: amd64 i386 multi-arch
 -CDImage-http: /debian-cd/
@@ -419,7 +420,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.linux.org.tr
 -Country: TR Turkey
 -Location: Ankara
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -452,7 +453,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.tu-bs.de
 -Country: DE Germany
 -Location: Braunschweig
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Technische Universität Braunschweig https://www.tu-bs.de/
@@ -460,7 +461,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.u-picardie.fr
 -Country: FR France
 -Location: Amiens
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Université de Picardie http://www.u-picardie.fr/
 -
@@ -483,15 +484,24 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.litnet.lt
 -Country: LT Lithuania
 -Location: http://ftp.litnet.lt
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Lithuanian Academical and Research Network (LitNET) http://www.litnet.lt
 -
+-Site: dennou-k.gfd-dennou.org
+-Country: JP Japan
+-Location: Kyoto
+-Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: GFD-Dennou Club (地球流体電脳倶楽部) http://www.gfd-dennou.org/
+-Comment: Recommended for SINET (Science Information Network: http://www.sinet.ad.jp/) users only!
+-
 -Site: ftp.uio.no
 -Country: NO Norway
 -Location: Oslo
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -499,10 +509,20 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Sponsor: USIT, University of Oslo, Norway http://www.usit.uio.no/
 -Sponsor: Uninett http://www.uninett.no/
 -
+-Site: ftp.nara.wide.ad.jp
+-Country: JP Japan
+-Location: Nara
+-Archive-architecture: amd64 armel i386 mips mipsel
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-CDImage-http: /debian-cd/
+-CDImage-rsync: debian-cd/
+-Sponsor: NARA Institute of Science and Technology http://nara.aist-nara.ac.jp/
+-
 -Site: debian.sil.at
 -Country: AT Austria
 -Location: Vienna
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Silver Server http://www.sil.at/
@@ -511,7 +531,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.dotsrc.org
 -Country: DK Denmark
 -Location: Aalborg
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -521,23 +541,17 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.lanet.kr
 -Country: KR Korea, Republic of
 -Location: Seoul
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
 -CDImage-rsync: debian-cd/
 -Sponsor: LANET http://www.lanet.kr
 -
--Site: debian.redlibre.cl
--Country: CL Chile
--Location: Santiago - Las Condes
--Archive-architecture: amd64 arm64 armel armhf i386 mips mipsel s390x
--Archive-http: /debian/
--
 -Site: mirror.dkm.cz
 -Country: CZ Czech Republic
 -Location: Prague, Czech Republic
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -551,29 +565,13 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-http: /debian/
 -Sponsor: Hochschule Regensburg http://www.hs-regensburg.de
 -
--Site: mirrors.asnet.am
--Country: AM Armenia
--Location: Yerevan, Armenia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--CDImage-http: /debian-cd/
--Sponsor: Academic Scientific Research Computer http://www.asnet.am
--
 -Site: softlibre.unizar.es
 -Country: ES Spain
 -Location: Zaragoza
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Universidad de Zaragoza http://unizar.es
--
--Site: debian.redparra.com
--Country: ES Spain
--Location: Espana, Madrid
--Archive-architecture: amd64 i386
--Archive-http: /debian/
--Sponsor: Redparra Networks http://www.redparra.com
--Comment: Server status: http://status.redparra.com
 -
 -Site: mirror.applebred.net
 -Country: TH Thailand
@@ -589,32 +587,28 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-http: /debian/debian/
 -Sponsor: PlusServer GmbH http://www.plusserver.com/
 -
+-Site: debian-mirror.sakura.ne.jp
+-Country: JP Japan
+-Location: Ishikari, Hokkaido
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: Sakura Internet, Inc. http://www.sakura.ad.jp
+-
 -Site: mirrors.bloomu.edu
 -Country: US United States
 -Location: Bloomsburg, Pennsylvania
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
 -CDImage-rsync: debian-cd/
 -Sponsor: Bloomsburg University of Pennsylvania http://www.bloomu.edu
 -
--Site: mirror.one.com
--Country: DK Denmark
--Location: Copenhagen
--Archive-architecture: amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x
--Archive-http: /debian/
--Archive-rsync: debian/
--Old-http: /debian-archive/
--Old-rsync: debian-archive/
--CDImage-http: /debian-cd/
--CDImage-rsync: debian-cd/
--Sponsor: One.com http://www.one.com/
--
 -Site: debian.xtdv.net
 -Country: VN Vietnam
 -Location: Ho Chi Minh city
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: XTDV Group http://www.xtdv.group
@@ -622,7 +616,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.iway.ch
 -Country: CH Switzerland
 -Location: Zurich
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: iway AG http://www.iway.ch
@@ -630,20 +624,12 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.rnl.tecnico.ulisboa.pt
 -Country: PT Portugal
 -Location: Lisbon
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /pub/debian/
 -Archive-rsync: pub/debian/
 -CDImage-http: /pub/debian-cd/
 -CDImage-rsync: /pub/debian-cd/
 -Sponsor: RNL - Técnico Lisboa http://www.rnl.tecnico.ulisboa.pt
--
--Site: mirrors.namecheap.com
--Country: US United States
--Location: Phoenix, AZ, USA
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--Archive-rsync: debian/
--Sponsor: NameCheap.com http://www.namecheap.com
 -
 -Site: mirror.cedia.org.ec
 -Country: EC Ecuador
@@ -656,7 +642,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.mirror.digitalpacific.com.au
 -Country: AU Australia
 -Location: Sydney, Australia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -666,7 +652,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.anexia.at
 -Country: AT Austria
 -Location: Vienna
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -691,7 +677,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.ocf.berkeley.edu
 -Country: US United States
 -Location: Berkeley, California
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -701,7 +687,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.mirror.serversaustralia.com.au
 -Country: AU Australia
 -Location: Australia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Servers Australia Pty Ltd http://www.serversaustralia.com.au
 -
@@ -715,7 +701,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.mirror.lrz.de
 -Country: DE Germany
 -Location: Garching near Munich, Germany
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Leibniz Supercomputing Centre http://www.lrz.de
@@ -724,14 +710,26 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.rezopole.net
 -Country: FR France
 -Location: Lyon
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Rezopole http://www.rezopole.net
+-
+-Site: debian.mirror.globo.tech
+-Country: CA Canada
+-Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x
+-Archive-http: /debian/
+-Sponsor: GloboTech Communications http://www.globo.tech/
+-
+-Site: debian.mirror.uk.sargasso.net
+-Country: GB United Kingdom
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Sponsor: Sargasso Networks http://www.sargasso.co.uk/from/debian
 -
 -Site: mirror.insacom.cl
 -Country: CL Chile
 -Location: Valparaíso
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Insacom y Cia Ltda. https://www.insacom.cl/
@@ -739,45 +737,15 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.mirror.constant.com
 -Country: US United States
 -Location: Piscataway, New Jersey
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Constant.com http://www.constant.com
--
--Site: kartolo.sby.datautama.net.id
--Country: ID Indonesia
--Location: Surabaya, East Java, Indonesia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
--Archive-http: /debian/
--Archive-rsync: debian/
--CDImage-http: /debian-cd/
--CDImage-rsync: debian-cd/
--Sponsor: DATAUTAMA-NET-ID http://datautama.net.id/
--
--Site: mirrors.advancedhosters.com
--Country: US United States
--Location: Ashburn, VA
--Archive-architecture: amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x
--Archive-http: /debian/
--Archive-rsync: debian/
--Old-http: /debian-archive/
--Old-rsync: debian-archive/
--CDImage-http: /debian-cd/
--CDImage-rsync: debian-cd/
--Sponsor: AdvancedHosters http://www.advancedhosters.com
 -
 -Site: debian.xfree.com.ar
 -Country: AR Argentina
 -Location: Argentina
 -CDImage-http: /debian-cd/
 -Sponsor: John Knoll http://www.xfree.com.ar
--
--Site: mirror.vorboss.net
--Country: GB United Kingdom
--Location: London
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--CDImage-http: /debian-cd/
--Sponsor: Vorboss Limited http://www.vorboss.com
 -
 -Site: debian.grena.ge
 -Country: GE Georgia
@@ -790,14 +758,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.mirror.ac.ke
 -Country: KE Kenya
 -Location: JKML Bldg, University of Nairobi
--Archive-architecture: amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: KENET - (Kenya Education Network) http://www.kenet.or.ke
 -
 -Site: mirror.cogentco.com
 -Country: US United States
 -Location: Herndon, VA
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -807,7 +775,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.i3d.net
 -Country: NL Netherlands
 -Location: Rotterdam
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: i3D.net (INTERACTIVE 3D) http://www.i3d.net/
@@ -815,21 +783,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.mirror.iphh.net
 -Country: DE Germany
 -Location: Hamburg
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: IPHH Internet Port Hamburg GmbH https://www.iphh.net
--
--Site: mirror.pmf.kg.ac.rs
--Country: RS Serbia
--Location: Kragujevac
--Archive-architecture: amd64 armhf i386 kfreebsd-amd64
--Archive-http: /debian/
--Sponsor: Faculty of Science http://imi.pmf.kg.ac.rs/
 -
 -Site: merlin.fit.vutbr.cz
 -Country: CZ Czech Republic
 -Location: Brno
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el riscv64
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el riscv64
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: FIT BUT http://www.fit.vutbr.cz
@@ -852,7 +813,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.accretive-networks.net
 -Country: US United States
 -Location: Seattle, WA
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Old-http: /debian-archive/
@@ -861,7 +822,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: mirror.datacenter.by
 -Country: BY Belarus
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -880,7 +841,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.united-gameserver.de
 -Country: DE Germany
 -Location: Coburg, Germany
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: United Gameserver https://united-gameserver.de
@@ -888,24 +849,17 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.mirror.root.lu
 -Country: LU Luxembourg
 -Location: Steinsel
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
 -CDImage-rsync: debian-cd/
 -Sponsor: root S.A. http://www.root.lu/
 -
--Site: mirror.cse.iitk.ac.in
--Country: IN India
--Location: IIT Kanpur, Kanpur -208016, India
--Archive-architecture: amd64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386
--Archive-http: /debian/
--Sponsor: CSE Department, IIT Kanpur http://www.cse.iitk.ac.in/
--
 -Site: mirrors.ucr.ac.cr
 -Country: CR Costa Rica
 -Location: Centro de Informática
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -915,14 +869,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.ipacct.com
 -Country: BG Bulgaria
 -Location: Sofia, Bulgaria
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -
 -Site: mirror.ps.kz
 -Country: KZ Kazakhstan
 -Location: Almaty
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: PS Internet Company LLC https://www.ps.kz
@@ -933,20 +887,10 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-http: /debian/
 -CDImage-http: /debian-cd/
 -
--Site: mirror-prg.webglobe.com
--Country: CZ Czech Republic
--Location: Prague, Czech Republic
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--Archive-rsync: debian/
--CDImage-http: /debian-cd/
--CDImage-rsync: debian-cd/
--Sponsor: Webglobe https://wygroup.io/
--
 -Site: debian.cs.binghamton.edu
 -Country: US United States
 -Location: Binghamton, New York, USA
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Binghamton University Computer Science Department http://www.cs.binghamton.edu/
@@ -977,7 +921,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.csclub.uwaterloo.ca
 -Country: CA Canada
 -Location: Waterloo, Ontario
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: University of Waterloo Computer Science Club http://csclub.uwaterloo.ca/
@@ -988,13 +932,12 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-http: /debian/
 -Sponsor: GRN Serveis Telematics S.L. http://www.grn.cat/
 -
--Site: ftp.plusline.net
--Country: DE Germany
--Location: Frankfurt am Main
--Archive-architecture: amd64 i386
+-Site: mirror.overthewire.com.au
+-Country: AU Australia
+-Archive-architecture: amd64 arm64 armel i386
 -Archive-http: /debian/
--Archive-rsync: debian/
--Sponsor: Plus.line AG https://www.plusline.net
+-CDImage-http: /debian-cd/
+-Sponsor: Over The Wire http://www.overthewire.com.au
 -
 -Site: ftp.univ-pau.fr
 -Country: FR France
@@ -1028,7 +971,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.units.it
 -Country: IT Italy
 -Location: Trieste
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: University of Trieste http://www.units.it/
 -
@@ -1042,7 +985,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.udc.es
 -Country: ES Spain
 -Location: A Coruña, Spain
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Free Software Office, University of A Coruña http://softwarelibre.udc.es
 -
@@ -1085,17 +1028,10 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.netcologne.de
 -Country: DE Germany
 -Location: Koeln, Germany
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
--
--Site: artfiles.org
--Country: DE Germany
--Location: Hamburg
--Archive-architecture: amd64 i386
--Archive-http: /debian/
--Sponsor: Artfiels New Media GmbH http://www.artfiles.de
 -
 -Site: debian.intergenia.de
 -Country: DE Germany
@@ -1105,26 +1041,30 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-rsync: debian-linux/debian/
 -Sponsor: intergenia Webhosting AG http://www.intergenia.de
 -
--Site: mirrors.ircam.fr
--Country: FR France
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /pub/debian/
+-Site: debian.pop-sc.rnp.br
+-Country: BR Brazil
+-Location: Florianópolis
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-CDImage-architecture: amd64 i386
+-CDImage-http: /mirror/debian-cd/
+-Sponsor: PoP-SC/RNP http://www.pop-sc.rnp.br/
+-Comment: [2016] 10Gbps with RNP academic backbone, 2Gbps with Commodity ISP, 20Gbps with SC.IX.BR peering
 -
--Site: ftp.hosteurope.de
--Country: DE Germany
--Location: Cologne
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /mirror/ftp.debian.org/debian/
+-Site: ftp.jaist.ac.jp
+-Country: JP Japan
+-Location: Ishikawa
+-Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+-Archive-http: /debian/
 -Archive-rsync: debian/
--Old-http: /mirror/archive.debian.org/
--CDImage-http: /mirror/ftp.debian.org/debian-cd/
+-CDImage-http: /debian-cd/
 -CDImage-rsync: debian-cd/
--Sponsor: Host Europe GmbH http://www.hosteurope.de/
+-Sponsor: Japan Advanced Institute of Science and Technology http://www.jaist.ac.jp/
 -
 -Site: ftp.gwdg.de
 -Country: DE Germany
 -Location: Göttingen
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: pub/linux/debian/debian/
 -CDImage-http: /debian-cd/
@@ -1134,21 +1074,12 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.riken.jp
 -Country: JP Japan
 -Location: N35.779633, E139.615734
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /Linux/debian/debian/
 -Archive-rsync: debian/
 -CDImage-http: /Linux/debian/debian-cd/
 -CDImage-rsync: debian-cd/
 -Sponsor: RIKEN Accelerator Research Facility http://www.riken.go.jp/
--
--Site: ftp.uni-bayreuth.de
--Country: DE Germany
--Location: Bayreuth
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--CDImage-http: /debian-cd/
--Sponsor: University of Bayreuth http://www.uni-bayreuth.de/
--Comment: Rsync is on rsync.uni-bayreuth.de (aka btr0xq.rz.uni-bayreuth.de).
 -
 -Site: rsync.uni-bayreuth.de
 -Country: DE Germany
@@ -1162,23 +1093,15 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.uni-sofia.bg
 -Country: BG Bulgaria
 -Location: Sofia, 42.6740/23.3305
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: /debian/
 -CDImage-rsync: debian-cd/
 -Sponsor: University of Sofia http://www.uni-sofia.bg/
 -
--Site: mirror.corbina.net
--Country: RU Russian Federation
--Location: Moscow
--Archive-architecture: amd64
--Archive-http: /debian/
--CDImage-http: /debian-cd/
--Sponsor: Corbina telecom http://www.corbina.ru/
--
 -Site: opensource.nchc.org.tw
 -Country: TW Taiwan
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: National Center for High-Performance Computing https://www.nchc.org.tw/
 -
@@ -1195,7 +1118,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.caliu.cat
 -Country: ES Spain
 -Location: Barcelona
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -CDImage-http: /debian-cd/
 -Sponsor: CALIU - CAtalan GNU/LInux Users http://caliu.cat/
@@ -1211,7 +1134,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.bme.hu
 -Country: HU Hungary
 -Location: Budapest, Hungary
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -1220,14 +1143,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.mirror.garr.it
 -Country: IT Italy
 -Location: Milano
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: GARR/CILEA http://mirror.garr.it/
 -
 -Site: ftp.psn.ru
 -Country: RU Russian Federation
 -Location: Pushchino, Moscow Region
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -1237,14 +1160,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.tu-chemnitz.de
 -Country: DE Germany
 -Location: Chemnitz
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Technische Universität Chemnitz http://www.tu-chemnitz.de/
 -
 -Site: debian.koyanet.lv
 -Country: LV Latvia
 -Location: Riga
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Old-http: /debian-archive/
@@ -1256,7 +1179,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.csie.ntu.edu.tw
 -Country: TW Taiwan
 -Location: Taipei, Taiwan
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Department of Computer Science and Information Engineering, National Taiwan University https://www.csie.ntu.edu.tw/
@@ -1276,17 +1199,10 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-http: /debian/
 -Sponsor: University of West Bohemia http://ftp.zcu.cz/
 -
--Site: debian.balt.net
--Country: LT Lithuania
--Location: Vilnius
--Archive-architecture: amd64
--Archive-http: /debian/
--Sponsor: JSC Baltnetos Komunikacijos http://www.balt.net/
--
 -Site: debian.iskon.hr
 -Country: HR Croatia
 -Location: Zagreb
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Iskon Internet d.d. http://www.iskon.hr/
 -
@@ -1310,7 +1226,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.keystealth.org
 -Country: US United States
 -Location: Redwood City, California
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -1333,6 +1249,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -CDImage-rsync: debian-cd/
 -Sponsor: Computing Center, University of Applied Sciences Esslingen http://www.hs-esslingen.de/
 -
+-Site: ftp.sh.cvut.cz
+-Country: CZ Czech Republic
+-Location: Prague
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Sponsor: Silicon Hill, Czech Technical University Prague http://www.sh.cvut.cz/
+-Comment: run within a students club Silicon Hill (http://www.siliconhill.cz)
+-
 -Site: ftp.lip6.fr
 -Country: FR France
 -Location: Jussieu
@@ -1343,21 +1267,21 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.uchicago.edu
 -Country: US United States
 -Location: Chicago, Illinois
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: University of Chicago http://www.uchicago.edu/
 -
 -Site: debian.otenet.gr
 -Country: GR Greece
 -Location: Athens
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Cosmote https://cosmote.gr/
 -
 -Site: ftp.eq.uc.pt
 -Country: PT Portugal
 -Location: Coimbra
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /software/Linux/debian/
 -Sponsor: Faculty of Science and Technology, Coimbra University http://www.eq.uc.pt/
 -
@@ -1371,7 +1295,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.fau.de
 -Country: DE Germany
 -Location: Erlangen
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -1381,7 +1305,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.icm.edu.pl
 -Country: PL Poland
 -Location: Warsaw
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /pub/Linux/debian/
 -Archive-rsync: debian/
 -CDImage-http: /pub/Linux/debian-cd/
@@ -1391,7 +1315,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrorservice.org
 -Country: GB United Kingdom
 -Location: Canterbury
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /sites/ftp.debian.org/debian/
 -Archive-rsync: ftp.debian.org/debian/
 -CDImage-http: /sites/cdimage.debian.org/debian-cd/
@@ -1438,6 +1362,16 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-rsync: debian/
 -Sponsor: Australian Academic and Research Network http://www.aarnet.edu.au/
 -
+-Site: ftp.uni-stuttgart.de
+-Country: DE Germany
+-Location: Stuttgart, Germany
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-CDImage-http: /debian-cd/
+-CDImage-rsync: debian-cd/
+-Sponsor: Uni Stuttgart http://www.uni-stuttgart.de/
+-
 -Site: ftp.is.co.za
 -Country: ZA South Africa
 -Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x
@@ -1456,26 +1390,31 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.uni-mainz.de
 -Country: DE Germany
 -Location: Mainz
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Johannes Gutenberg University Mainz, ZDV http://www.zdv.uni-mainz.de
 -
 -Site: debian.redimadrid.es
 -Country: ES Spain
 -Location: Madrid
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: REDIMadrid http://www.redimadrid.es
 -
--Site: alcateia.ufscar.br
+-Site: mirror.ufscar.br
 -Country: BR Brazil
--Archive-architecture: amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-
+-Site: debian.repo.cure.edu.uy
+-Country: UY Uruguay
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel riscv64
 -Archive-http: /debian/
 -
 -Site: mirrors.wikimedia.org
 -Country: US United States
 -Location: Ashburn, VA, USA
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Wikimedia Foundation https://wikimediafoundation.org/
 -Comment: offers ssh triggers for downstream mirrors, contact maintainer for setup - see https://www.debian.org/mirror/push_mirroring
@@ -1483,15 +1422,32 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.uvigo.es
 -Country: ES Spain
 -Location: Vigo, España
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -CDImage-http: /debian-cd/
 -Sponsor: Universidade de Vigo http://uvigo.gal
 -
+-Site: pubmirror.plutex.de
+-Country: DE Germany
+-Location: Bremen
+-Archive-architecture: amd64 arm64 armhf i386
+-Archive-http: /debian/
+-Sponsor: PLUTEX GmbH https://plutex.de
+-
+-Site: mirrors.pidginhost.com
+-Country: RO Romania
+-Location: Bucharest
+-Archive-architecture: amd64 arm64 armel armhf i386 riscv64
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-CDImage-http: /debian-cd/
+-CDImage-rsync: debian-cd/
+-Sponsor: Pidgin Host https://www.pidginhost.com
+-
 -Site: debian.unnoba.edu.ar
 -Country: AR Argentina
 -Location: Junín, Buenos Aires
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel riscv64
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel riscv64
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: UNNOBA http://www.unnoba.edu.ar
@@ -1499,7 +1455,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.23m.com
 -Country: DE Germany
 -Location: Frankfurt am Main
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -1516,7 +1472,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.uni-hannover.de
 -Country: DE Germany
 -Location: Hannover
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/debian/
 -CDImage-http: /debian/debian-cd/
 -Sponsor: Uni Hannover http://www.luis.uni-hannover.de
@@ -1528,24 +1484,10 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-http: /debian/
 -Sponsor: Amaze Communication http://www.amaze.com.au/
 -
--Site: depot-debian.univ-reunion.fr
--Country: RE Réunion
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--
--Site: ftp.kddilabs.jp
--Country: JP Japan
--Location: Saitama
--Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64
--Archive-http: /pub/debian/
--Archive-rsync: debian/
--CDImage-http: /pub/debian-cd/
--Sponsor: KDDI Research, Inc. http://www.kddi-research.jp/english
--
 -Site: mirrors.glesys.net
 -Country: SE Sweden
 -Location: Falkenberg
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: GleSYS Internet Services AB http://glesys.se/
@@ -1565,6 +1507,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-rsync: debian/
 -Sponsor: UK-2 Ltd. https://www.uk2.net/
 -
+-Site: debian.connesi.it
+-Country: IT Italy
+-Location: Foligno (PG)
+-Archive-architecture: amd64 i386
+-Archive-http: /debian/
+-CDImage-http: /
+-Sponsor: Connesi s.p.a. http://www.connesi.it
+-
 -Site: debian-cd.repulsive.eu
 -Country: DE Germany
 -Archive-architecture: amd64 i386
@@ -1574,7 +1524,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.truenetwork.ru
 -Country: RU Russian Federation
 -Location: Novokuznetsk
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Old-http: /debian-archive/
@@ -1586,7 +1536,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.lzu.edu.cn
 -Country: CN China
 -Location: Lanzhou, Gansu
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -CDImage-http: /debian-cd/
 -Sponsor: Lanzhou University Open Source Society https://oss.lzu.edu.cn
@@ -1594,28 +1544,28 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.xtom.com.hk
 -Country: HK Hong Kong
 -Location: Hong Kong
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
 -CDImage-rsync: debian-cd/
 -Sponsor: xTom Hong Kong Limited https://xtom.com.hk/
 -
+-Site: mirror.duocast.net
+-Country: NL Netherlands
+-Location: Groningen, NL
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-CDImage-http: /debian-cd/
+-Sponsor: Duocast BV https://www.duocast.net/
+-
 -Site: mirror.nl.datapacket.com
 -Country: NL Netherlands
 -Location: Amsterdam
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -CDImage-http: /debian-cd/
 -Sponsor: DataPacket https://datapacket.com/
--
--Site: mirrors.xservers.ro
--Country: RO Romania
--Location: Bucharest, Romania
--Archive-architecture: amd64 arm64 armhf i386 mips64el ppc64el riscv64 s390x
--Archive-http: /debian/
--CDImage-http: /debian-cd/
--Sponsor: xServers http://xservers.ro
 -
 -Site: mirrors.coreix.net
 -Country: GB United Kingdom
@@ -1628,7 +1578,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.yz.yamagata-u.ac.jp
 -Country: JP Japan
 -Location: Yamagata
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -CDImage-http: /debian-cd/
 -Sponsor: Yamagatra University https://www.yamagata-u.ac.jp/
@@ -1637,14 +1587,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.wtnet.de
 -Country: DE Germany
 -Location: Norderstedt
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: wilhelm.tel GmbH http://www.wilhelm-tel.de
 -
 -Site: mirrors.nxthost.com
 -Country: RO Romania
 -Location: Bucharest
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: nxthost.com https://www.nxthost.com
@@ -1652,7 +1602,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.antik.sk
 -Country: SK Slovakia
 -Location: Kosice
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: ANTIK Telecom https://www.antik.sk/
@@ -1660,7 +1610,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.nav.ro
 -Country: RO Romania
 -Location: Bucharest
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: NAV Communications https://www.nav.ro/
@@ -1668,7 +1618,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ftp.linux.it
 -Country: IT Italy
 -Location: Milano
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Seeweb https://www.seeweb.it/
 -Comment: rsync access is available to other public mirrors
@@ -1681,14 +1631,6 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-rsync: debian/
 -Sponsor: Vente-Privée http://vente-privee.com/
 -
--Site: mirror.onevip.mk
--Country: MK Macedonia, Republic of
--Location: Skopje
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--Archive-rsync: debian/
--Sponsor: one.Vip https://www.vip.mk/
--
 -Site: kebo.pens.ac.id
 -Country: ID Indonesia
 -Location: Surabaya
@@ -1698,7 +1640,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: mirror.zetup.net
 -Country: SE Sweden
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Zetup AB http://www.zetup.se
@@ -1706,14 +1648,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: repo.ialab.dsu.edu
 -Country: US United States
 -Location: Madison, SD
--Archive-architecture: amd64 arm64 armel armhf i386 mips mipsel ppc64el s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mipsel ppc64el s390x
 -Archive-http: /debian/
 -Sponsor: Dakota State University https://dsu.edu
 -
 -Site: ftp.debianclub.org
 -Country: TH Thailand
 -Location: Bangkok
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Widhaya Trisarnwadhana https://www.thaitux.info/
@@ -1726,23 +1668,38 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-rsync: debian/
 -Sponsor: POWERNET ISP https://www.powernet.com.ru
 -
+-Site: mirror.siena.edu
+-Country: US United States
+-Location: Loudonville, NY
+-Archive-architecture: amd64 arm64
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-
 -Site: mirror.init7.net
 -Country: CH Switzerland
 -Location: Winterthur
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Init7 (Schweiz) AG https://www.init7.net
 -
 -Site: mirror.vpsnet.com
 -Country: LT Lithuania
 -Location: Lithuania Vilnius
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: VPSnet.com https://www.VPSnet.com
 -
+-Site: debian.mirror.liquidtelecom.com
+-Country: KE Kenya
+-Location: EADC, Nairobi
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: Liquid Telecom https://www.liquidtelecom.com
+-
 -Site: mirror.hoster.kz
 -Country: KZ Kazakhstan
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -
@@ -1757,32 +1714,26 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.sitsa.com.ar
 -Country: AR Argentina
 -Location: Villa María, Córdoba
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
 -Archive-http: /debian/
 -Sponsor: SiTSA Telecomunicaciones http://www.sitsa.com.ar/
 -
--Site: debianmirror.una.ac.cr
--Country: CR Costa Rica
--Location: Heredia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--
 -Site: mirror.docker.ru
 -Country: RU Russian Federation
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: repo.jztkft.hu
 -Country: HU Hungary
 -Location: Budapest
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -
 -Site: mirrors.xtom.nl
 -Country: NL Netherlands
 -Location: Amsterdam
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: xTom https://xtom.com
@@ -1790,7 +1741,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.xtom.com
 -Country: US United States
 -Location: Fremont, CA
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: xTom https://xtom.com
@@ -1798,29 +1749,45 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.realcompute.io
 -Country: AU Australia
 -Location: Sydney
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Real World Group https://rwts.com.au/
 -
+-Site: mirrors.netix.net
+-Country: BG Bulgaria
+-Location: Sofia
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: NetiX https://netix.net/
+-
+-Site: mirror.ufro.cl
+-Country: CL Chile
+-Location: Temuco, Chile
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: Universidad de La Frontera https://www.ufro.cl/
+-
 -Site: plug-mirror.rcac.purdue.edu
 -Country: US United States
 -Location: West Lafayette, IN
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -
 -Site: mirror.netzwerge.de
 -Country: DE Germany
 -Location: Hamburg
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Netzwerge GmbH https://www.netzwerge.de
 -
 -Site: mirrors.bfsu.edu.cn
 -Country: CN China
 -Location: Beijing
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Beijing Foreign Studies University http://global.bfsu.edu.cn
@@ -1828,7 +1795,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.ptisp.pt
 -Country: PT Portugal
 -Location: Lisbon
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: PTISP https://ptisp.pt/
 -
@@ -1840,7 +1807,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: ftpmirror1.infania.net
 -Country: SE Sweden
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Infania Networks https://www.infania.net
@@ -1848,7 +1815,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.siwoo.org
 -Country: KR Korea, Republic of
 -Location: Gwangju, Republic of Korea
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -1857,7 +1824,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: repo.ifca.es
 -Country: ES Spain
 -Location: Santander
--Archive-architecture: amd64 arm64 armel armhf i386 mips mipsel riscv64
+-Archive-architecture: amd64 arm64 armel armhf i386 mipsel riscv64
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: IFCA - CSIC - UC https://ifca.unican.es/
@@ -1873,7 +1840,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.lagoon.nc
 -Country: NC New Caledonia
 -Location: Noumea
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: OFFRATEL/LAGOON https://www.lagoon.nc/
@@ -1881,36 +1848,29 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.cov.ukservers.com
 -Country: GB United Kingdom
 -Location: London
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: UK Dedicated Servers https://www.ukservers.com/
 -
 -Site: mirror.it4i.cz
 -Country: CZ Czech Republic
 -Location: Ostrava
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: IT4Innovations National Supercomputing Center https://www.it4i.cz
 -
--Site: mirror.bizflycloud.vn
--Country: VN Vietnam
--Location: HaNoi
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--Sponsor: BizflyCloud https://bizflycloud.vn/
--
 -Site: mirror1.infomaniak.com
 -Country: CH Switzerland
 -Location: Geneva
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Infomaniak https://www.infomaniak.com/
 -
 -Site: mirror2.infomaniak.com
 -Country: CH Switzerland
 -Location: Geneva
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Infomaniak https://www.infomaniak.com/
 -
@@ -1925,14 +1885,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.nju.edu.cn
 -Country: CN China
 -Location: Nanjing
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: eScience Center, Nanjing University https://sci.nju.edu.cn
 -
 -Site: repository.su
 -Country: RU Russian Federation
 -Location: Nizhny Novgorod
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Dmitry Shishkin https://dmitry.sh
@@ -1952,17 +1912,17 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-rsync: debian/
 -Sponsor: Weseler Rechenzentrum WRZ https://www.wrz.de/
 -
--Site: debian.csie.ncku.edu.tw
+-Site: debian.ccns.ncku.edu.tw
 -Country: TW Taiwan
 -Location: Tainan, Taiwan
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
--Sponsor: The Department of Computer Science and Information Engineering, National Cheng Kung University http://www.csie.ncku.edu.tw
+-Sponsor: Internet Technology Laboratory, Department of Electrical Engineering, National Cheng Kung University https://www.itlab.ee.ncku.edu.tw/
 -
 -Site: mirror.telepoint.bg
 -Country: BG Bulgaria
 -Location: Telepoint Tier3 Data Center
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Telepoint https://telepoint.bg
@@ -1970,68 +1930,69 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.sabay.com.kh
 -Country: KH Cambodia
 -Location: Phnom Penh
--Archive-architecture: amd64 arm64 i386 mips riscv64
+-Archive-architecture: amd64 arm64 i386 riscv64
 -Archive-http: /debian/
 -Sponsor: Sabay https://sabay.com
 -
--Site: mirror.yuki.net.uk
--Country: KR Korea, Republic of
--Location: YeongCheon-Si
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Site: mirrors.hit.edu.cn
+-Country: CN China
+-Location: Harbin
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
+-Archive-rsync: debian/
 -
 -Site: uk.mirrors.clouvider.net
 -Country: GB United Kingdom
 -Location: London
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Clouvider Limited https://clouvider.co.uk
 -
 -Site: nl.mirrors.clouvider.net
 -Country: NL Netherlands
 -Location: Amsterdam
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Clouvider Limited https://clouvider.co.uk
 -
 -Site: nyc.mirrors.clouvider.net
 -Country: US United States
 -Location: New York
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Clouvider Limited https://clouvider.co.uk
 -
 -Site: atl.mirrors.clouvider.net
 -Country: US United States
 -Location: Atlanta
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Clouvider Limited https://clouvider.co.uk
 -
 -Site: la.mirrors.clouvider.net
 -Country: US United States
 -Location: Los Angeles
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Clouvider Limited https://clouvider.co.uk
 -
 -Site: de.mirrors.clouvider.net
 -Country: DE Germany
 -Location: Frankfurt am Main
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Clouvider Limited https://clouvider.co.uk
 -
 -Site: mirror.djvg.sg
 -Country: SG Singapore
 -Location: Singapore
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: mirrors.xtom.de
 -Country: DE Germany
 -Location: Duesseldorf
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: xTom https://xtom.com/
@@ -2039,7 +2000,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.xtom.ee
 -Country: EE Estonia
 -Location: Tallinn
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: xTom https://xtom.com/
@@ -2060,14 +2021,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.obspm.fr
 -Country: FR France
 -Location: Paris / Meudon
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -CDImage-http: /debian-cd/
 -Sponsor: Observatoire de Paris https://www.obspm.fr/
 -
 -Site: mirror.unair.ac.id
 -Country: ID Indonesia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -
@@ -2081,14 +2042,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.uepg.br
 -Country: BR Brazil
 -Location: Ponta Grossa, Parana
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -
 -Site: tw1.mirror.blendbyte.net
 -Country: TW Taiwan
 -Location: Taipei
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Blendbyte Inc. https://blendbyte.com
 -
@@ -2118,7 +2079,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.xtom.jp
 -Country: JP Japan
 -Location: Osaka
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: xTom https://xtom.com/
@@ -2137,13 +2098,6 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-rsync: debian/
 -Sponsor: FlokiNET https://flokinet.is
 -
--Site: is.mirror.flokinet.net
--Country: IS Iceland
--Location: Reykjavík
--Archive-architecture: amd64
--Archive-http: /debian/
--Archive-rsync: debian/
--
 -Site: apt.tetaneutral.net
 -Country: FR France
 -Location: Toulouse
@@ -2156,36 +2110,24 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.neusoft.edu.cn
 -Country: CN China
 -Location: Dalian
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Dalian Neusoft University of Information (大连东软信息学院) http://www.neusoft.edu.cn
 -
--Site: mirror.cloudhosting.lv
--Country: LV Latvia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
--Archive-http: /debian/
--
 -Site: mirror.dal.nexril.net
 -Country: US United States
 -Location: Dallas, TX, United States
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Nexril https://nexril.net/
 -
--Site: fastmirror.pp.ua
+-Site: distrohub.kyiv.ua
 -Country: UA Ukraine
 -Archive-architecture: amd64 arm64 armel armhf i386
 -Archive-http: /debian/
 -Archive-rsync: debian/
--
--Site: archive.debian.petiak.ir
--Country: IR Iran, Islamic Republic of
--Location: Tehran
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--Sponsor: Petiak https://www.petiak.com
 -
 -Site: mirror.informatik.tu-freiberg.de
 -Country: DE Germany
@@ -2195,44 +2137,35 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: mirror.sg.gs
 -Country: SG Singapore
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
--
--Site: mirror.clarkson.edu
--Country: US United States
--Location: Potsdam NY
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--Archive-rsync: debian/
--Sponsor: Clarkson Open Source Institute https://cosi.clarkson.edu
 -
 -Site: mr.heru.id
 -Country: ID Indonesia
 -Location: Jakarta
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Heru https://heru.id
 -
--Site: mirrors.nic.cz
--Country: CZ Czechia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Site: ftp.psnc.pl
+-Country: PL Poland
+-Location: Poznań
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
--Archive-rsync: debian/
--CDImage-http: /debian-cd/
--CDImage-rsync: debian-cd/
+-Sponsor: Poznan Supercomputing and Networking Center https://psnc.pl/
 -
 -Site: mirror.nyist.edu.cn
 -Country: CN China
 -Location: Nanyang
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: /debian/
 -
 -Site: mirror.hnd.cl
 -Country: CL Chile
 -Location: Santiago, Chile
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Hostednode SpA https://hnd.cl
@@ -2240,14 +2173,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.a1.bg
 -Country: BG Bulgaria
 -Location: Sofia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: A1 https://www.a1.bg
 -
 -Site: mirror.vinehost.net
 -Country: GB United Kingdom
 -Location: Bournemouth
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: VineHost https://www.vinehost.net
@@ -2261,7 +2194,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: repo.jing.rocks
 -Country: JP Japan
 -Location: Tokyo
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Ports-architecture: alpha hppa hurd-amd64 hurd-i386 ia64 loong64 m68k powerpc ppc64 sh4 sparc64 x32
@@ -2275,13 +2208,13 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.rustytel.net
 -Country: US United States
 -Location: Detroit, MI, USA
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: debian.web.trex.fi
 -Country: FI Finland
 -Location: Tampere
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: TREX Regional Exchanges Oy https://trex.fi/
@@ -2289,16 +2222,9 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.gsl.icu
 -Country: AU Australia
 -Location: Sydney
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
 -Archive-http: /debian/
 -Sponsor: GSL Networks https://globalsecurelayer.com
--
--Site: mirrors.zju.edu.cn
--Country: CN China
--Location: Hangzhou, Zhejiang
--Archive-architecture: amd64 arm64 armel armhf i386 riscv64
--Archive-http: /debian/
--Sponsor: ZJU Information Technology Center https://zuits.zju.edu.cn
 -
 -Site: mirror.metanet.ch
 -Country: CH Switzerland
@@ -2311,7 +2237,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.jlu.edu.cn
 -Country: CN China
 -Location: Changchun, Jilin, China
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Jilin University https://global.jlu.edu.cn
@@ -2319,7 +2245,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.hyperdedic.ru
 -Country: RU Russian Federation
 -Location: Moscow
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: HyperDedic https://hyperdedic.ru/
@@ -2327,21 +2253,13 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.ukrnames.com
 -Country: UA Ukraine
 -Location: Kharkiv, Ukraine
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Ukrnames.com https://www.ukrnames.com
 -
--Site: mirrors.xtom.au
--Country: AU Australia
--Location: Sydney
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--Archive-rsync: debian/
--Sponsor: xTom https://xtom.com/
--
 -Site: mirrors.hostiserver.com
 -Country: NL Netherlands
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: IT Services company s.r.o. https://www.hostiserver.com
@@ -2349,7 +2267,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.gitoyen.net
 -Country: FR France
 -Location: Paris, 75020, Salamandre https://www.peeringdb.com/fac/11498
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Gitoyen https://gitoyen.net/
 -
@@ -2361,10 +2279,16 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-rsync: debian/
 -Sponsor: Brent Kolasinski https://brentk.io
 -
+-Site: mirror.timkevin.us
+-Country: US United States
+-Location: San Jose, CA
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-
 -Site: mirror.limda.net
 -Country: BD Bangladesh
 -Location: Dhaka
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Limda Host https://www.limda.net
@@ -2372,15 +2296,22 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: ossmirror.mycloud.services
 -Country: SG Singapore
 -Location: Singapore
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: OnboardCloud https://onboard.cloud
 -
+-Site: mirror.ibcp.fr
+-Country: FR France
+-Location: France, Lyon, 69
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Sponsor: CNRS IBCP https://www.ibcp.fr
+-
 -Site: mirror.marwan.ma
 -Country: MA Morocco
 -Location: Rabat
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: MARWAN https://marwan.ma
@@ -2388,14 +2319,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: deb.bbxnet.sk
 -Country: SK Slovakia
 -Location: Slovakia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: BBXNET https://bbxnet.sk/
 -
 -Site: mirror.dst.ca
 -Country: CA Canada
 -Location: Montreal, Qc
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Digital Shape Technologies Inc. https://www.dst.ca
@@ -2403,50 +2334,50 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.xeonbd.com
 -Country: BD Bangladesh
 -Location: Bangladesh
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: XeonBD https://www.xeonbd.com
+-
+-Site: mirror.ams.macarne.com
+-Country: NL Netherlands
+-Location: Amsterdam
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Sponsor: Macarne Limited https://macarne.com
 -
 -Site: debian.linux.n0c.ca
 -Country: CA Canada
 -Location: Montreal
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -
 -Site: mirror.leitecastro.com
 -Country: PT Portugal
 -Location: Lisbon
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -
 -Site: mirrors.hosterion.ro
 -Country: RO Romania
 -Location: Bucharest
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Hosterion https://hosterion.com
 -
 -Site: drmirror.physi.uni-heidelberg.de
 -Country: DE Germany
 -Location: Heidelberg
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: Physikalisches Institut Uni Heidelberg https://physi.uni-heidelberg.de
 -
--Site: deb.mirror.cywg.as400442.net
--Country: CA Canada
--Location: Winnipeg MB
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--Archive-rsync: debian/
--
 -Site: lidsol.fi-b.unam.mx
 -Country: MX Mexico
 -Location: Ciudad de México, México
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cd/
@@ -2456,7 +2387,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.twds.com.tw
 -Country: TW Taiwan
 -Location: Taipei City
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Ports-architecture: alpha hppa hurd-i386 ia64 m68k powerpc ppc64 sh4 sparc64 x32
@@ -2468,21 +2399,21 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: linuxsoft.cern.ch
 -Country: CH Switzerland
 -Location: Geneva
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: CERN https://home.cern
 -
 -Site: debian.mirrors.ovh.net
 -Country: FR France
 -Location: Gravelines, Roubaix and Strasbourg
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: OVHcloud https://www.ovhcloud.com/
 -
 -Site: mirror.raiolanetworks.com
 -Country: ES Spain
 -Location: Madrid
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: pub/debian/
 -Sponsor: Raiola Networks https://raiolanetworks.com/
@@ -2490,7 +2421,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.veesp.com
 -Country: LV Latvia
 -Location: RIGA
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: veesp https://veesp.com
 -
@@ -2500,17 +2431,10 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-architecture: amd64
 -Archive-http: /debian/
 -
--Site: mirrors.cat.pdx.edu
--Country: US United States
--Location: Portland State University, Portland, OR
--Archive-architecture: amd64 arm64 armhf i386 mips64el ppc64el riscv64
--Archive-http: /debian/
--Archive-rsync: debian/
--
 -Site: mirror.blue3.com.br
 -Country: BR Brazil
 -Location: Porto Alegre,RS
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: BLUE3 INTERNET https://blue3.com.br
@@ -2538,10 +2462,18 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-rsync: debian/
 -Sponsor: University of Puerto Rico https://www.upr.edu/
 -
+-Site: nl.mirror.flokinet.net
+-Country: NL Netherlands
+-Location: Amsterdam
+-Archive-architecture: amd64
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: FlokiNET https://flokinet.is
+-
 -Site: mirror.nl.mirhosting.net
 -Country: NL Netherlands
 -Location: Meppel
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: MIRhosting https://mirhosting.com
@@ -2553,12 +2485,20 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -
+-Site: mirrors.bmcc.edu
+-Country: US United States
+-Location: Brimley, MI
+-Archive-architecture: amd64
+-Archive-http: /debian/
+-Sponsor: Bay Mills Community College https://bmcc.edu
+-
 -Site: debian-mirror.behostings.net
 -Country: BE Belgium
 -Location: Brussels
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
+-CDImage-http: /debian-cd/
 -Sponsor: Behostings https://www.behostings.com
 -
 -Site: mirrors.iu13.net
@@ -2577,17 +2517,10 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Archive-architecture: amd64 arm64 armhf i386
 -Archive-http: /debian/
 -
--Site: mirrors.acm.wpi.edu
--Country: US United States
--Location: Worcester, MA
--Archive-architecture: amd64 i386 riscv64
--Archive-http: /debian/
--Sponsor: Worcester Polytechnic Institute Association for Computing Machinery Chapter https://acm.wpi.edu
--
 -Site: mirror.us.mirhosting.net
 -Country: US United States
 -Location: New York, NY
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: MIRhosting https://mirhosting.com
@@ -2595,7 +2528,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.creoline.net
 -Country: DE Germany
 -Location: Frankfurt
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: creoline GmbH https://www.creoline.com
@@ -2610,10 +2543,117 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirror.tngnet.com
 -Country: NL Netherlands
 -Location: Amsterdam
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -Sponsor: TNGNET B.V. https://tngnet.com
+-
+-Site: us.mirror.ahrefs.org
+-Country: US United States
+-Location: Ashburn
+-Archive-architecture: amd64
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Old-http: /debian-archive/
+-Old-rsync: debian-archive/
+-Sponsor: Ahrefs Pte Ltd https://ahrefs.com
+-
+-Site: mirrors.ic.unicamp.br
+-Country: BR Brazil
+-Location: Unicamp
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-
+-Site: mirror.plusline.net
+-Country: DE Germany
+-Location: Frankfurt am Main
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: Plus.line AG https://www.plusline.net
+-
+-Site: deb.syxpi.fr
+-Country: FR France
+-Location: Les Mureaux, Île-De-France
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+-Archive-http: /debian/
+-
+-Site: mirror.ourhost.az
+-Country: AZ Azerbaijan
+-Location: Baku, AZ.
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: OUR Host https://ourhost.az
+-
+-Site: mirrors.cloudforest.co.th
+-Country: TH Thailand
+-Location: Bangkok
+-Archive-architecture: amd64
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-CDImage-http: /debian-cd/
+-CDImage-rsync: debian-cd/
+-Sponsor: CLOUDFOREST CO., LTD. https://cloudforest.co.th
+-
+-Site: mirror.ro.cdn-perfprod.com
+-Country: RO Romania
+-Location: Bucharest
+-Archive-architecture: amd64 i386
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-
+-Site: mirror.nl.cdn-perfprod.com
+-Country: NL Netherlands
+-Location: Eygelshoven
+-Archive-architecture: amd64 i386
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-
+-Site: lethe.chinstrap.org
+-Country: US United States
+-Archive-architecture: amd64 i386
+-Archive-http: /debian/
+-
+-Site: mirror.unix-solutions.be
+-Country: BE Belgium
+-Location: Leuven
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: Unix-Solutions https://www.unix-solutions.be
+-
+-Site: debian-mirror.puq.apoapsis.cl
+-Country: CL Chile
+-Location: Punta Arenas, Chile
+-Archive-architecture: amd64 arm64 armhf i386
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: Apoapsis SpA https://www.apoapsis.cl
+-
+-Site: mirror.flo.c-f.ro
+-Country: RO Romania
+-Location: Bucharest
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Sponsor: Cyber Folks Romania https://cyberfolks.ro
+-
+-Site: mirror.a1.mk
+-Country: MK North Macedonia
+-Location: Skopje
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: A1 Makedonija https://www.a1.mk
+-
+-Site: debian.mirror.ac.za
+-Country: ZA South Africa
+-Location: Cape Town, South Africa
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-Archive-rsync: debian/
+-Sponsor: TENET South Africa https://tenet.ac.za
 -
 -Site: archive.debian.org
 -Country: GB United Kingdom
@@ -2623,14 +2663,9 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Sponsor: Studenten Net Twente http://www.snt.utwente.nl/
 -Sponsor: University of Twente http://www.utwente.nl/
 -
--Site: ftp.am.debian.org
--Country: AM Armenia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
--Archive-http: /debian/
--
 -Site: ftp.at.debian.org
 -Country: AT Austria
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.au.debian.org
@@ -2640,12 +2675,12 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: ftp.be.debian.org
 -Country: BE Belgium
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.bg.debian.org
 -Country: BG Bulgaria
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.br.debian.org
@@ -2655,32 +2690,32 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: ftp.by.debian.org
 -Country: BY Belarus
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.ca.debian.org
 -Country: CA Canada
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.ch.debian.org
 -Country: CH Switzerland
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.cl.debian.org
 -Country: CL Chile
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.cn.debian.org
 -Country: CN China
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.cz.debian.org
 -Country: CZ Czech Republic
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.de.debian.org
@@ -2690,57 +2725,57 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: ftp2.de.debian.org
 -Country: DE Germany
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.dk.debian.org
 -Country: DK Denmark
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.es.debian.org
 -Country: ES Spain
--Archive-architecture: amd64 arm64 armel armhf i386 mips mipsel riscv64
+-Archive-architecture: amd64 arm64 armel armhf i386 mipsel riscv64
 -Archive-http: /debian/
 -
 -Site: ftp.fi.debian.org
 -Country: FI Finland
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.fr.debian.org
 -Country: FR France
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.hk.debian.org
 -Country: HK Hong Kong
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.hr.debian.org
 -Country: HR Croatia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.is.debian.org
 -Country: IS Iceland
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.it.debian.org
 -Country: IT Italy
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
--Site: ftp.kr.debian.org
--Country: KR Korea, Republic of
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Site: ftp.jp.debian.org
+-Country: JP Japan
+-Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
 -Archive-http: /debian/
 -
 -Site: ftp.lt.debian.org
 -Country: LT Lithuania
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.md.debian.org
@@ -2750,42 +2785,47 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: ftp.nl.debian.org
 -Country: NL Netherlands
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.no.debian.org
 -Country: NO Norway
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.nc.debian.org
 -Country: NC New Caledonia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.nz.debian.org
 -Country: NZ New Zealand
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+-Archive-http: /debian/
+-
+-Site: ftp.pl.debian.org
+-Country: PL Poland
 -Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.pt.debian.org
 -Country: PT Portugal
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.ru.debian.org
 -Country: RU Russian Federation
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.se.debian.org
 -Country: SE Sweden
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.si.debian.org
 -Country: SI Slovenia
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.sk.debian.org
@@ -2795,27 +2835,27 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -
 -Site: ftp.tr.debian.org
 -Country: TR Turkey
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.tw.debian.org
 -Country: TW Taiwan
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.uk.debian.org
 -Country: GB United Kingdom
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: ftp.us.debian.org
 -Country: US United States
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -
 -Site: mirror.fsmg.org.nz
 -Country: NZ New Zealand
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -
@@ -2823,7 +2863,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Country: US United States
 -Location: Corvallis, Oregon
 -Location: New York
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-http: /debian-cdimage/
@@ -2834,7 +2874,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: debian.carnet.hr
 -Country: HR Croatia
 -Location: Zagreb
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: debian/
 -CDImage-architecture: amd64 i386
@@ -2845,7 +2885,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Site: mirrors.tuna.tsinghua.edu.cn
 -Country: CN China
 -Location: Beijing
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Archive-rsync: /debian/
 -Sponsor: Tsinghua University http://www.tsinghua.edu.cn/
@@ -2854,14 +2894,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -Country: GB United Kingdom
 -Location: Cambridge UK
 -Location: London UK
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Mythic Beasts Ltd http://www.mythic-beasts.com/
 -
 -Site: debian.mirror.su.se
 -Country: SE Sweden
 -Location: Stockholm
--Archive-architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el riscv64 s390x
+-Archive-architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
 -Archive-http: /debian/
 -Sponsor: Stockholm University https://www.su.se
 -

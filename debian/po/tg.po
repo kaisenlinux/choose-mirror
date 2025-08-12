@@ -4,10 +4,10 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 #
-# Debian Installer master translation file template
+# Kaisen Installer master translation file template
 # Don't forget to properly fill-in the header of PO files
 #
-# Debian Installer translators, please read the D-I i18n documentation
+# Kaisen Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
 # Victor Ibragimov <victor.ibragimov@gmail.com>, 2013, 2014, 2018, 2019
 #
@@ -29,20 +29,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
-msgstr "Гунаи Debian барои насб:"
+msgid "Kaisen version to install:"
+msgstr "Гунаи Kaisen барои насб:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Debian дар якчанд намуд вуҷуд дорад. Stable (Устувор) ин намудест, ки аз "
+"Kaisen дар якчанд намуд вуҷуд дорад. Stable (Устувор) ин намудест, ки аз "
 "санҷиш гузаронида шудааст ва дигар тағйир намеёбад. Unstable (Ноустувор) ин "
 "намудест, ки аз санҷиш гузаронида нашудааст ва хело тағйир дода мешавад. "
 "Testing (Санҷишӣ) ин намудест, ки дар байни намудҳои дар боло зикршуда "
@@ -60,8 +60,8 @@ msgstr "Танҳо намудҳои дастрас дар оинаи интих�
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
-msgstr "Санҷиши оинаи бойгонии Debian"
+msgid "Checking the Kaisen archive mirror"
+msgstr "Санҷиши оинаи бойгонии Kaisen"
 
 #. Type: text
 #. Description
@@ -82,12 +82,12 @@ msgstr "Ба қафо мегузаред ва оинаи дигареро кӯш
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Гунаи муайяншудаи (пешфарз) Debian (${RELEASE}) дар оинаҳои интихобшуда "
+"Гунаи муайяншудаи (пешфарз) Kaisen (${RELEASE}) дар оинаҳои интихобшуда "
 "вуҷуд надорад. Шумо метавонед идома диҳед ва барориши дигареро барои насби "
 "худ интихоб намоед, вале одатан шумо бояд баргардед ва оинаи дигареро, ки "
 "гунаи дурустро дастгирӣ мекунад, интихоб намоед."
@@ -104,10 +104,10 @@ msgstr "Оинаи бойгонии харобшуда"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
-"Ҳангоми кӯшиши истифодаи оинаи бойгонии муайяншудаи Debian хато ба вуҷуд "
+"Ҳангоми кӯшиши истифодаи оинаи бойгонии муайяншудаи Kaisen хато ба вуҷуд "
 "омад."
 
 #. Type: error
@@ -118,12 +118,12 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "Сабабҳои имконпазир барои хатои пайдошуда: оинаи муайяншудаи нодуруст; оина "
 "дастнорас аст (эҳтимолан ба сабаби пайвасти шабакаи беэътибор); оинаи "
 "вайроншуда (масалан, файли вайроншудаи барориш пайдо шудааст); оина гунаи "
-"дурусти Debian дастгирӣ намекунад."
+"дурусти Kaisen дастгирӣ намекунад."
 
 #. Type: error
 #. Description
@@ -154,10 +154,10 @@ msgstr "Сохтор дастгирӣ намешавад"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Эҳтимол аст, ки оинаи бойгонии Debian-и муайяншуда сохтори низоми шуморо "
+"Эҳтимол аст, ки оинаи бойгонии Kaisen-и муайяншуда сохтори низоми шуморо "
 "дастгирӣ намекунад. Лутфан, оинаи дигареро интихоб намоед."
 
 #. Type: text
@@ -194,8 +194,8 @@ msgstr "ноустувор"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
-msgstr "Интихоб кардани оинаи бойгонии Debian"
+msgid "Choose a mirror of the Kaisen archive"
+msgstr "Интихоб кардани оинаи бойгонии Kaisen"
 
 #. Type: select
 #. Choices
@@ -211,9 +211,9 @@ msgstr "иттилоотро ба таври дастӣ ворид намоед"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror and which is
+#. which you know hosts at least one Kaisen HTTP mirror and which is
 #. network-wise near by your country.
-#. Please check that the country really has a Debian HTTP mirror before
+#. Please check that the country really has a Kaisen HTTP mirror before
 #. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
@@ -239,8 +239,8 @@ msgstr "ИМА[ Қимати пешфарз барои http]"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
-msgstr "Кишвари оинаи бойгонии Debian:"
+msgid "Kaisen archive mirror country:"
+msgstr "Кишвари оинаи бойгонии Kaisen:"
 
 #. Type: select
 #. Description
@@ -251,11 +251,11 @@ msgstr "Кишвари оинаи бойгонии Debian:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Дар ин ҷо шумо бояд оинаи бойгонии Debian-ро муайян намоед, ки барои шумо "
+"Дар ин ҷо шумо бояд оинаи бойгонии Kaisen-ро муайян намоед, ки барои шумо "
 "дар шабака наздиктар аст -- дар ёд дошта бошед, ки кишварҳои наздиктар ё "
 "ҳатто кишвари шумо наметавонанд интихоби беҳтарин бошанд."
 
@@ -267,8 +267,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
-msgstr "Оинаи бойгонии Debian:"
+msgid "Kaisen archive mirror:"
+msgstr "Оинаи бойгонии Kaisen:"
 
 #. Type: select
 #. Description
@@ -279,11 +279,11 @@ msgstr "Оинаи бойгонии Debian:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Лутфан яке аз оинаи бойгонии Debian-ро интихоб намоед. Агар надонед, ки "
+"Лутфан яке аз оинаи бойгонии Kaisen-ро интихоб намоед. Агар надонед, ки "
 "кадом оина пайвасти беҳтарини Интернетро барои шумо дорад, шумо бояд оинаеро "
 "дар кишвар ё минтақаи худ истифода баред."
 
@@ -302,8 +302,8 @@ msgstr "Одатан, deb.debian.org интихоби хуб аст."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
-msgstr "Номи мизбони оинаи бойгонии Debian:"
+msgid "Kaisen archive mirror hostname:"
+msgstr "Номи мизбони оинаи бойгонии Kaisen:"
 
 #. Type: string
 #. Description
@@ -314,9 +314,9 @@ msgstr "Номи мизбони оинаи бойгонии Debian:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
 msgstr ""
-"Лутфан, номи мизбони оинае, ки Debian барои боргирӣ истифода мебарад, ворид "
+"Лутфан, номи мизбони оинае, ки Kaisen барои боргирӣ истифода мебарад, ворид "
 "намоед."
 
 #. Type: string
@@ -339,8 +339,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
-msgstr "Директорияи оинаи бойгонии Debian:"
+msgid "Kaisen archive mirror directory:"
+msgstr "Директорияи оинаи бойгонии Kaisen:"
 
 #. Type: string
 #. Description
@@ -348,10 +348,10 @@ msgstr "Директорияи оинаи бойгонии Debian:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
 msgstr ""
-"Лутфан, директорияеро, ки дорои оинаи бойгонии Debian мебошад, ворид намоед."
+"Лутфан, директорияеро, ки дорои оинаи бойгонии Kaisen мебошад, ворид намоед."
 
 #. Type: string
 #. Description
@@ -409,8 +409,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

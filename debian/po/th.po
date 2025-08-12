@@ -35,7 +35,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
+msgid "Kaisen version to install:"
 msgstr "รุ่นของเดเบียนที่จะติดตั้ง:"
 
 #. Type: select
@@ -43,7 +43,7 @@ msgstr "รุ่นของเดเบียนที่จะติดตั
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
@@ -64,7 +64,7 @@ msgstr "จะแสดงรายชื่อเฉพาะรุ่นที
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
+msgid "Checking the Kaisen archive mirror"
 msgstr "กำลังตรวจสอบแหล่งสำเนาแพกเกจของเดเบียน"
 
 #. Type: text
@@ -86,7 +86,7 @@ msgstr "จะย้อนกลับไปเพื่อลองดูแห
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
@@ -107,7 +107,7 @@ msgstr "แหล่งสำเนาแพกเกจใช้การไม
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr "พบข้อผิดพลาดขณะพยายามใช้แหล่งสำเนาเดเบียนที่ระบุ"
 
@@ -119,7 +119,7 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "สาเหตุต่างๆ ที่เป็นไปได้คือ: ระบุแหล่งสำเนาไม่ถูกต้อง; แหล่งสำเนาไม่มีอยู่ "
 "(อาจเกิดจากการเชื่อมต่อเครือข่ายที่ไม่เสถียร); แหล่งสำเนาเสียหาย (เช่น พบแฟ้ม Release "
@@ -153,7 +153,7 @@ msgstr "ไม่รองรับสถาปัตยกรรมนี้"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
 "ดูเหมือนแหล่งสำเนาแพกเกจเดเบียนที่ระบุจะไม่รองรับสถาปัตยกรรมของเครื่องคุณ "
@@ -193,7 +193,7 @@ msgstr "unstable"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
+msgid "Choose a mirror of the Kaisen archive"
 msgstr "เลือกแหล่งสำเนาแพกเกจของเดเบียน"
 
 #. Type: select
@@ -210,9 +210,9 @@ msgstr "ป้อนข้อมูลเอง"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror and which is
+#. which you know hosts at least one Kaisen HTTP mirror and which is
 #. network-wise near by your country.
-#. Please check that the country really has a Debian HTTP mirror before
+#. Please check that the country really has a Kaisen HTTP mirror before
 #. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
@@ -238,7 +238,7 @@ msgstr "TH"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
+msgid "Kaisen archive mirror country:"
 msgstr "ใช้แหล่งสำเนาแพกเกจเดเบียนสำหรับประเทศ:"
 
 #. Type: select
@@ -250,7 +250,7 @@ msgstr "ใช้แหล่งสำเนาแพกเกจเดเบี
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
@@ -265,7 +265,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
+msgid "Kaisen archive mirror:"
 msgstr "แหล่งสำเนาแพกเกจเดเบียน:"
 
 #. Type: select
@@ -277,7 +277,7 @@ msgstr "แหล่งสำเนาแพกเกจเดเบียน:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
@@ -299,7 +299,7 @@ msgstr "โดยปกติแล้ว deb.debian.org มักเป็น�
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
+msgid "Kaisen archive mirror hostname:"
 msgstr "ชื่อโฮสต์ของแหล่งสำเนาแพกเกจเดเบียน:"
 
 #. Type: string
@@ -311,7 +311,7 @@ msgstr "ชื่อโฮสต์ของแหล่งสำเนาแพ
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
 msgstr "กรุณาป้อนชื่อโฮสต์ของแหล่งสำเนาที่จะใช้ดาวน์โหลดเดเบียน"
 
 #. Type: string
@@ -332,7 +332,7 @@ msgstr "พอร์ตที่ต่างจากค่าปกติสา
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
+msgid "Kaisen archive mirror directory:"
 msgstr "ไดเรกทอรีของแหล่งสำเนาแพกเกจเดเบียน:"
 
 #. Type: string
@@ -341,7 +341,7 @@ msgstr "ไดเรกทอรีของแหล่งสำเนาแพ
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
 msgstr "กรุณาป้อนไดเรกทอรีที่เก็บสำเนาของแพกเกจเดเบียน"
 
@@ -397,8 +397,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

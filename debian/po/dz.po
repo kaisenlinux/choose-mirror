@@ -5,7 +5,7 @@
 #
 # translation of dz.po to Dzongkha
 # Translation of debian-installer level 1 Dzongkha
-# Debian Installer master translation file template
+# Kaisen Installer master translation file template
 # Copyright @ 2006 Free Software Foundation, Inc.
 # Sonam Rinchen <somchen@druknet.bt>, 2006.
 #
@@ -32,7 +32,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
+msgid "Kaisen version to install:"
 msgstr "གཞི་བཙུགས་ཀྱི་དོན་ལུ་ཌི་བི་ཡཱན་ཐོན་རིམ།"
 
 #. Type: select
@@ -40,7 +40,7 @@ msgstr "གཞི་བཙུགས་ཀྱི་དོན་ལུ་ཌི་
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
@@ -61,7 +61,7 @@ msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ མི་ར�
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
+msgid "Checking the Kaisen archive mirror"
 msgstr "ཌི་བི་ཡཱན་ཡིག་མཛོད་ངོ་འཆར་འདི་ཞིབ་དཔྱད་འབད་དོ།"
 
 #. Type: text
@@ -83,7 +83,7 @@ msgstr "ལོག་འགྱོ་ཞིནམ་ལས་མི་རོར་
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
@@ -105,7 +105,7 @@ msgstr "ཡིག་མཛོད་ངོ་འཆར་བྱང་ཉེས།
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
 "གསལ་བཀོད་འབད་ཡོད་མི་ཌེ་བི་ཡཱན་ཡིག་མཛོད་ངོ་འཆར་ལག་ལེན་འཐབ་ནིའི་འབད་རྩོལ་བསྐྱེད་བའི་སྐབས་འཛོལ་བ་"
@@ -119,7 +119,7 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "འབྱུང་སྲིད་པའི་འཛོལ་བ་ཚུ: བདེན་མེད་མི་རོར་གསལ་བཀོད་འབད་ཡོདཔ་དང་ མི་རོར་འཐོབ་མ་ཚུགསཔ(བློ་གཏད་མ་"
 "ཚུགས་པའི་ཡོངས་འབྲེལ་མཐུད་ལམ་ལས་བརྟེན) དེ་ལས་ མི་རོར་ཆག་ཆགཔ(དཔེར་ན་ ནུས་མེད་གསར་སྟོན་ཡིག་སྣོད་ཐོབ་"
@@ -153,7 +153,7 @@ msgstr "བཟོ་བཀོད་རྒྱབ་སྐྱོར་མེདཔ
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
 "ཁྱོད་ཀྱི་བཟོ་བཀོད་ལུ་གསོལ་བཀོད་འབད་མི་ཡིག་མཛོད་ངོ་འཆར་འདི་གིས་རྒྱབ་སྐྱོར་འབད་དོ་བཟུམ་མི་མཐོང་པས་ ངོ་"
@@ -193,7 +193,7 @@ msgstr "རྩ་བརྟན་མེན་པ།"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
+msgid "Choose a mirror of the Kaisen archive"
 msgstr "ཌེ་བི་ཡཱན་ཡིག་མཛོད་ཀྱི་ངོ་འཆར་གདམ་ཁ་རྐྱབས།"
 
 #. Type: select
@@ -210,9 +210,9 @@ msgstr "བརྡ་དོན་ལག་ཐོག་ལས་བཙུགས་
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror and which is
+#. which you know hosts at least one Kaisen HTTP mirror and which is
 #. network-wise near by your country.
-#. Please check that the country really has a Debian HTTP mirror before
+#. Please check that the country really has a Kaisen HTTP mirror before
 #. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
@@ -238,7 +238,7 @@ msgstr "IN"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
+msgid "Kaisen archive mirror country:"
 msgstr "ཌེ་བི་ཡཱན་ཡིག་མཛོད་ངོ་འཆར་རྒྱལ་ཁབ:"
 
 #. Type: select
@@ -250,7 +250,7 @@ msgstr "ཌེ་བི་ཡཱན་ཡིག་མཛོད་ངོ་འཆ
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
@@ -265,7 +265,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
+msgid "Kaisen archive mirror:"
 msgstr "ཌེ་བི་ཡཱན་ཡིག་མཛོད་ངོ་འཆར།"
 
 #. Type: select
@@ -277,7 +277,7 @@ msgstr "ཌེ་བི་ཡཱན་ཡིག་མཛོད་ངོ་འཆ
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
@@ -299,7 +299,7 @@ msgstr "སྤྱིར་བཏང་ལུ་ deb.debian.org འདི་ག�
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
+msgid "Kaisen archive mirror hostname:"
 msgstr "ཌེ་བི་ཡཱན་ཡིག་མཛོད་ངོ་འཆར་ཀྱི་ཧོསཊི་མིང་།"
 
 #. Type: string
@@ -311,7 +311,7 @@ msgstr "ཌེ་བི་ཡཱན་ཡིག་མཛོད་ངོ་འཆ
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
 msgstr "ཌེ་བི་ཡཱན་ག་སྟེ་ལས་ཕབ་ལེན་འབད་ནི་ཨིན་ན་ངོ་འཆར་ཀྱི་ཧོསཊི་མིང་བཙུགས་གནང་།"
 
 #. Type: string
@@ -332,7 +332,7 @@ msgstr "[ཧོསཊི་མིང་]:[འདྲེན་ལམ]རྩ་ས�
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
+msgid "Kaisen archive mirror directory:"
 msgstr "ཌེ་བི་ཡཱན་ཡིག་མཛོད་ངོ་འཆར་སྣོད་ཐོ།"
 
 #. Type: string
@@ -341,7 +341,7 @@ msgstr "ཌེ་བི་ཡཱན་ཡིག་མཛོད་ངོ་འཆ
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
 msgstr ""
 "ཌེ་བི་ཡཱན་ཡིག་མཛོད་ཀྱི་ངོ་འཆར་འདི་ག་སྟེ་ལུ་གནས་འདི་ཡོདཔ་ཨིན་ན་འདི་ནང་ལུ་སྣོད་ཐོ་འདི་བཙུགས་གནང་།"
@@ -400,8 +400,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

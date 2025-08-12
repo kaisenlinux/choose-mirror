@@ -29,9 +29,9 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2024-10-16 20:01+0000\n"
-"PO-Revision-Date: 2024-10-13 13:16+0000\n"
+"PO-Revision-Date: 2025-03-17 13:41+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
+"Language-Team: Kaisen L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -46,8 +46,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
-msgstr "Telepítendő Debian változat:"
+msgid "Kaisen version to install:"
+msgstr "Telepítendő Kaisen változat:"
 
 # Type: select
 # Description
@@ -57,15 +57,15 @@ msgstr "Telepítendő Debian változat:"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"A Debian többféle változatban létezik. A stabil nagyon szigorúan tesztelt "
-"(kipróbált) és ritkán változik. Az instabil még csak alap próbákon esett át "
-"és gyakran változik. A teszt (próba) változat egy középút, mely az "
-"instabilból számos új szoftverváltozatot átvesz, ha azok nem túl hibásak."
+"A Kaisen többféle változatban létezik. A stabil nagyon szigorúan tesztelt, "
+"és csak ritkán változik. Az instabil még csak az alap teszteken esett át és "
+"gyakran változik. A teszt változat egy középút, mely az instabilból számos "
+"új szoftverváltozatot átvesz, ha azok nem túl hibásak."
 
 # Type: select
 # Description
@@ -83,15 +83,15 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
-msgstr "Debian-tükör ellenőrzése"
+msgid "Checking the Kaisen archive mirror"
+msgstr "Kaisen-tükörszerver ellenőrzése"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:6001
 msgid "Downloading Release files..."
-msgstr "Release fájlok letöltése..."
+msgstr "Kiadási (release) fájlok letöltése..."
 
 # Type: boolean
 # Description
@@ -111,12 +111,12 @@ msgstr "Visszalépsz, és megpróbálod egy másik tükörszerverrel?"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"A megadott (alapértelmezett) Debian verzió (${RELEASE}) nem érhető el a "
+"A megadott (alapértelmezett) Kaisen verzió (${RELEASE}) nem érhető el a "
 "kiválasztott tükörszerverről. Lehetőséged van folytatni a telepítést egy "
 "másik verzió kiválasztásával, de a javasolt út az, hogy visszalépsz és egy "
 "másik tükörszerverrel folytatod, amely támogatja a kért verziót."
@@ -139,10 +139,10 @@ msgstr "Hibás archívum-tükörszerver"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
-"Hiba történt a megadott Debian archívum-tükörszerver használata közben."
+"Hiba történt a megadott Kaisen archívum-tükörszerver használata közben."
 
 # Type: error
 # Description
@@ -155,11 +155,11 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "A hiba lehetséges okai: helytelenül megadott tükör; a tükör nem elérhető "
 "(talán a megbízhatatlan hálózati kapcsolat miatt); a tükör hibás (például "
-"érvénytelen a Release fájl); a tükör nem támogatja a kívánt Debian verziót."
+"érvénytelen a Release fájl); a tükör nem támogatja a kívánt Kaisen verziót."
 
 # Type: error
 # Description
@@ -190,18 +190,18 @@ msgstr "Kérlek, ellenőrizd a megadott tükröt, vagy válassz egy másikat."
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid "Architecture not supported"
-msgstr "E géptípus nem támogatott"
+msgstr "Ez a géptípus nem támogatott"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Úgy fest, a megadott Debian archívum tükör nem támogatja ezt a géptípust. "
-"Kérlek, válassz egy másik tükröt."
+"Úgy tűnik, hogy a megadott Kaisen archívumtükör nem támogatja ezt a "
+"géptípust. Kérlek, válassz egy másik tükörszervert."
 
 # Type: text
 # Description
@@ -231,7 +231,7 @@ msgstr "stabil"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:12001
 msgid "testing"
-msgstr "teszt (próba)"
+msgstr "teszt"
 
 # Type: text
 # Description
@@ -249,8 +249,8 @@ msgstr "instabil"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
-msgstr "Válasszon egy Debian-tükröt"
+msgid "Choose a mirror of the Kaisen archive"
+msgstr "Válassz egy Kaisen-tükörszervert"
 
 #. Type: select
 #. Choices
@@ -266,9 +266,9 @@ msgstr "információ megadása kézzel"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror and which is
+#. which you know hosts at least one Kaisen HTTP mirror and which is
 #. network-wise near by your country.
-#. Please check that the country really has a Debian HTTP mirror before
+#. Please check that the country really has a Kaisen HTTP mirror before
 #. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
@@ -294,8 +294,8 @@ msgstr "HU"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
-msgstr "A választandó Debian tükör országa:"
+msgid "Kaisen archive mirror country:"
+msgstr "A Kaisen archívum tükörszerverének országa:"
 
 #. Type: select
 #. Description
@@ -306,13 +306,13 @@ msgstr "A választandó Debian tükör országa:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"A cél a hálózaton legközelebbi Debian-tükör megtalálása -- néha "
-"előfordulhat, hogy a legközelebbi, adott esetben a saját ország nem a "
-"legjobb."
+"A cél a hálózaton hozzád legközelebbi Kaisen archívum tükörszerverének "
+"megtalálása -- néha előfordulhat, hogy a legközelebbi országok, adott "
+"esetben a saját országod nem a legjobb választás."
 
 #. Type: select
 #. Description
@@ -322,8 +322,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
-msgstr "Debian-tükör:"
+msgid "Kaisen archive mirror:"
+msgstr "Kaisen-tükörszerver:"
 
 #. Type: select
 #. Description
@@ -334,19 +334,20 @@ msgstr "Debian-tükör:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Válasszon egy Debian-tükröt. Ha amúgy nincs jobb kapcsolat, érdemes egy "
-"saját országban lévőt választani."
+"Válassz egy Kaisen archívum tükörszervert. Ha nem tudod, hogy melyik "
+"tükörszerver rendelkezik a legjobb internetkapcsolattal, érdemes a saját "
+"országodban lévőt választani."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
 msgid "Usually, deb.debian.org is a good choice."
-msgstr "Általában az deb.debian.org jó választás."
+msgstr "A deb.debian.org általában jó választás."
 
 #. Type: string
 #. Description
@@ -356,8 +357,8 @@ msgstr "Általában az deb.debian.org jó választás."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
-msgstr "Debian-tükör gépneve:"
+msgid "Kaisen archive mirror hostname:"
+msgstr "Kaisen archívum tükörszerver gazdagépének neve:"
 
 #. Type: string
 #. Description
@@ -368,8 +369,9 @@ msgstr "Debian-tükör gépneve:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr "Adja meg a Debian letöltéséhez használt tükör gépnevét."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
+msgstr ""
+"Add meg a Kaisen letöltéséhez használt tükörszerver gazdagépének nevét."
 
 #. Type: string
 #. Description
@@ -382,7 +384,8 @@ msgstr "Adja meg a Debian letöltéséhez használt tükör gépnevét."
 msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
-msgstr "Más port is megadható a szabványos [gazdagépnév]:[port] formában."
+msgstr ""
+"Helyettesítő port is megadható a szabványos [gazdagépnév]:[port] formában."
 
 # Type: string
 # Description
@@ -392,7 +395,7 @@ msgstr "Más port is megadható a szabványos [gazdagépnév]:[port] formában."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
+msgid "Kaisen archive mirror directory:"
 msgstr "A debian archívumtükör könyvtára:"
 
 # Type: string
@@ -404,16 +407,16 @@ msgstr "A debian archívumtükör könyvtára:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
-msgstr "Kérlek, add meg a Debian archívumtükröt tartalmazó könyvtárat."
+msgstr "Kérlek, add meg a Kaisen archívumtükröt tartalmazó könyvtárat."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "HTTP-proxy adatok (hagyja üresen, ha nincs):"
+msgstr "HTTP-proxy adatok (hagyd üresen, ha nincs):"
 
 #. Type: string
 #. Description
@@ -423,8 +426,8 @@ msgid ""
 "If you need to use a HTTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"Ha a külvilág eléréséhez HTTP-proxy használata szükséges, itt adja meg "
-"adatait. Egyébként hagyja üresen."
+"Ha a külvilág eléréséhez HTTP-proxy használata szükséges, itt adhatod meg az "
+"adatait. Egyébként hagyd üresen."
 
 #. Type: string
 #. Description
@@ -438,8 +441,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"A proxy adatai a szabványos \"http://[[felhasználó][:jelszó]@]gépnév[:"
-"portszám]/\" formában adhatók meg."
+"A proxy adatait a szabványos „http://[[felhasználó][:jelszó]@]gépnév[:"
+"portszám]/” formában adhatod meg."
 
 # Type: string
 # Description
@@ -468,8 +471,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

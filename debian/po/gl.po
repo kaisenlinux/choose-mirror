@@ -35,20 +35,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
-msgstr "Versión de Debian a instalar:"
+msgid "Kaisen version to install:"
+msgstr "Versión de Kaisen a instalar:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Debian está dispoñíbel en tres variedades. «Stable» está moi probada, e non "
+"Kaisen está dispoñíbel en tres variedades. «Stable» está moi probada, e non "
 "muda moito. «Unstable» está sen probar e muda moito. «Testing» está a medio "
 "camiño; recibe moitas versións novas procedentes de unstable se non teñen "
 "moitos erros."
@@ -64,8 +64,8 @@ msgstr "Só se enumeran as variantes dispoñíbeis na réplica escollida."
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
-msgstr "Estase a comprobar a réplica do arquivo de Debian"
+msgid "Checking the Kaisen archive mirror"
+msgstr "Estase a comprobar a réplica do arquivo de Kaisen"
 
 #. Type: text
 #. Description
@@ -86,12 +86,12 @@ msgstr "Volver atrás e probar en outra réplica?"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"A versión especificada (predeterminada) de Debian (${RELEASE}) non está "
+"A versión especificada (predeterminada) de Kaisen (${RELEASE}) non está "
 "dispoñíbel na réplica escollida. É posíbel continuar e escoller unha versión "
 "diferente para a instalación pero polo xeral debe volver atrás e escoller "
 "unha réplica diferente que teña a versión correcta."
@@ -108,11 +108,11 @@ msgstr "Réplica do arquivo incorrecta"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
 "Detectouse un erro ao tentar empregar a réplica que especificou do arquivo "
-"de Debian."
+"de Kaisen."
 
 #. Type: error
 #. Description
@@ -122,13 +122,13 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "As causas posíbeis do erro son: indicar unha réplica incorrecta, que a "
 "réplica non estea dispoñíbel (posibelmente debido a unha conexión de rede "
 "non fiábel), que a réplica estea danada (por exemplo debido a que se atopase "
 "un ficheiro Release non válido) ou que a réplica non conteña a versión "
-"correcta de Debian."
+"correcta de Kaisen."
 
 #. Type: error
 #. Description
@@ -160,10 +160,10 @@ msgstr "Arquitectura non admitida"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Semella que a réplica do arquivo de Debian especificada non admite a súa "
+"Semella que a réplica do arquivo de Kaisen especificada non admite a súa "
 "arquitectura. Probe outra réplica."
 
 #. Type: text
@@ -200,8 +200,8 @@ msgstr "unstable"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
-msgstr "Escolla unha réplica do arquivo de Debian"
+msgid "Choose a mirror of the Kaisen archive"
+msgstr "Escolla unha réplica do arquivo de Kaisen"
 
 #. Type: select
 #. Choices
@@ -217,9 +217,9 @@ msgstr "introducir a información a man"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror and which is
+#. which you know hosts at least one Kaisen HTTP mirror and which is
 #. network-wise near by your country.
-#. Please check that the country really has a Debian HTTP mirror before
+#. Please check that the country really has a Kaisen HTTP mirror before
 #. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
@@ -245,8 +245,8 @@ msgstr "ES"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
-msgstr "País da réplica do arquivo de Debian:"
+msgid "Kaisen archive mirror country:"
+msgstr "País da réplica do arquivo de Kaisen:"
 
 #. Type: select
 #. Description
@@ -257,11 +257,11 @@ msgstr "País da réplica do arquivo de Debian:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"O obxectivo é atopar unha réplica do arquivo de Debian que estea cerca de "
+"O obxectivo é atopar unha réplica do arquivo de Kaisen que estea cerca de "
 "vostede na rede. Teña en conta que algúns países próximos, ou incluso o seu "
 "propio país, poden non ser as mellores opcións."
 
@@ -273,8 +273,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
-msgstr "Réplica dos arquivos de Debian:"
+msgid "Kaisen archive mirror:"
+msgstr "Réplica dos arquivos de Kaisen:"
 
 #. Type: select
 #. Description
@@ -285,11 +285,11 @@ msgstr "Réplica dos arquivos de Debian:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Escolla unha réplica do arquivo de Debian. Debería empregar unha réplica "
+"Escolla unha réplica do arquivo de Kaisen. Debería empregar unha réplica "
 "situada no seu país ou rexión se non sabe que réplica ten a mellor conexión "
 "por Internet con vostede."
 
@@ -308,8 +308,8 @@ msgstr "Normalmente, deb.debian.org é unha boa opción."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
-msgstr "Nome do servidor réplica do arquivo de Debian:"
+msgid "Kaisen archive mirror hostname:"
+msgstr "Nome do servidor réplica do arquivo de Kaisen:"
 
 #. Type: string
 #. Description
@@ -320,9 +320,9 @@ msgstr "Nome do servidor réplica do arquivo de Debian:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
 msgstr ""
-"Introduza o nome do servidor réplica desde o que se vai descargar Debian."
+"Introduza o nome do servidor réplica desde o que se vai descargar Kaisen."
 
 #. Type: string
 #. Description
@@ -344,8 +344,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
-msgstr "Directorio da réplica do arquivo de Debian:"
+msgid "Kaisen archive mirror directory:"
+msgstr "Directorio da réplica do arquivo de Kaisen:"
 
 #. Type: string
 #. Description
@@ -353,9 +353,9 @@ msgstr "Directorio da réplica do arquivo de Debian:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
-msgstr "Introduza o directorio no que está a réplica do arquivo de Debian."
+msgstr "Introduza o directorio no que está a réplica do arquivo de Kaisen."
 
 #. Type: string
 #. Description
@@ -411,8 +411,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

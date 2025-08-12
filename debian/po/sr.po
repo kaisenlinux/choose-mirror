@@ -26,81 +26,80 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2024-10-16 20:01+0000\n"
-"PO-Revision-Date: 2020-09-07 19:36+0000\n"
-"Last-Translator: Filipovic Dragan <filipovic@tutanota.com>\n"
+"PO-Revision-Date: 2025-02-16 11:57+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
-msgstr "Верзија Debian-а коју желите да инсталирате:"
+msgid "Kaisen version to install:"
+msgstr "Издање Дебиана за инсталирање:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Debian долази у више варијанти. Стабилна је добро тестирана и ретко се мења. "
+"Дебиан долази у више варијанти. Стабилна је добро тестирана и ретко се мења. "
 "Нестабилна је нетестирана и често се мења. Тестирајућа је негде између "
-"стабилне и нестабилне варијанте, базирана на стабилној са много новијих "
-"верзија софтвера из нестабилне уколико су се ови показали као не превише "
-"баговити."
+"стабилне и нестабилне варијанте, која добија много нових издања софтвера из "
+"нестабилне ако немају превише грешака."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Only flavors available on the selected mirror are listed."
-msgstr "Излистане су варијанте доступне на мирору."
+msgstr "Излистане су само варијанте доступне на изабраном мирору."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
-msgstr "Проверавање Debian архиве на мирору"
+msgid "Checking the Kaisen archive mirror"
+msgstr "Проверавам мирор Дебиан архиве"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:6001
 msgid "Downloading Release files..."
-msgstr "Преузимање „Release“ фајлoва..."
+msgstr "Преузимам „Release“ датотеке..."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid "Go back and try a different mirror?"
-msgstr "Вратити се и пробати други мирор?"
+msgstr "Да се вратим назад и да покушам са другим мирором?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Назначена (подразумевана) Debian верзија (${RELEASE}) није доступна на "
-"изабраном мирору. Могуће је наставити и изабрати друго издање за вашу "
-"инсталацију, али нормално требате се вратити и изабрти други мирор који "
-"подржава тражену верзију."
+"Назначено (подразумевана) Дебиан издање (${RELEASE}) није доступно на "
+"изабраном извору. Могуће је наставити и изабрати друго издање за вашу "
+"инсталацију, али треба да се вратите и изаберете други извор који подржава "
+"тражено издање."
 
 #. Type: error
 #. Description
@@ -114,10 +113,10 @@ msgstr "Лош мирор архиве"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
-"Грешка је детектована при покушају коришћења наведеног мирора Debian архиве."
+"Откривена је грешка при покушају коришћења наведеног мирора Дебиан архиве."
 
 #. Type: error
 #. Description
@@ -127,11 +126,12 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
-"Могући разлози за грешку су: наведен неисправан сервер; мирор није доступан "
-"(вероватно због непоуздане конекције са мрежом); мирор је лош (на пример, "
-"због лошег „Release“ фајла); сервер не подржава тражену Debian верзију."
+"Могући разлози за грешку су: наведен је неисправан мирор; мирор није "
+"доступан (вероватно због непоуздане везе са мрежом); мирор је оштећен (на "
+"пример, због лоше „Release“ датотеке); мирор не подржава тражено издање "
+"Дебиана."
 
 #. Type: error
 #. Description
@@ -140,7 +140,9 @@ msgstr ""
 msgid ""
 "Additional details may be available in /var/log/syslog or on virtual console "
 "4."
-msgstr "Детаљи су дотупни у фајлу /var/log/syslog или на витуалној конзоли 4."
+msgstr ""
+"Додатни детаљи су доступни у датотеци „/var/log/syslog“ или на виртуелној "
+"конзоли 4."
 
 #. Type: error
 #. Description
@@ -161,18 +163,18 @@ msgstr "Неподржана архитектура"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Наведени мирор Debian архиве не подржава вашу архитектуру. Пробајте неки "
-"други мирор."
+"Наведени извор Дебиан архиве не подржава вашу архитектуру. Пробајте неки "
+"други извор."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:10001
 msgid "oldstable"
-msgstr "старастабилна"
+msgstr "стара_стабилна"
 
 #. Type: text
 #. Description
@@ -201,8 +203,8 @@ msgstr "нестабилна"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
-msgstr "Изаберите мирор Debian архиве"
+msgid "Choose a mirror of the Kaisen archive"
+msgstr "Изаберите мирор Дебиан архиве"
 
 #. Type: select
 #. Choices
@@ -213,14 +215,14 @@ msgstr "Изаберите мирор Debian архиве"
 #: ../choose-mirror-bin.templates.http-in:2001
 #: ../choose-mirror-bin.templates.ftp.sel-in:2001
 msgid "enter information manually"
-msgstr "унесите ручно информације"
+msgstr "ручно унесите информације"
 
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror and which is
+#. which you know hosts at least one Kaisen HTTP mirror and which is
 #. network-wise near by your country.
-#. Please check that the country really has a Debian HTTP mirror before
+#. Please check that the country really has a Kaisen HTTP mirror before
 #. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
@@ -246,8 +248,8 @@ msgstr "RS"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
-msgstr "Земља мирорa Debian архиве:"
+msgid "Kaisen archive mirror country:"
+msgstr "Земља мирорa Дебиан архиве:"
 
 #. Type: select
 #. Description
@@ -258,13 +260,12 @@ msgstr "Земља мирорa Debian архиве:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Циљ је да се пронађе мирор Debian архиве који вам је најближи на мрежи -- "
-"водите рачуна да суседне земље, или чак ваша земља, не морају бити најбољи "
-"избор."
+"Циљ је да се пронађе мирор Дебиан архиве који вам је најближи на мрежи -- "
+"знајте да суседне земље, или чак ваша земља, не морају бити најбољи избор."
 
 #. Type: select
 #. Description
@@ -274,8 +275,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
-msgstr "Mирор Debian архиве:"
+msgid "Kaisen archive mirror:"
+msgstr "Mирор Дебиан архиве:"
 
 #. Type: select
 #. Description
@@ -286,19 +287,19 @@ msgstr "Mирор Debian архиве:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Изаберите мирор Debian архиве. Можете да користите мирор у вашој земљи или "
-"региону ако не знате који мирор има најбољу Интернет везу до вас."
+"Изаберите мирор Дебиан архиве. Можете да користите мирор у вашој земљи или "
+"региону ако не знате који мирор има најбољу Интернет везу ка вама."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:3001
 msgid "Usually, deb.debian.org is a good choice."
-msgstr "Обично је deb.debian.org добар избор."
+msgstr "Обично је „deb.debian.org“ добар избор."
 
 #. Type: string
 #. Description
@@ -308,8 +309,8 @@ msgstr "Обично је deb.debian.org добар избор."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
-msgstr "Име хоста мирор Debian архиве:"
+msgid "Kaisen archive mirror hostname:"
+msgstr "Назив домаћина мирора Дебиан архиве:"
 
 #. Type: string
 #. Description
@@ -320,8 +321,8 @@ msgstr "Име хоста мирор Debian архиве:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr "Унесите име мирора са кога ће Debian бити преузет."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
+msgstr "Унесите назив мирора са кога ће Дебиан бити преузет."
 
 #. Type: string
 #. Description
@@ -335,16 +336,16 @@ msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
 msgstr ""
-"Можете навести неки други порт користећи стандардни [име сервера]:[порт] "
-"формат."
+"Можете навести неки други порт користећи стандардни формат [име сервера]:"
+"[порт]."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
-msgstr "Директоријум на мирору Debian архиве:"
+msgid "Kaisen archive mirror directory:"
+msgstr "Директоријум мирора Дебиан архиве:"
 
 #. Type: string
 #. Description
@@ -352,16 +353,16 @@ msgstr "Директоријум на мирору Debian архиве:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
-msgstr "Унесите директоријум у ком се налази мирор Debian архиве."
+msgstr "Унесите директоријум у ком се налази мирор Дебиан архиве."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "Адреса HTTP прокси сервера (оставите празно ако не користите):"
+msgstr "Адреса HTTP проксија (празно ако не користите):"
 
 #. Type: string
 #. Description
@@ -371,8 +372,8 @@ msgid ""
 "If you need to use a HTTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"Ако вам је потребно да користите HTTP прокси сервер за приступ спољној "
-"мрежи, унесите његову адресу. У супротном оставите поље празним."
+"Ако треба да користите HTTP посредника за приступ спољној мрежи, овде "
+"унесите његову адресу. У супротном оставите поље празним."
 
 #. Type: string
 #. Description
@@ -386,15 +387,15 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Адреса прокси сервера би требало да буде задата у стандардном облику „http://"
-"[[корисник]:[лозинка]@]сервер[:порт]/“."
+"Адреса сервера посредника би требало да буде задата у стандардном облику "
+"„http://[[корисник]:[лозинка]@]сервер[:порт]/“."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.base-in:4001
 msgid "FTP proxy information (blank for none):"
-msgstr "Адреса FTP прокси сервера (оставите празно ако не користите):"
+msgstr "Адреса FTP посредника (празно ако не користите):"
 
 #. Type: string
 #. Description
@@ -404,14 +405,14 @@ msgid ""
 "If you need to use a FTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"Ако је потребно да користите FTP прокси сервер за приступ спољној мрежи, "
-"унесите адресу сервера овде. У супротном, оставите поље празним."
+"Ако треба да користите FTP посредника за приступ спољној мрежи, унесите "
+"адресу посредника овде. У супротном, оставите поље празним."
 
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in
@@ -433,14 +434,14 @@ msgstr "RS"
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Usually, ftp.<your country code>.debian.org is a good choice."
-msgstr "Обично је ftp.<двословна ознака ваше земље>.debian.org добар избор."
+msgstr "Обично је „ftp.<двословна ознака ваше земље>.debian.org“ добар избор."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates.both-in:2001
 msgid "Protocol for file downloads:"
-msgstr "Протокол за преузимање фајлова:"
+msgstr "Протокол за преузимање датотека:"
 
 #. Type: select
 #. Description
@@ -450,6 +451,6 @@ msgid ""
 "Please select the protocol to be used for downloading files. If unsure, "
 "select \"http\"; it is less prone to problems involving firewalls."
 msgstr ""
-"Изаберите протокол који ће се користити за преузимање фајлова. Ако нисте "
-"сигурни шта да изаберете, изаберите „http“, јер је мање осетљив на проблеме "
-"са фајерволовима."
+"Изаберите протокол који ће се користити за преузимање датотека. Ако нисте "
+"сигурни, изаберите „http“, јер је мање осетљив на проблеме са заштитним "
+"баријерама."

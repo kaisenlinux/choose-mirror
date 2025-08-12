@@ -40,20 +40,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
-msgstr "Mikä Debianin versio asennetaan:"
+msgid "Kaisen version to install:"
+msgstr "Mikä Kaisenin versio asennetaan:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Debian on saatavilla eri tyylisinä jakeluversioina. Vakaa on hyvin testattu "
+"Kaisen on saatavilla eri tyylisinä jakeluversioina. Vakaa on hyvin testattu "
 "ja muuttuu harvoin. Epävakaa on testaamaton ja muuttuu usein. Testattava on "
 "siltä väliltä; useat uudet versiot epävakaasta siirtyvät siihen, jos niissä "
 "ei ole liikaa vikoja."
@@ -71,8 +71,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
-msgstr "Tarkistetaan Debian-asennuspalvelin"
+msgid "Checking the Kaisen archive mirror"
+msgstr "Tarkistetaan Kaisen-asennuspalvelin"
 
 #. Type: text
 #. Description
@@ -93,12 +93,12 @@ msgstr "Palataanko takaisin toisen asennuspalvelimen kokeilemiseksi?"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Oletuksena valittua Debianin versiota (${RELEASE}) ei ole saatavilla "
+"Oletuksena valittua Kaisenin versiota (${RELEASE}) ei ole saatavilla "
 "valitulta asennuspalvelimelta. Voit jatkaa ja valita toisen version "
 "asennettavaksi, mutta yleensä tulisi palata takaisin ja valita toinen "
 "asennuspalvelin, joka tukee oikeaa versiota."
@@ -108,16 +108,16 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Debian-asennuspalvelin ei toimi"
+msgstr "Kaisen-asennuspalvelin ei toimi"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
-msgstr "Yritettäessä käyttää valittua Debian-asennuspalvelinta tapahtui virhe."
+msgstr "Yritettäessä käyttää valittua Kaisen-asennuspalvelinta tapahtui virhe."
 
 #. Type: error
 #. Description
@@ -127,12 +127,12 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "Virheen mahdollisia syitä ovat väärin valittu asennuspalvelin, ongelmat "
 "asennettavan järjestelmän ja asennuspalvelimen välisessä verkkoyhteydessä, "
 "virheellisesti toimiva asennuspalvelin (esimerkiksi epäkelpo Release-"
-"tiedosto) tai se ettei asennuspalvelin tue oikeaa Debianin versiota."
+"tiedosto) tai se ettei asennuspalvelin tue oikeaa Kaisenin versiota."
 
 #. Type: error
 #. Description
@@ -164,10 +164,10 @@ msgstr "Laitearkkitehtuuri ei ole tuettu"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Valittu Debian-asennuspalvelin ei tue laitearkkitehtuuriasi. Käytä jotain "
+"Valittu Kaisen-asennuspalvelin ei tue laitearkkitehtuuriasi. Käytä jotain "
 "muuta asennuspalvelinta."
 
 #. Type: text
@@ -204,8 +204,8 @@ msgstr "epävakaa"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
-msgstr "Valitse Debianin arkiston kopio"
+msgid "Choose a mirror of the Kaisen archive"
+msgstr "Valitse Kaisenin arkiston kopio"
 
 #. Type: select
 #. Choices
@@ -221,9 +221,9 @@ msgstr "tee asetukset itse"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror and which is
+#. which you know hosts at least one Kaisen HTTP mirror and which is
 #. network-wise near by your country.
-#. Please check that the country really has a Debian HTTP mirror before
+#. Please check that the country really has a Kaisen HTTP mirror before
 #. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
@@ -249,7 +249,7 @@ msgstr "FI"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
+msgid "Kaisen archive mirror country:"
 msgstr "Valitse asennuspalvelimen maa:"
 
 #. Type: select
@@ -261,7 +261,7 @@ msgstr "Valitse asennuspalvelimen maa:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
@@ -277,8 +277,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
-msgstr "Debian-asennuspalvelimen kopio:"
+msgid "Kaisen archive mirror:"
+msgstr "Kaisen-asennuspalvelimen kopio:"
 
 #. Type: select
 #. Description
@@ -289,11 +289,11 @@ msgstr "Debian-asennuspalvelimen kopio:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Valitse Debian-asennuspalvelin. Olisi käytettävä asennuspalvelimen kopiota, "
+"Valitse Kaisen-asennuspalvelin. Olisi käytettävä asennuspalvelimen kopiota, "
 "joka on samassa maassa tai alueella, tai palvelinta, josta on paras Internet-"
 "yhteys koneeseesi."
 
@@ -312,7 +312,7 @@ msgstr "Yleensä deb.debian.org on hyvä vaihtoehto."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
+msgid "Kaisen archive mirror hostname:"
 msgstr "Kirjoita asennuspalvelimen konenimi:"
 
 #. Type: string
@@ -324,8 +324,8 @@ msgstr "Kirjoita asennuspalvelimen konenimi:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr "Konenimi asennuspalvelimen kopiolle, josta Debian noudetaan."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
+msgstr "Konenimi asennuspalvelimen kopiolle, josta Kaisen noudetaan."
 
 #. Type: string
 #. Description
@@ -346,7 +346,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
+msgid "Kaisen archive mirror directory:"
 msgstr "Kirjoita asennuspalvelimen hakemisto:"
 
 #. Type: string
@@ -355,9 +355,9 @@ msgstr "Kirjoita asennuspalvelimen hakemisto:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
-msgstr "Kirjoita hakemisto, jossa Debianin asennuspalvelimen kopio sijaitsee."
+msgstr "Kirjoita hakemisto, jossa Kaisenin asennuspalvelimen kopio sijaitsee."
 
 #. Type: string
 #. Description
@@ -413,8 +413,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

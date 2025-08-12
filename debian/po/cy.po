@@ -3,7 +3,7 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of Debian Installer templates to Welsh
+# translation of Kaisen Installer templates to Welsh
 # Copyright (C) 2004-2008 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 #
@@ -35,20 +35,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
-msgid "Debian version to install:"
-msgstr "Fersiwn Debian i'w sefydlu:"
+msgid "Kaisen version to install:"
+msgstr "Fersiwn Kaisen i'w sefydlu:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid ""
-"Debian comes in several flavors. Stable is well-tested and rarely changes. "
+"Kaisen comes in several flavors. Stable is well-tested and rarely changes. "
 "Unstable is untested and frequently changing. Testing is a middle ground, "
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Mae Debian yn dod mewn sawl blas.  Mae sefydlog wedi ei brofi'n dda ac yn "
+"Mae Kaisen yn dod mewn sawl blas.  Mae sefydlog wedi ei brofi'n dda ac yn "
 "newid yn anaml. Mae ansefydlog heb ei brofi ac yn newid yn aml. Mae profi yn "
 "dir canolog, sydd yn derbyn llawer o fersiynau newydd o ansefydlog os nad "
 "ydynt yn rhy ddiffygiol."
@@ -64,8 +64,8 @@ msgstr "Dim ond y blas sydd ar gael ar y drych ddewiswyd a restrir."
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
-msgid "Checking the Debian archive mirror"
-msgstr "Yn gwirio'r drych archif Debian"
+msgid "Checking the Kaisen archive mirror"
+msgstr "Yn gwirio'r drych archif Kaisen"
 
 #. Type: text
 #. Description
@@ -86,12 +86,12 @@ msgstr "Mynd nôl a ceisio drych arall?"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid ""
-"The specified (default) Debian version (${RELEASE}) is not available from "
+"The specified (default) Kaisen version (${RELEASE}) is not available from "
 "the selected mirror. It is possible to continue and select a different "
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Nid yw'r fersiwn diofyn o Debian ddewiswyd (${RELEASE}) ar gael o'r drych "
+"Nid yw'r fersiwn diofyn o Kaisen ddewiswyd (${RELEASE}) ar gael o'r drych "
 "ddewiswyd. Mae'n bosib parhau a dewis fersiwn arall ar gyfer eich sefydliad, "
 "ond fel arfer fe ddylech fynd nôl a dewis drych arall sydd yn cefnogi'r "
 "fersiwn cywir."
@@ -108,10 +108,10 @@ msgstr "Drych archif gwael"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid ""
-"An error has been detected while trying to use the specified Debian archive "
+"An error has been detected while trying to use the specified Kaisen archive "
 "mirror."
 msgstr ""
-"Fe gafwydd gwall wrth geisio defnyddio y drych archif Debian a roddwyd."
+"Fe gafwydd gwall wrth geisio defnyddio y drych archif Kaisen a roddwyd."
 
 #. Type: error
 #. Description
@@ -121,12 +121,12 @@ msgid ""
 "Possible reasons for the error are: incorrect mirror specified; mirror is "
 "not available (possibly due to an unreliable network connection); mirror is "
 "broken (for example because an invalid Release file was found); mirror does "
-"not support the correct Debian version."
+"not support the correct Kaisen version."
 msgstr ""
 "Dyma rhesymau posib am y gwall: rhoddwyd drych anghywir; nid yw'r drych ar "
 "gael (o bosib oherwydd cysylltiad rhwydwaith annibynnadwy); mae'r drych wedi "
 "torri (er enghraifft os nad oes ganddo ffeil Release); nid yw'r drych yn "
-"cefnogi'r fersiwn cywir o Debian."
+"cefnogi'r fersiwn cywir o Kaisen."
 
 #. Type: error
 #. Description
@@ -158,10 +158,10 @@ msgstr "Ni gefnogir y pensaernïaeth hwn"
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid ""
-"The specified Debian archive mirror does not seem to support your "
+"The specified Kaisen archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Nid yw'r drych archif Debian a benodwyd yn edrych fel petai'n cefnogi eich "
+"Nid yw'r drych archif Kaisen a benodwyd yn edrych fel petai'n cefnogi eich "
 "pensaernïaeth. Ceisiwch ddefnyddio drych gwahanol."
 
 #. Type: text
@@ -198,8 +198,8 @@ msgstr "ansefydlog"
 #. Translators: keep below 55 columns
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
-msgid "Choose a mirror of the Debian archive"
-msgstr "Dewiswch ddrych o'r archif Debian"
+msgid "Choose a mirror of the Kaisen archive"
+msgstr "Dewiswch ddrych o'r archif Kaisen"
 
 #. Type: select
 #. Choices
@@ -215,9 +215,9 @@ msgstr "rhoi gwybodaeth â llaw"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror and which is
+#. which you know hosts at least one Kaisen HTTP mirror and which is
 #. network-wise near by your country.
-#. Please check that the country really has a Debian HTTP mirror before
+#. Please check that the country really has a Kaisen HTTP mirror before
 #. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
@@ -243,8 +243,8 @@ msgstr "GB"
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
-msgid "Debian archive mirror country:"
-msgstr "Gwlad drych archif Debian:"
+msgid "Kaisen archive mirror country:"
+msgstr "Gwlad drych archif Kaisen:"
 
 #. Type: select
 #. Description
@@ -255,11 +255,11 @@ msgstr "Gwlad drych archif Debian:"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid ""
-"The goal is to find a mirror of the Debian archive that is close to you on "
+"The goal is to find a mirror of the Kaisen archive that is close to you on "
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Y nod yw i ganfod drych o'r archif Debian sy'n agos i chi ar y rhwydwaith -- "
+"Y nod yw i ganfod drych o'r archif Kaisen sy'n agos i chi ar y rhwydwaith -- "
 "sylwer mai nid gwledydd agos, neu eich gwlad chi, yw'r dewis gorau bob tro."
 
 #. Type: select
@@ -270,8 +270,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
-msgid "Debian archive mirror:"
-msgstr "Drych archif Debian:"
+msgid "Kaisen archive mirror:"
+msgstr "Drych archif Kaisen:"
 
 #. Type: select
 #. Description
@@ -282,11 +282,11 @@ msgstr "Drych archif Debian:"
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid ""
-"Please select a Debian archive mirror. You should use a mirror in your "
+"Please select a Kaisen archive mirror. You should use a mirror in your "
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Os gwelwch yn dda, dewiswch ddrych archif Debian. Dylwch ddewis drych yn "
+"Os gwelwch yn dda, dewiswch ddrych archif Kaisen. Dylwch ddewis drych yn "
 "eich gwlad neu ardal os nad ydych chi'n gwybod pa ddrych sy gyda'r "
 "cysylltiad Rhyngrwyd gorau atoch chi."
 
@@ -305,8 +305,8 @@ msgstr "Fel arfer, mae deb.debian.org yn ddewis da."
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
-msgid "Debian archive mirror hostname:"
-msgstr "Enw gwesteiwr drych archif Debian:"
+msgid "Kaisen archive mirror hostname:"
+msgstr "Enw gwesteiwr drych archif Kaisen:"
 
 #. Type: string
 #. Description
@@ -317,9 +317,9 @@ msgstr "Enw gwesteiwr drych archif Debian:"
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
-"Please enter the hostname of the mirror from which Debian will be downloaded."
+"Please enter the hostname of the mirror from which Kaisen will be downloaded."
 msgstr ""
-"Os gwelwch yn dda, rhowch enw gwesteiwr y drych caiff Debian ei lawrlwytho "
+"Os gwelwch yn dda, rhowch enw gwesteiwr y drych caiff Kaisen ei lawrlwytho "
 "ohoni."
 
 #. Type: string
@@ -342,8 +342,8 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
-msgid "Debian archive mirror directory:"
-msgstr "Cyfeiriadur drych archif Debian:"
+msgid "Kaisen archive mirror directory:"
+msgstr "Cyfeiriadur drych archif Kaisen:"
 
 #. Type: string
 #. Description
@@ -351,10 +351,10 @@ msgstr "Cyfeiriadur drych archif Debian:"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid ""
-"Please enter the directory in which the mirror of the Debian archive is "
+"Please enter the directory in which the mirror of the Kaisen archive is "
 "located."
 msgstr ""
-"Os gwelwch yn dda, mewnosodwch y cyfeiriadur mae'r drych archif Debian wedi "
+"Os gwelwch yn dda, mewnosodwch y cyfeiriadur mae'r drych archif Kaisen wedi "
 "ei leoli ynddi."
 
 #. Type: string
@@ -411,8 +411,8 @@ msgstr ""
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian FTP mirror. Please check
-#. that the country really has a Debian FTP mirror before putting a
+#. which you know hosts at least one Kaisen FTP mirror. Please check
+#. that the country really has a Kaisen FTP mirror before putting a
 #. random value here
 #.
 #. First check that the country you mention here is listed in

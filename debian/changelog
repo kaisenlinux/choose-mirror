@@ -1,3 +1,61 @@
+choose-mirror (2.133-1kaisen) kaisen-packages; urgency=medium
+
+  * Import the 2.133 version
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 10 Aug 2025 02:08:44 +0100
+
+choose-mirror (2.133) unstable; urgency=medium
+
+  * Update Mirrors.masterlist.
+
+ -- Cyril Brulebois <kibi@debian.org>  Sun, 20 Jul 2025 08:43:21 +0200
+
+choose-mirror (2.132) unstable; urgency=medium
+
+  * Team upload
+
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Belarusian (be.po) by Joe
+  * Russian (ru.po) by vladiruzz
+  * Uyghur (ug.po) by Abduqadir Abliz
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 25 Jun 2025 20:36:25 +0200
+
+choose-mirror (2.131) unstable; urgency=medium
+
+  * Update Mirrors.masterlist.
+
+ -- Cyril Brulebois <kibi@debian.org>  Tue, 13 May 2025 01:28:43 +0200
+
+choose-mirror (2.130) unstable; urgency=medium
+
+  * Team upload
+
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Hungarian (hu.po) by Szia Tomi
+  * Serbian (sr.po) by Мирослав Николић
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 01 Apr 2025 09:28:23 +0200
+
+choose-mirror (2.129) unstable; urgency=medium
+
+  * Team upload
+
+  * Update Mirrors.masterlist.
+
+  [ Updated translations ]
+  * Belarusian (be.po) by vics
+  * Persian (fa.po) by Danial Behzadi
+  * Hungarian (hu.po) by Szia Tomi
+  * Polish (pl.po) by Matthaiks
+  * Romanian (ro.po) by Remus-Gabriel Chelu
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 04 Feb 2025 22:25:29 +0100
+
 choose-mirror (2.128-1kaisen) kaisen-packages; urgency=medium
 
   * Import the 2.128 version
